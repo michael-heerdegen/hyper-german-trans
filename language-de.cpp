@@ -951,7 +951,7 @@ S("Collect 60 $$$ to access even more lands", "Sammle 60 $$$ um noch mehr Lände
 // Emerald Mine
 
 N("Emerald Mine", GEN_F, "Smaragdmine", "Smaragdminen", "in der Smaragdmine")
-N("Pikeman", GEN_M, "Pikenier", "Pikeniere", "Pikenier")
+N("Pikeman", GEN_M, "Bergmann", "Bergmänner", "Bergmann")
 N("Flail Guard", GEN_M, "Flegelwächter", "Flegelwächter", "Flegelwächter")
 N("Miner", GEN_M, "Minenarbeiter", "Minenarbeiter", "Minenarbeiter")
 N("Emerald", GEN_M, "Smaragd", "Smaragde", "Smaragd")
@@ -964,20 +964,20 @@ S(
      "pattern, which is optimal according to the evil engineers.",
      "Böse Leute bauen Smaragde in dieser lebenden Höhle ab. "
      "Sie entsteht nicht natürlich, sondern wird in einem Muster ausgebaut "
-     "Das die bösen Ingenieure als optimal ansehen.")
+     "das die bösen Arbeiter als optimal ansehen.")
 
 S(
     "Miners have special tools for dealing with the Living Cave. "
     "When they die, these tools activate, destroying the living cave "
     "around them.",
     "Minenarbeiter haben spezielle Werkzeuge für den Umgang mit der Lebenden Höhle. "
-    "Sterben sie aktivieren sich die Werkzeuge, was die Höhle um sie herum einstürzen lässt.")
+    "Sterben sie, aktivieren sich diese Werkzeuge, was die Höhle um sie herum einstürzen lässt.")
 
 S(
     "When Pikemen move, they attack all cells which are now adjacent to them. "
     "Luckily, they can be killed in the same way.\n\n"
     "They never move if this would attack their friends.",
-    "Bewegen sich Pikeniere, greifen sie alle Zellen um sie herum an. "
+    "Bewegen sich Bergmänner, greifen sie alle Zellen um sie herum an. "
     "Glücklicherweise können sie genauso getötet werden.\n\n"
     "Sie bewegen sich nicht wenn sie so ihre Freunde angreifen würden.")
 
@@ -989,29 +989,29 @@ S(
 
     "Dieser Wächter der Smaragdmine hat einen riesigen Flegel. "
     "Ihn direkt anzugreifen würde nichts bringen da der Flegel dich treffen würde."
-    "Glücklicher Weise kennst du einen Trick:"
-    "Wenn du dich von ihm entfernst trifft er sich selbst!")
+    "Glücklicherweise kennst du einen Trick:"
+    "Wenn du dich von ihm entfernst, trifft er sich selbst!")
 
-S("A precious green gem from the Emerald Mines.", "Ein schöner, grüner Edelstein aus den Smaragdminen.")
+S("A precious green gem from the Emerald Mines.", "Ein wertvoller grüner Edelstein aus den Smaragdminen.")
 
 S("%The1 pierces %the2!", "%Der1 durchdringt %den2 %a2!")
 
 S("Make him hit himself by walking away from him.",
-  "Bringe ihn dazu, sich selbst zu treffen indem du dich von ihm entfernst.")
+  "Bringe ihn dazu sich selbst zu treffen, indem du dich von ihm entfernst.")
 
 S("This orb allows you to instantly kill a non-adjacent enemy by clicking it. "
-    "Each use drains 30 charges.",
-  "Dieser Orb erlaubt es dir, sofort einen nicht angrenzenden Feind zu töten, indem du auf ihn klickst. "
+  "Each use drains 30 charges.",
+  "Dieser Orb erlaubt es dir, einen nicht angrenzenden Feind augenblicklich zu töten, indem du auf ihn klickst. "
   "Jede Verwendung verbraucht 30 Ladungen.")
 
-S("%The1 is immune to mental blasts!", "%Der1 ist immun gegen mentale Korruption!")
+S("%The1 is immune to mental blasts!", "%Der1 ist immun gegen mentale Korruption!") // FIXME
 S("You kill %the1 with a mental blast!", "Du tötest %den1 %a1 mit mentaler Korruption!")
 
 // Vineyard
 
 N("Vineyard", GEN_M, "Weingarten", "Weingärten", "im Weingarten")
 N("Vine Beast", GEN_F, "Rebenbestie", "Rebenbestien", "Rebenbestie")
-N("Vine Spirit", GEN_F, "Rebenseele", "Rebenseelen", "Rebenseele")
+N("Vine Spirit", GEN_F, "Rebenseele", "Rebenseelen", "Rebenseele") // FIXME: Geist?
 N("vine", GEN_F, "Rebe", "Reben", "Rebe")
 N("partial fire", GEN_N, "partielles Feuer", "partielle Feuer", "partielle Feuer")
 N("Wine", GEN_M, "Wein", "Weine", "Wein")
@@ -1020,15 +1020,15 @@ S(  "This cell is partially on fire.", "Diese Zelle brennt teilweise.")
 
 S(
   "The Vineyard is filled with vines. A very dense pattern of straight lines here...\n\n"
-  "Vine Beasts and Vine Spirits change vine cells to grass, and vice versa.",
-  "Der Weingarten ist voller Reben. Hier gibt es viele gerade Linien...\n\n"
-  "Rebenbestien und Rebenseelen ändern Zellen von Reben zu Gras, und umgekehrt.")
+  "Vine Beasts and Vine Spirits change vine cells to grass, and vice versa.", // FIXME: @zeno: wrong order!
+  "Der Weingarten ist voller Reben. Ein dichtes Gitter aus lauter Geraden...\n\n"
+  "Rebenbestien und Rebenseelen verwandeln Zellen von Gras in Reben und umgekehrt.")
 
 S("A vine is growing here... but only on a half of the cell. How is that even possible?!"
   "Most monsters cannot move from this cell to the cell containing the other half. "
   "Vine spirits can move only to the adjacent cells which are also adjacent to the "
   "other half.",
-  "Hier wächst eine Rebe... aber nur auf einer halben Zelle. Wie kann das sein?!"
+  "Hier wächst eine Rebe... aber nur auf der halben Zelle. Wie kann das sein?!"
   "Die meisten Monster können sich nicht von dieser Zelle aus auf die bewegen, die die andere Hälfte enthält. "
   "Rebenseelen können sich nur auf angrenzende Zellen bewegen, die auch der anderen Hälfte anliegen. ")
 
@@ -1040,17 +1040,17 @@ S(
 
 S(  "A spirit living in the vines!\n\n"
     "Vine Spirits destroy the vines when they die.",
-    "Eine Seele die den Reben lebt!\n\n"
+    "Eine Seele die in den Reben lebt!\n\n"
     "Rebenseelen zerstören Reben, wenn sie sterben.")
 
 S("Wine grown under hyperbolic sun would be extremely prized in your home location.",
-  "Wein der unter hyperbolischer Sonne wächst, könnte in deiner Heimat ziemlich viel wert sein.")
+  "Wein, der unter hyperbolischer Sonne wächst, würde in deiner Heimat ziemlich viel wert sein.")
 
 S("This orb allows one to pass through all kinds of walls and chasms.",
   "Dieser Orb erlaubt es dir durch alle Wände und Abgründe zu schreiten.")
 
 S("You cannot attack through the Vine!",
-  "Du kannst durch die Reben nicht angreifen!")
+  "Du kannst nicht durch die Reben hindurch angreifen!")
 
 Orb("Aether", "des Äthers")
 

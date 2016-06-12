@@ -157,7 +157,7 @@ S("%The1 would get you!", "%Der1 %1 würde dich fangen!")
 S("%The1 destroys %the2!", "%Der1 %1 zerstört %den2 %a2!")
 S("%The1 eats %the2!", "%Der1 %1 frisst %den2 %a2!")
 S("The ivy destroys %the1!", "Der Efeu zerstört %den1 %a1!")
-S("%The1 claws %the2!", "%Der1 %1 kratzt %den2 %a2!")
+S("%The1 claws %the2!", "%Der1 %1 zerschlitzt %den2 %a2!")
 S("%The1 scares %the2!", "%Der1 %1 erschreckt %den2 %a2!")
 S("%The1 melts away!", "%Der1 %1 schmilzt!")
 S("%The1 stabs %the2.", "%Der1 %1 ersticht %den2 %a2.")
@@ -1258,17 +1258,17 @@ S(
   "The radius of the Round Table is usually 28, but after you find a Holy Grail "
   "successfully, each new castle (and each Round Table) you find will be bigger.",
 
-  "Die Ritter der Tafelrunde sind die größten Krieger dieser Lande. "
+  "Die Ritter der Tafelrunde sind die größten Krieger dieses Landes. "
   "Sie sind nur nicht sehr einfallsreich was Namen angeht, "
   "alle ihre Schlösser heißen Camelot."
-  "Bevor du ihnen beitreten kannst wirst du ihnen beweisen müssen das du ihrer würdig bist.\n\n"
-  "In der Mitte jedes Schlosses befindet sich ein einziger Schatz, der heilige Gral. "
-  "Der Radius einer Tafelrunde ist normalerweise 28, allerdings wächst diese sowie das Schloss "
-  "mit jedem heiligem Gral den du sammelst.")
+  "Bevor du ihnen beitreten kannst, wirst du ihnen beweisen müssen dass du ihrer würdig bist.\n\n"
+  "In der Mitte jedes Schlosses befindet sich ein einziger Schatz, der Heilige Gral. "
+  "Der Radius einer Tafelrunde ist normalerweise 28, allerdings wächst dieser sowie das Schloss "
+  "mit jedem Heiligem Gral den du sammelst.")
 
 S("It would be impolite to land on the table!",
-  "Es wäre unhöflich, auf dem Tisch zu landen.")
-S("You jump over the table!", "Du kannst nicht über den Tisch springen!")
+  "Es wäre unhöflich auf dem Tisch zu landen.")
+S("You jump over the table!", "Du springst über den Tisch!")
 S("That was not a challenge. Find a larger castle!",
   "Das war keine Herausforderung. Finde ein größeres Schloss!")
 S("The Knights congratulate you on your success!",
@@ -1277,16 +1277,16 @@ S("The Knights laugh at your failure!",
   "Die Ritter lachen dich aus weil du versagt hast!")
 S("The Knights stare at you!", "Die Ritter starren dich an...")
 S("Come on, this is too easy... find a bigger castle!",
-  "Komm schon, das ist viel zu einfach... such ein größeres Schloss!")
+  "Komm schon, das ist viel zu einfach... suche ein größeres Schloss!")
 S("The Knights wish you luck!", "Die Ritter wünschen dir Glück!")
 
 S("Congratulations! You have found the Holy Grail!",
   "Gratulation! Du hast den Heiligen Gral gefunden!")
 
 S("\"I would like to congratulate you again!\"", "\"Ich möchte dir erneut gratulieren!\"")
-S("\"Find the Holy Grail to become one of us!\"", "\"Finde den Heiligen Gral, um einer von uns zu werden!\"")
+S("\"Find the Holy Grail to become one of us!\"", "\"Finde den Heiligen Gral um einer von uns zu werden!\"")
 S("\"The Holy Grail is in the center of the Round Table.\"", "\"Der Heilige Gral ist im Zentrum der Tafelrunde.\"")
-S("\"I enjoy watching the hyperbug battles.\"", "\"Ich mag es, den Hyperkäfern beim kämpfen zuzusehen.\"")
+S("\"I enjoy watching the hyperbug battles.\"", "\"Ich mag es, den Hyperkäfern beim Kämpfen zuzusehen.\"")
 S("\"Have you visited a temple in R'Lyeh?\"", "\"Warst du schon in einem der Tempel in R'Lyeh?\"")
 S("\"Nice castle, eh?\"", "\"Nettes Schloss, nicht?\"")
 
@@ -2514,35 +2514,35 @@ S(
 
   "Mächtige Zauberer haben diesen Teil der Welt für sich beansprucht um in"
   "Ruhe und Frieden ihre magischen Experimente durchführen zu können. "
-  "Sie haben die Gravitation in diesem Teil manipuliert um es Eindringlingen zu erschweren.\n\n"
+  "Sie haben die Gravitation in diesem Land manipuliert um es Eindringlingen zu erschweren sie zu erreichen.\n\n"
   "Die Gravitation funktioniert wie folgt: Zellen sind instabil wenn sie "
-  " leer sind und sich unter ihnen keine Zelle mit Wand befindet."
+  "leer sind und sich direkt unter ihnen keine Zelle mit Wand befindet."
   "Es ist unmöglich sich von einer instabilen Zelle zu einer anderen zu bewegen außer wenn man sich nach unten bewegt."
   )
 
 N("Servant", GEN_M, "Diener", "Diener", "Diener")
 S("A simple servant of the master of the Ivory Tower.",
-  "Ein Einfacher Diener des Meisters des Elfenbeinturms.")
+  "Ein einfacher Diener des Meisters des Elfenbeinturms.")
 
 N("Gargoyle", GEN_M, "Gargoyle", "Gargoyles", "Gargoyle")
 N("stone gargoyle", GEN_M, "Steingargoyle", "Steingargoyles", "Steingargoyle")
-N("stone gargoyle floor", GEN_M, "Steingargoyle Boden", "Steingargoyle Böden", "Steingargoyle Boden")
-N("stone gargoyle bridge", GEN_F, "Steingargoyle Brücke", "Steingargoyle Brücken", "Steingargoyle Brücke")
+N("stone gargoyle floor", GEN_M, "Steingargoyle-Boden", "Steingargoyle-Böden", "Steingargoyle-Boden")
+N("stone gargoyle bridge", GEN_F, "Steingargoyle-Brücke", "Steingargoyle-Brücken", "Steingargoyle-Brücke")
 
 S(
   "A being made of stone, who likes high buildings. It becomes normal stone when "
   "killed, but only if next to something stable -- otherwise it falls.",
   "Ein Wesen aus Stein das hohe Gebäude mag. Es wird zu normalem Stein "
-  "wenn es stirbt, vorausgesetzt es ist neben etwas stabilem. Ansonsten fällt es")
+  "wenn es stirbt, vorausgesetzt es ist neben etwas Stabilem. Ansonsten fällt es.")
 
 N("Ivory Figurine", GEN_F, "Elfenbeinfigur", "Elfenbeinfiguren", "Elfenbeinfigur")
 
 S("A beautiful figurine, made of ivory. Figurines close to the base of the Tower "
   "tend do disappear after you have collected many of them.",
-  "Eine hübsche Figur aus Elfenbein. Figuren nah am Fuße des Turms neigen dazu"
+  "Eine hübsche Figur aus Elfenbein. Figuren nah am Fuße des Turms neigen dazu "
   "zu verschwinden wenn du viele gesammelt hast.")
 
-N("Platform", GEN_F, "Plattform", "Plattformen", "Plattform")
+N("platform", GEN_F, "Plattform", "Plattformen", "Plattform")
 S("You can stand here.", "Du kannst hier stehen.")
 
 N("ladder", GEN_F, "Leiter", "Leitern", "Leiter")
@@ -2553,16 +2553,16 @@ Orb("Matter", "der Materie")
 
 S("This Orb allows to temporarily create impassable matter, either to block paths or "
   "to build bridges across chasms and waters.",
-  "Dieser Orb erlaubt es dir temporäre unpassierbare Materie zu erzeugen, um "
-  "Pfade zu blockieren der Brücken über Wasser und Schluchten zu erzeugen.")
+  "Dieser Orb erlaubt es dir, unpassierbare temporäre Materie zu erzeugen, um "
+  "Pfade zu blockieren oder Brücken über Wasser und Schluchten zu bauen.")
 
 N("temporary wall", GEN_F, "temporäre Wand", "temporäre Wände", "temporäre Wand")
-N("temporary floor", GEN_M, "temporärer Boden", "temporäre Böden", "temporärer Boden")
+N("temporary floor", GEN_M, "temporärer Boden", "temporäre Böden", "temporären Boden")
 N("temporary bridge", GEN_F, "temporäre Brücke", "temporäre Brücken", "temporäre Brücke")
 
-S("This structure will disappear after some time.", "Dieses Gebilde wird nach einiger Zeit verschwinden.")
+S("This structure will disappear after some time.", "Diese Struktur wird nach einiger Zeit verschwinden.")
 
-S("Nothing to stand on here!", "Es gibt nichts worauf du stehen kannst!")
+S("Nothing to stand on here!", "Hier gibt es nichts worauf du stehen kannst!")
 S("Gravity does not allow this!", "Die Gravitation erlaubt das nicht!")
 
 // Elemental Planes

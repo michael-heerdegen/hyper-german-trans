@@ -1074,10 +1074,10 @@ S(
     "an impassable wall behind it. You suppose that this impassable wall helps it to "
     "escape from some threats. You hope you won't meet these threats...",
 
-    "Ein seltenes, untotes Geschöpf aus den Toten Höhlen. "
-    "Es zerstört sofort Höhlenwände, die ihm im Weg sind, und hinterlässt "
-    "undurchdringbare Wände, die ihm vermutlich bei der Flucht verhelfen sollen. "
-    "Hoffentlich wirst du nicht sehen, wovor es flieht...")
+    "Ein seltenes untotes Geschöpf aus den Toten Höhlen. "
+    "Es zerstört unmittelbar alle Höhlenwände vor und neben sich und hinterlässt "
+    "wiederum undurchdringbare Wände. Du vermutest, dass diese Wände ihm helfen sollen "
+    "irgendwelchen Gefahren zu entkommen. Hoffentlich wirst du nicht sehen, wovor es flieht...")
 
 S("%The1 punches %the2!", "%Der1 schlägt %den2 %a2!")
 S("%The1 is destroyed by the forces of Life!", "Die Kräfte des Lebens zerstören %den1 %a1!")
@@ -1106,23 +1106,23 @@ S("The Hive is filled with Hyperbugs. They are huge insects which look a bit lik
   "They live in circular nests, and an army of Hyperbugs will attack any intruder, "
   "including you and enemy Hyperbugs. Will you manage to get to the "
   "heart of such a nest, and get the precious Royal Jelly?",
-  "Das Nest ist voller Hyperkäfern. Riesige Insekten, die etwas wie Ameisen, "
-  "Bienen, und Kakerlaken aussehen. Sie leben in kreisförmigen Nestern, und eine Armee "
-  "von ihnen greift sämtliche Eindringlinge an (auch dich und feindliche Hyperkäfer). "
-  "Schaffst du es zum Zentrum eines Nests, um das Gelée Royale zu ergattern?")
+  "Das Nest ist voller Hyperkäfer. Riesige Insekten, die ein bisschen wie Ameisen, "
+  "Bienen oder Kakerlaken aussehen. Sie leben in kreisförmigen Nestern, und eine Armee "
+  "von ihnen greift sämtliche Eindringlinge an - auch dich und feindliche Hyperkäfer. "
+  "Schaffst du es zum Zentrum eines Nests, um das wertvolle Gelée Royale zu ergattern?")
 
 S("This is what Hyperbug Queens eat. Very tasty and healthy.",
-  "Dieses Gelee wird hauptsächlich von Hyperkäfer Königinnen genossen. Sehr schmackhaft und gesund.")
+  "Dieses Gelee wird von Hyperkäfer-Königinnen gegessen. Sehr schmackhaft und gesund.")
 
 S("When you have this Orb, most monsters won't see you, unless "
     "you are standing still, attacking, or picking up items.",
-  "Während du diesen Orb besitzt sehen dich die meisten Monster nicht. "
-  "es sei denn du stehst still, greifst an, oder hebst Items auf.")
+  "Während du diesen Orb besitzt, sehen dich die meisten Monster nicht, "
+  "außer du stehst still, greifst an, oder hebst etwas auf.")
 
 Orb("Earth", "der Erde")
 
 S("This orb lets you go through living walls. It also has powers in some of the other lands.",
-  "Dieser Orb erlaubt es dir, dich durch lebende Wände zu bewegen und er besitzt auch einige Kräfte in anderen Ländern zu machen.")
+  "Dieser Orb erlaubt es dir, dich durch lebende Wände zu bewegen und er besitzt auch einige Kräfte in anderen Ländern.")
 
 // Land of Power
 

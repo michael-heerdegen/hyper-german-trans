@@ -436,34 +436,31 @@ S("You have used less turns than ever before. Congratulations!", "Du hast sowohl
 // help texts. These are separated into multiple lines just for convenience,
 // you don't have to follow.
 
-S(
- "You have been trapped in a strange, non-Euclidean world. Collect as much treasure as possible "
- "before being caught by monsters. The more treasure you collect, the more "
- "monsters come to hunt you, as long as you are in the same land type. The "
- "Orbs of Yendor are the ultimate treasure; get at least one of them to win the game!",
+S("You have been trapped in a strange, non-Euclidean world. Collect as much treasure as possible "
+  "before being caught by monsters. The more treasure you collect, the more "
+  "monsters come to hunt you, as long as you are in the same land type. The "
+  "Orbs of Yendor are the ultimate treasure; get at least one of them to win the game!",
 
- "Du wurdest in einer seltsamen, nicht-euklidischen Welt gefangen... Sammle so viele Schätze "
- "wie du kannst, bevor dich die Monster fangen. Je mehr Schätze du hast, desto mehr Monster "
- "werden dich jagen bis du das Land verlässt. Die "
- "Orbs von Yendor sind der ultimative Schatz - sammle mindestens eine um zu gewinnen!" )
+  "Du wurdest in einer seltsamen, nicht-euklidischen Welt gefangen... Sammle so viele Schätze "
+  "wie du kannst, bevor dich die Monster fangen. Je mehr Schätze du hast, desto mehr Monster "
+  "werden dich jagen bis du das Land verlässt. Die "
+  "Orbs von Yendor sind der ultimative Schatz - sammle mindestens eine um zu gewinnen!" )
 
-S(
- "You can fight most monsters by moving into their location. "
- "The monster could also kill you by moving into your location, but the game "
- "automatically cancels all moves which result in that.\n\n",
+S("You can fight most monsters by moving into their location. "
+  "The monster could also kill you by moving into your location, but the game "
+  "automatically cancels all moves which result in that.\n\n",
 
-"Du kannst die meisten Monster bekämpfen, indem du dich an ihre Position begibst. "
- "Besagtes Monster könnte dich auch töten, indem es sich an deine Position begibst,  "
- "aber das Spiel lässt dies nicht zu.\n\n")
+  "Du kannst die meisten Monster bekämpfen, indem du dich an ihre Position begibst. "
+  "Besagtes Monster könnte dich auch töten, indem es sich an deine Position begibst,  "
+  "aber das Spiel lässt dies nicht zu.\n\n")
 
-S(
- "Usually, you move by touching somewhere on the map; you can also touch one "
- "of the four buttons on the map corners to change this (to scroll the map "
- "or get information about map objects). You can also touch the "
- "numbers displayed to get their meanings.\n",
-"Normalerweise bewegst du dich durch Antippen der Karte, du kannst aber auch einen der "
- "vier Knöpfe in den Ecken antippen um dies zu ändern (um die Karte zu scrollen oder Infos "
- "über Objekte zu bekommen). Du kannst auch die Zahlen antippen um ihre Bedeutung zu erfahren.\n")
+S("Usually, you move by touching somewhere on the map; you can also touch one "
+  "of the four buttons on the map corners to change this (to scroll the map "
+  "or get information about map objects). You can also touch the "
+  "numbers displayed to get their meanings.\n",
+  "Normalerweise bewegst du dich durch Antippen der Karte, du kannst aber auch einen der "
+  "vier Knöpfe in den Ecken antippen um dies zu ändern (um die Karte zu scrollen oder Infos "
+  "über Objekte zu bekommen). Du kannst auch die Zahlen antippen um ihre Bedeutung zu erfahren.\n")
 
 S("Move with mouse, num pad, qweadzxc, or hjklyubn. Wait by pressing 's' or '.'. Spin the world with arrows, PageUp/Down, and Home/Space. "
   "To save the game you need an Orb of Safety. Press 'v' for config, ESC for the quest status and menu.\n\n",
@@ -475,12 +472,11 @@ S("See more on the website: ", "Mehr auf der Website: ")
 S("special thanks to the following people for their bug reports, feature requests, porting, and other help:\n\n%1\n\n",
   "Besonderer Dank gebührt diesen Leuten für ihre Bug Reports, Feature-Anfragen, Ports, und andere Hilfe:\n\n%1\n\n")
 
-S(
- "The total value of the treasure you have collected.\n\n"
- "Every world type contains a specific type of treasure, worth 1 $$$; "
- "your goal is to collect as much treasure as possible, but every treasure you find "
- "causes more enemies to hunt you in its native land.\n\n"
- "Orbs of Yendor are worth 50 $$$ each.\n\n",
+S("The total value of the treasure you have collected.\n\n"
+  "Every world type contains a specific type of treasure, worth 1 $$$; "
+  "your goal is to collect as much treasure as possible, but every treasure you find "
+  "causes more enemies to hunt you in its native land.\n\n"
+  "Orbs of Yendor are worth 50 $$$ each.\n\n",
 
 
   "Der Gesamtwert deiner Schätze.\n\n"
@@ -489,12 +485,11 @@ S(
   "erzeugt mehr Feinde in seinem Herkunftsland.\n\n"
   "Orbs von Yendor sind 50 $$$ pro Stück wert.\n\n")
 
-S(
- "The higher the number, the smoother the animations in the game. "
- "If you find that animations are not smooth enough, you can try "
- "to change the options ",
- "Je höher die Zahl, desto flüssiger sind die Animationen. Sind sie nicht flüssig genug, "
- "versuche die Optionen zu ändern ")
+S("The higher the number, the smoother the animations in the game. "
+  "If you find that animations are not smooth enough, you can try "
+  "to change the options ",
+  "Je höher die Zahl, desto flüssiger sind die Animationen. Sind sie nicht flüssig genug, "
+  "versuche die Optionen zu ändern ")
 
 S("(Menu button) and select the ASCII mode, which runs much faster. "
   "Depending on your device, turning the OpenGL mode on or off might "
@@ -503,135 +498,127 @@ S("(Menu button) and select the ASCII mode, which runs much faster. "
   "Je nach Gerät kann der OpenGL-Modus das Spiel beschleunigen, verlangsamen, oder Glitches hervorrufen.")
 
 S("(in the MENU). You can reduce the sight range, this should make "
- "the animations smoother.",
- "(im Menü) kannst du die Sichtweite reduzieren, dies sollte die Animation flüssiger machen.")
+  "the animations smoother.",
+  "(im Menü) kannst du die Sichtweite reduzieren, dies sollte die Animation flüssiger machen.")
 
 S("(press v) and change the wall/monster mode to ASCII, or change "
- "the resolution.",
- "(drücke V) um den 'Wand/Monster'-Modus auf ASCII zu schalten, oder die  Auflösung zu ändern.")
+  "the resolution.",
+  "(drücke V) um den 'Wand/Monster'-Modus auf ASCII zu schalten, oder die  Auflösung zu ändern.")
 
-S(
- "In this mode you can draw your own player character and floors. "
- "Mostly for the development purposes, but you can have fun too.\n\n"
- "f - floor, p - player (repeat 'p' for layers)\n\n"
- "n - new shape, u - copy the 'player body' shape\n\n"
- "1-9 - rotational symmetries, 0 - toggle axial symmetry\n\n"
- "point with mouse and: a - add point, m - move nearest point, d - delete nearest point, c - nearest point again, b - add after nearest\n\n"
- "s - save in C++ format (but cannot be loaded yet without editing source)\n\n"
- "z - zoom, o - Poincaré model\n",
+S("In this mode you can draw your own player character and floors. "
+  "Mostly for the development purposes, but you can have fun too.\n\n"
+  "f - floor, p - player (repeat 'p' for layers)\n\n"
+  "n - new shape, u - copy the 'player body' shape\n\n"
+  "1-9 - rotational symmetries, 0 - toggle axial symmetry\n\n"
+  "point with mouse and: a - add point, m - move nearest point, d - delete nearest point, c - nearest point again, b - add after nearest\n\n"
+  "s - save in C++ format (but cannot be loaded yet without editing source)\n\n"
+  "z - zoom, o - Poincaré model\n",
 
- "Hier kannst du deine eigenen Spielfiguren/Bodenplatten zeichnen. "
- "Primär zur Entwicklung, aber hab Spaß.\n\n"
- "f - Boden, p - Spieler (wiederholt für Schichten)\n\n"
- "n - neue Form, u - kopiere die Körperform des Spielers\n\n"
- "1-9 - Dreh-Symmetrie, 0 - Achsen-Symmetrie umschalten\n\n"
- "Maus darüber und: a - Punkt hinzufügen, m - Nächsten Punkt verschieben, d - Nächsten Punkt löschen, c - Nächsten Punkt kopieren, b - Nach Nächstem Punkt hinzufügen\n\n"
- "s - im C++-Format speichern (kannst du aber noch nicht laden, ohne Quellcode zu ändern)\n\n"
- "z - Zoom, o - Poincaré-Modell\n")
+  "Hier kannst du deine eigenen Spielfiguren/Bodenplatten zeichnen. "
+  "Primär zur Entwicklung, aber hab Spaß.\n\n"
+  "f - Boden, p - Spieler (wiederholt für Schichten)\n\n"
+  "n - neue Form, u - kopiere die Körperform des Spielers\n\n"
+  "1-9 - Dreh-Symmetrie, 0 - Achsen-Symmetrie umschalten\n\n"
+  "Maus darüber und: a - Punkt hinzufügen, m - Nächsten Punkt verschieben, d - Nächsten Punkt löschen, c - Nächsten Punkt kopieren, b - Nach Nächstem Punkt hinzufügen\n\n"
+  "s - im C++-Format speichern (kannst du aber noch nicht laden, ohne Quellcode zu ändern)\n\n"
+  "z - Zoom, o - Poincaré-Modell\n")
 
-S(
- "These huge monsters normally live below the sand, but your movements have "
- "disturbed them. They are too big to be slain with your "
- "weapons, but you can defeat them by making them unable to move. "
- "This also produces some Spice. They move two times slower than you.",
+S("These huge monsters normally live below the sand, but your movements have "
+  "disturbed them. They are too big to be slain with your "
+  "weapons, but you can defeat them by making them unable to move. "
+  "This also produces some Spice. They move two times slower than you.",
 
- "Diese riesigen Monster leben normalerweise unter dem Sand, aber deine Bewegungen haben sie "
- "geweckt. Sie sind zu groß, als dass du sie mit deinen Waffen erschlagen könntest. "
- "Du kannst sie besiegen, indem du dafür sorgst, dass sie sich nicht mehr bewegen können. "
- "Dies produziert auch etwas Spice. Sie bewegen sich halb so schnell wie du.")
+  "Diese riesigen Monster leben normalerweise unter dem Sand, aber deine Bewegungen haben sie "
+  "geweckt. Sie sind zu groß, als dass du sie mit deinen Waffen erschlagen könntest. "
+  "Du kannst sie besiegen, indem du dafür sorgst, dass sie sich nicht mehr bewegen können. "
+  "Dies produziert auch etwas Spice. Sie bewegen sich halb so schnell wie du.")
 
 S("The tentacles of Cthulhu are like sandworms, but longer. "
- "They also withdraw one cell at a time, instead of exploding instantly.",
+  "They also withdraw one cell at a time, instead of exploding instantly.",
 
   "Die Tentakel von Cthulhu sind wie Sandwürmer, nur länger. "
- "Anstatt zu explodieren ziehen sie sich zurück, eine Zelle nach der anderen.")
+  "Anstatt zu explodieren ziehen sie sich zurück, eine Zelle nach der anderen.")
 
-S(
- "A huge plant growing in the Jungle. Each Ivy has many branches, "
- "and one branch grows per each of your moves. Branches grow in a clockwise "
- "order. The root itself is vulnerable.",
+S("A huge plant growing in the Jungle. Each Ivy has many branches, "
+  "and one branch grows per each of your moves. Branches grow in a clockwise "
+  "order. The root itself is vulnerable.",
   "Eine riesige Pflanze, die im Dschungel wächst. Jeder Efeu hat viele Zweige, "
- "und jedes Mal, wenn du dich bewegst, wächst einer. Sie wachsen im Uhrzeigersinn. "
- "Die Wurzel selbst ist verwundbar.")
+  "und jedes Mal, wenn du dich bewegst, wächst einer. Sie wachsen im Uhrzeigersinn. "
+  "Die Wurzel selbst ist verwundbar.")
 
 S("The Alchemists produce magical potions from pools of blue and red slime. You "
- "can go through these pools, but you cannot move from a blue pool to a red "
- "pool, or vice versa. Pools containing items count as colorless, and "
- "they change color to the PC's previous color when the item is picked up. "
- "Slime beasts also have to keep to their own color, "
- "but when they are killed, they explode, destroying items and changing "
- "the color of the slime and slime beasts around them.",
-"Die Alchemisten produzieren magische Tränke aus Lachen von blauem und rotem Schleim. "
- "Du kannst durch sie hindurchgehen, aber du kannst nicht von Blau zu Rot wechseln oder umgekehrt. "
- "Lachen mit Gegenständen darin sind farblos und bekommen die Farbe, auf der " // FIXME: find sysonym for "Lachen"
- "du zuletzt warst, wenn du den Gegenstand aufhebst. Schleimmonster müssen auch auf ihrer Farbe "
- "bleiben. Wenn sie sterben, explodieren sie, zerstören Items und "
+  "can go through these pools, but you cannot move from a blue pool to a red "
+  "pool, or vice versa. Pools containing items count as colorless, and "
+  "they change color to the PC's previous color when the item is picked up. "
+  "Slime beasts also have to keep to their own color, "
+  "but when they are killed, they explode, destroying items and changing "
+  "the color of the slime and slime beasts around them.",
+  "Die Alchemisten produzieren magische Tränke aus Lachen von blauem und rotem Schleim. "
+  "Du kannst durch sie hindurchgehen, aber du kannst nicht von Blau zu Rot wechseln oder umgekehrt. "
+  "Lachen mit Gegenständen darin sind farblos und bekommen die Farbe, auf der " // FIXME: find sysonym for "Lachen"
+  "du zuletzt warst, wenn du den Gegenstand aufhebst. Schleimmonster müssen auch auf ihrer Farbe "
+  "bleiben. Wenn sie sterben, explodieren sie, zerstören Items und "
   "ändern die Farbe von Schleim und Schleimmonstern um sie herum.")
 
-S(
- "These creatures are slow, but very powerful... more powerful than you. "
- "You need some more experience in demon fighting before you will be able to defeat them. "
- "Even then, you will be able to slay this one, but more powerful demons will come...\n\n"
- "Each 10 lesser demons you kill, you become powerful enough to kill all the greater "
- "demons on the screen, effectively turning them into lesser demons.",
+S("These creatures are slow, but very powerful... more powerful than you. "
+  "You need some more experience in demon fighting before you will be able to defeat them. "
+  "Even then, you will be able to slay this one, but more powerful demons will come...\n\n"
+  "Each 10 lesser demons you kill, you become powerful enough to kill all the greater "
+  "demons on the screen, effectively turning them into lesser demons.",
 
   "Diese Kreaturen sind langsam, aber sehr mächtig... mächtiger als du. "
- "Du brauchst Erfahrung im Kampf gegen Dämonen, bevor du sie besiegen kannst. "
- "Trotzdem bist du in der Lage, diesen zu töten, aber es werden stärkere Dämonen kommen...\n\n"
- "Jedes Mal, wenn du 10 schwache Dämonen getötet hast, wirst du stark genug, um alle mächtigen Dämonen "
- "auf dem Bildschirm zu töten, indem du sie in schwache Dämonen verwandelst.")
+  "Du brauchst Erfahrung im Kampf gegen Dämonen, bevor du sie besiegen kannst. "
+  "Trotzdem bist du in der Lage, diesen zu töten, aber es werden stärkere Dämonen kommen...\n\n"
+  "Jedes Mal, wenn du 10 schwache Dämonen getötet hast, wirst du stark genug, um alle mächtigen Dämonen "
+  "auf dem Bildschirm zu töten, indem du sie in schwache Dämonen verwandelst.")
 
 S("These creatures are slow, but they often appear in large numbers.",
   "Diese Monster sind langsam aber sie erscheinen oft in großen Gruppen.")
 
 S("A big monster from the Living Caves. A dead Troll will be reunited "
- "with the rocks, causing some walls to grow around its body.",
- "Ein großes Monster aus den Lebenden Höhlen. Ein toter Troll wird eins mit dem Gestein, "
- "was dazu führt, dass er von Wänden umgeben wird.")
+  "with the rocks, causing some walls to grow around its body.",
+  "Ein großes Monster aus den Lebenden Höhlen. Ein toter Troll wird eins mit dem Gestein, "
+  "was dazu führt, dass er von Wänden umgeben wird.")
 
 S("Huge, impassable walls which separate various lands.",
   "Gigantische, undurchdringbare Wände, die die verschiedenen Länder voneinander trennen.")
 
-S(
- "This cave contains walls which are somehow living. After each turn, each cell "
- "counts the number of living wall and living floor cells around it, and if it is "
- "currently of a different type than the majority of cells around it, it switches. "
- "Items count as three floor cells, and dead Trolls count as five wall cells. "
- "Some foreign monsters also count as floor or wall cells.\n",
- "Diese Höhle enthält Wände, die auf irgendeine Art leben. Nach jedem Zug zählt jede Zelle "
- "die Zahl von lebenden Wänden und Böden um sich herum. Wenn sie von anderer Art als die Mehrzahl der umgebenden Zellen ist, wandelt sie sich um. "
- "Gegenstände zählen als drei Böden; tote Trolle zählen als fünf Wände. "
- "Manche fremde Monster zählen auch als Böden oder Wände.\n")
+S("This cave contains walls which are somehow living. After each turn, each cell "
+  "counts the number of living wall and living floor cells around it, and if it is "
+  "currently of a different type than the majority of cells around it, it switches. "
+  "Items count as three floor cells, and dead Trolls count as five wall cells. "
+  "Some foreign monsters also count as floor or wall cells.\n",
+  "Diese Höhle enthält Wände, die auf irgendeine Art leben. Nach jedem Zug zählt jede Zelle "
+  "die Zahl von lebenden Wänden und Böden um sich herum. Wenn sie von anderer Art als die Mehrzahl der umgebenden Zellen ist, wandelt sie sich um. "
+  "Gegenstände zählen als drei Böden; tote Trolle zählen als fünf Wände. "
+  "Manche fremde Monster zählen auch als Böden oder Wände.\n")
 
-S(
- "This forest is quite dry. Beware the bushfires!\n"
- "Trees catch fire on the next turn. The temperature of the grass cells "
- "rises once per turn for each fire nearby, and becomes fire itself "
- "when its temperature has risen 10 times.\n"
- "You can also cut down the trees. Big trees take two turns to cut down.",
- "Dieser Wald ist ziemlich trocken. Achtung - Waldbrände!\n"
- "Bäume fangen im nächsten Zug Feuer. Die Temperatur von Gras steigt jeden Zug für jedes Feuer in der Nähe, "
- "und wird selbst zu Feuer wenn dies 10-mal geschehen ist.\n"
- "Du kannst auch die Bäume fällen. Große Bäume zu fällen dauert zwei Züge."
- )
+S("This forest is quite dry. Beware the bushfires!\n"
+  "Trees catch fire on the next turn. The temperature of the grass cells "
+  "rises once per turn for each fire nearby, and becomes fire itself "
+  "when its temperature has risen 10 times.\n"
+  "You can also cut down the trees. Big trees take two turns to cut down.",
+  "Dieser Wald ist ziemlich trocken. Achtung - Waldbrände!\n"
+  "Bäume fangen im nächsten Zug Feuer. Die Temperatur von Gras steigt jeden Zug für jedes Feuer in der Nähe, "
+  "und wird selbst zu Feuer wenn dies 10-mal geschehen ist.\n"
+  "Du kannst auch die Bäume fällen. Große Bäume zu fällen dauert zwei Züge.")
 
 S("A big and quite intelligent monster living in the Icy Land.",
   "Ein großes und äußerst intelligentes Monster das im Eisigem Land lebt.")
 
-S(
- "A nasty predator from the Icy Land. Contrary to other monsters, "
- "it tracks its prey by their heat.",
- "Ein scheußlicher Jäger des Eisigen Landes. Anders als andere Monster findet er seine Beute durch deren Wärme.")
+S("A nasty predator from the Icy Land. Contrary to other monsters, "
+  "it tracks its prey by their heat.",
+  "Ein scheußlicher Jäger des Eisigen Landes. Anders als andere Monster findet er seine Beute durch deren Wärme.")
 
 S("Rangers take care of the magic mirrors in the Land of Mirrors. "
- "They know that rogues like to break these mirrors... so "
- "they will attack you!",
- "Ranger beschützen die Zauberspiegel im Spiegelland. Sie wissen, dass Schurken wie du "
- "die Spiegel gerne zerbrechen - also greifen sie dich an!")
+  "They know that rogues like to break these mirrors... so "
+  "they will attack you!",
+  "Ranger beschützen die Zauberspiegel im Spiegelland. Sie wissen, dass Schurken wie du "
+  "die Spiegel gerne zerbrechen - also greifen sie dich an!")
 
 S("A nasty creature native to the Living Caves. They don't like you "
- "for some reason.",
- "Ein grässliches Geschöpf, das in den Lebenden Höhlen haust. Irgendwie können diese Kreaturen dich nicht leiden.")
+  "for some reason.",
+  "Ein grässliches Geschöpf, das in den Lebenden Höhlen haust. Irgendwie können diese Kreaturen dich nicht leiden.")
 
 S("A tribe of men native to the Desert. They have even tamed the huge Sandworms, who won't attack them.",
   "Ein Volk, das in der Wüste lebt. Sie haben es sogar geschafft, die Sandwürmer so zu zähmen, "
@@ -642,9 +629,9 @@ S("This giant ape thinks that you are an enemy.", "Dieser riesige Affe glaubt, d
 S("A magical being which copies your movements.", "Ein magisches Wesen, das deine Bewegungen kopiert.")
 
 S("A magical being which copies your movements. "
- "You feel that it would be much more useful in an Euclidean space.",
- "Ein magisches Wesen, das deine Bewegungen kopiert.\n"
- "Du hast das Gefühl, es wäre in einer euklidischen Umgebung viel nützlicher.")
+  "You feel that it would be much more useful in an Euclidean space.",
+  "Ein magisches Wesen, das deine Bewegungen kopiert.\n"
+  "Du hast das Gefühl, es wäre in einer euklidischen Umgebung viel nützlicher.")
 
 S("You can summon these friendly constructs with a magical process.",
   "Du kannst diese freundlichen Steinriesen mit einem Ritual beschwören.") // FIXME: correct?
@@ -663,8 +650,7 @@ S("A typical monster from the Graveyard, who moves through walls.\n\n"
   "They can appear anywhere in the game.",
   "Ein Monster das vom Friedhof stammt und sich durch Wände bewegen kann.\n\n"
   "Es gibt auch umherirrende Geister. Diese erscheinen, wenn du dich lange (um die 100 Züge) "
-  "am selben Ort aufhältst. Sie können überall im Spiel auftauchen."
-  )
+  "am selben Ort aufhältst. Sie können überall im Spiel auftauchen.")
 
 S("Necromancers can raise ghosts and zombies from fresh graves.",
   "Totenbeschwörer können Geister und Zombies aus frischen Gräbern auferwecken.")
@@ -676,68 +662,67 @@ S("People worshipping Cthulhu. They are very dangerous.",
   "Verehrer Cthulhus. Sie sind sehr gefährlich.")
 
 S("People worshipping Cthulhu. This one is especially dangerous, "
- "as he is armed with a weapon which launches fire from afar.",
- "Verehrer Cthulhus. Dieser ist besonders gefährlich, er besitzt eine Waffe, die aus "
- "der Ferne Feuer schleudern kann.")
+  "as he is armed with a weapon which launches fire from afar.",
+  "Verehrer Cthulhus. Dieser ist besonders gefährlich, er besitzt eine Waffe, die aus "
+  "der Ferne Feuer schleudern kann.")
 
 S("This dangerous predator has killed many people, and has been sent to Cocytus.",
   "Dieser gefürchtete Jäger hat schon viele das Leben gekostet und wurde nach Kokytos geschickt.")
 
 S("This white dog is able to run all the time. It is the only creature "
- "able to survive and breed in the Land of Eternal Motion.",
- "Dieser weiße Hund kann unablässig rennen. Er ist die einzige Kreatur, die im "
- "Land des Endlosen Antriebs überleben und sich vermehren kann.")
+  "able to survive and breed in the Land of Eternal Motion.",
+  "Dieser weiße Hund kann unablässig rennen. Er ist die einzige Kreatur, die im "
+  "Land des Endlosen Antriebs überleben und sich vermehren kann.")
 
 S("Demons of Hell do not drown when they fall into the lake in Cocytus. "
- "They turn into demonic sharks, enveloped in a cloud of steam.",
- "Dämonen aus der Hölle ertrinken nicht, wenn sie in den See von Kokytos fallen. Stattdessen "
- "werden sie zu Dämonenhaien, eingehüllt in eine Wolke aus Dunst.")
+  "They turn into demonic sharks, enveloped in a cloud of steam.",
+  "Dämonen aus der Hölle ertrinken nicht, wenn sie in den See von Kokytos fallen. Stattdessen "
+  "werden sie zu Dämonenhaien, eingehüllt in eine Wolke aus Dunst.")
 
 S("These fairies would rather burn the forest, than let you get some Fern Flowers. "
- "The forest is infinite, after all...\n\n"
- "Fire Fairies transform into fires when they die.",
- "Diese Feen würden eher den ganzen Wald niederbrennen als dich Farnblüten sammeln zu lassen. "
- "Der Wald ist schließlich grenzenlos...\n\n"
- "Wenn Feuerfeen sterben, werden sie selbst zu Feuer.")
+  "The forest is infinite, after all...\n\n"
+  "Fire Fairies transform into fires when they die.",
+  "Diese Feen würden eher den ganzen Wald niederbrennen als dich Farnblüten sammeln zu lassen. "
+  "Der Wald ist schließlich grenzenlos...\n\n"
+  "Wenn Feuerfeen sterben, werden sie selbst zu Feuer.")
 
 S("These warriors of the Forest wield exotic weapons called hedgehog blades. "
- "These blades protect them from a frontal attack, but they still can be 'stabbed' "
- "easily by moving from one place next to them to another.",
- "Diese Krieger des Waldes besitzen exotische Waffen, die Igelklingen. "
- "Diese schützen sie vor frontalen Angriffen - aber sie können dennoch "
+  "These blades protect them from a frontal attack, but they still can be 'stabbed' "
+  "easily by moving from one place next to them to another.",
+  "Diese Krieger des Waldes besitzen exotische Waffen, die Igelklingen. "
+  "Diese schützen sie vor frontalen Angriffen - aber sie können dennoch "
   "'erstochen' werden indem man sich direkt neben ihnen von einer Zelle auf eine andere bewegt.")
 
 S("This being radiates an aura of wisdom. "
- "It is made of a beautiful crystal, you would love to take it home. "
- "But how is it going to defend itself? Better not to think of it, "
- "thinking causes your brain to go hot...\n\n"
- "Crystal Sages melt at -30 °C, and they can rise the temperature around you from afar.",
- "Dieses Wesen strahlt eine Aura aus Weisheit aus. Es besteht aus einem schönen Kristall, "
- "am liebsten würdest du es mit nach Hause nehmen... Nur, wie verteidigt es sich? Besser "
- "nicht daran denken... Denken verursacht Kopfschmerzen...\n\n"
- "Kristallweisen schmelzen bei -30 °C, und können deine Temperatur aus der Ferne steigern.")
+  "It is made of a beautiful crystal, you would love to take it home. "
+  "But how is it going to defend itself? Better not to think of it, "
+  "thinking causes your brain to go hot...\n\n"
+  "Crystal Sages melt at -30 °C, and they can rise the temperature around you from afar.",
+  "Dieses Wesen strahlt eine Aura aus Weisheit aus. Es besteht aus einem schönen Kristall, "
+  "am liebsten würdest du es mit nach Hause nehmen... Nur, wie verteidigt es sich? Besser "
+  "nicht daran denken... Denken verursacht Kopfschmerzen...\n\n"
+  "Kristallweisen schmelzen bei -30 °C, und können deine Temperatur aus der Ferne steigern.")
 
 S("Cold white gems, found in the Icy Land.", "Kalte, weiße Edelsteine aus dem Eisigem Land.")
 
 S("An expensive metal from the Living Caves. For some reason "
- "gold prevents the living walls from growing close to it.",
- "Ein teures Metall aus den Lebenden Höhlen. Aus irgendeinem Grund verhindert Gold, dass Lebende Wände in seiner Nähe entstehen.")
+  "gold prevents the living walls from growing close to it.",
+  "Ein teures Metall aus den Lebenden Höhlen. Aus irgendeinem Grund verhindert Gold, dass Lebende Wände in seiner Nähe entstehen.")
 
 S("A rare and expensive substance found in the Desert. "
- "It is believed to extend life and raise special psychic powers.",
- "Eine seltene, teure Substanz aus der Wüste. Man sagt, es verlängert das Leben und verleiht besondere, psychische Kräfte.")
+  "It is believed to extend life and raise special psychic powers.",
+  "Eine seltene, teure Substanz aus der Wüste. Man sagt, es verlängert das Leben und verleiht besondere, psychische Kräfte.")
 
 S("A beautiful gem from the Jungle.", "Ein schöner Edelstein aus dem Urwald.")
 
-S(
- "A wonderful beverage, apparently obtained by mixing red and blue slime. You definitely feel more "
- "healthy after drinking it, but you still fell that one hit of a monster is enough to kill you.",
- "Ein wundervolles Getränk, entstanden aus der Mischung blauen und roten Schleims. Du fühlst dich gesünder nach seinem Genuss und dennoch zerbrechlich genug, dass dich ein Schlag eines Monsters töten könnte. ")
+S("A wonderful beverage, apparently obtained by mixing red and blue slime. You definitely feel more "
+  "healthy after drinking it, but you still fell that one hit of a monster is enough to kill you.",
+  "Ein wundervolles Getränk, entstanden aus der Mischung blauen und roten Schleims. Du fühlst dich gesünder nach seinem Genuss und dennoch zerbrechlich genug, dass dich ein Schlag eines Monsters töten könnte. ")
 
 S("A piece of a magic mirror, or a mirage cloud, that can be used for magical purposes. Only mirrors and clouds "
- "in the Land of Mirrors leave these.",
- "Ein Stück eines Zauberspiegels oder einer Illusionswolke, das für magische Zwecke brauchbar ist. "
- "Zauberspiegel und Illusionswolken im Land der Spiegel hinterlassen diese.")
+  "in the Land of Mirrors leave these.",
+  "Ein Stück eines Zauberspiegels oder einer Illusionswolke, das für magische Zwecke brauchbar ist. "
+  "Zauberspiegel und Illusionswolken im Land der Spiegel hinterlassen diese.")
 
 S("These sinister totems contain valuable gems.",
   "Diese schaurigen Totems enthalten wertvolle Edelsteine.")
@@ -757,24 +742,22 @@ S("These bright yellow gems can be found only by those who have mastered the Cro
   "Diese hellen, gelben Edelsteine können nur von denen gefunden werden, die die Kreuzung gemeistert haben.")
 
 S("That's all you need to unlock the Orb of Yendor! Well... as long as you are able to return to the Orb that this key unlocks...\n\n"
- "Each key unlocks only the Orb of Yendor which led you to it.",
- "Das ist alles, was du brauchst, um den Orb von Yendor zu öffnen! ...solange du wieder zurückfindest...\n"
- "Jeder Schlüssel entsperrt nur den Orb von Yendor, der dich zu ihm geführt hat.")
+  "Each key unlocks only the Orb of Yendor which led you to it.",
+  "Das ist alles, was du brauchst, um den Orb von Yendor zu öffnen! ...solange du wieder zurückfindest...\n"
+  "Jeder Schlüssel entsperrt nur den Orb von Yendor, der dich zu ihm geführt hat.")
 
 S("These orbs can be found in the Graveyard. You think that they were once powerful magical orbs, but by now, their "
- "power is long gone. No way to use them, you could as well simply drop them...\n\n",
- "Diese Orbs kannst du auf dem Friedhof finden. Du schätzt, sie waren einst mächtig, aber mittlerweile ist ihre Kraft verbraucht. "
- "Es gibt keinen Weg ihr Kraft wieder zu erwecken, du könntest die Orbs auch einfach dalassen...\n\n")
+  "power is long gone. No way to use them, you could as well simply drop them...\n\n",
+  "Diese Orbs kannst du auf dem Friedhof finden. Du schätzt, sie waren einst mächtig, aber mittlerweile ist ihre Kraft verbraucht. "
+  "Es gibt keinen Weg ihr Kraft wieder zu erwecken, du könntest die Orbs auch einfach dalassen...\n\n")
 
-S(
- "This wonderful Orb can only be collected by those who have truly mastered this hyperbolic universe, "
- "as you need the right key to unlock it. Luckily, your psychic abilities will let you know "
- "where the key is after you touch the Orb.",
- "Dieser wundervolle Orb kann nur von denen gesammelt werden, die dieses hyperbolische Universum komplett gemeistert haben, da du den richtigen Schlüssel benötigst, um ihre Macht zu entfesseln. "
- "Deine psychischen Fähigkeiten erlauben es dir, zu sehen, wo sich der Schlüssel befindet, nachdem du den Orb berührt hast.")
+S("This wonderful Orb can only be collected by those who have truly mastered this hyperbolic universe, "
+  "as you need the right key to unlock it. Luckily, your psychic abilities will let you know "
+  "where the key is after you touch the Orb.",
+  "Dieser wundervolle Orb kann nur von denen gesammelt werden, die dieses hyperbolische Universum komplett gemeistert haben, da du den richtigen Schlüssel benötigst, um ihre Macht zu entfesseln. "
+  "Deine psychischen Fähigkeiten erlauben es dir, zu sehen, wo sich der Schlüssel befindet, nachdem du den Orb berührt hast.")
 
-S(
-  "This orb can be used to invoke the lightning spell, which causes lightning bolts to shoot from you in all directions.",
+S("This orb can be used to invoke the lightning spell, which causes lightning bolts to shoot from you in all directions.",
   "Du kannst diesen Orb verwenden um einen Blitzzauber zu wirken, der Blitze in sämtliche Richtungen schießt.")
 
 S("This orb can be used to invoke a flash spell, which destroys almost everything in radius of 2.",
@@ -792,16 +775,16 @@ S("This orb can be used to summon friendly golems. It is used instantly when you
 S("This orb can protect you from damage.", "Dieser Orb kann dich vor Schaden schützen.")
 
 S("This orb lets you instantly move to another location on the map. Just click a location which "
- "is not next to you to teleport there. ",
-   "Dieser Orb teleportiert dich an einen anderen Ort auf der Karte, klicke einfach einen Ort an der sich nicht neben dir befindet.")
+  "is not next to you to teleport there. ",
+  "Dieser Orb teleportiert dich an einen anderen Ort auf der Karte, klicke einfach einen Ort an der sich nicht neben dir befindet.")
 
 S("This orb lets you instantly move to a safe faraway location. Knowing the nature of this strange world, you doubt "
- "that you will ever find the way back...\n\n"
- "Your game will be saved if you quit the game while the Orb of Safety is still powered.\n\n"
- "Technical note: as it is virtually impossible to return, this Orb recycles memory used for the world so far (even if you do not use it to save the game). ",
- "Du kannst diesen Orb verwenden um dich an einen weit entfernten, sicheren Ort zu bewegen. Aufgrund der Gegebenheiten dieser Welt bezweifelst du, dass du je zurückfindest...\n\n"
- "Dein Spiel wird gespeichert, wenn du es beendest während der Orb der Geborgenheit noch Kraft besitzt.\n\n"
- "(Technische Anmerkung: Da es wirklich unmöglich ist, zurückzukehren, lässt dieser Orb den Speicher, den die Welt bis jetzt braucht, neu durchlaufen - sogar wenn du sie nicht verwendest, um zu speichern.)")
+  "that you will ever find the way back...\n\n"
+  "Your game will be saved if you quit the game while the Orb of Safety is still powered.\n\n"
+  "Technical note: as it is virtually impossible to return, this Orb recycles memory used for the world so far (even if you do not use it to save the game). ",
+  "Du kannst diesen Orb verwenden um dich an einen weit entfernten, sicheren Ort zu bewegen. Aufgrund der Gegebenheiten dieser Welt bezweifelst du, dass du je zurückfindest...\n\n"
+  "Dein Spiel wird gespeichert, wenn du es beendest während der Orb der Geborgenheit noch Kraft besitzt.\n\n"
+  "(Technische Anmerkung: Da es wirklich unmöglich ist, zurückzukehren, lässt dieser Orb den Speicher, den die Welt bis jetzt braucht, neu durchlaufen - sogar wenn du sie nicht verwendest, um zu speichern.)")
 
 S("This orb allows attacking Hedgehog Warriors directly, as well as stabbing other monsters.\n",
   "Dieser Orb erlaubt es dir Igelkrieger direkt anzugreifen, und andere Monster zu 'erstechen'.\n")
@@ -816,11 +799,10 @@ S("A natural terrain feature of the Desert.", "Eine natürliche Terrain Form der
 S("You can go inside the Magic Mirror, and produce some mirror images to help you.",
   "Du kannst den Zauberspiegel betreten, um Trugbilder zu erzeugen, die dir helfen.")
 
-S(
- "Tiny droplets of magical water. You see images of yourself inside them. "
- "Go inside the cloud, to make these images help you.",
- "Kleine Tropfen aus magischem Wasser, in denen du dich selbst sehen kannst. "
- "Betritt den Dampf, um diese Bilder real werden zu lassen.")
+S("Tiny droplets of magical water. You see images of yourself inside them. "
+  "Go inside the cloud, to make these images help you.",
+  "Kleine Tropfen aus magischem Wasser, in denen du dich selbst sehen kannst. "
+  "Betritt den Dampf, um diese Bilder real werden zu lassen.")
 
 S("A device that attracts sandworms and other enemies. You need to activate it.",
   "Ein Gerät, das Sandwürmer und andere Feinde anzieht. Allerdings musst du es einschalten.")
@@ -840,25 +822,23 @@ S("You can walk on it... but beware.", "Du kannst darauf gehen... aber pass auf.
 
 S("It was a floor... until something walked on it.", "Das war einst Boden... Dann ist was darauf gegangen.")
 
-S(
- "This land is a quick gateway to other lands. It is very easy to find other lands "
- "from the Crossroads. Which means that you find monsters from most other lands here!\n\n"
- "As long as you have found enough treasure in their native lands, you can "
- "find magical items in the Crossroads. Mirror Land brings mirrors and clouds, "
- "and other land types bring magical orbs.\n\n"
- "A special treasure, Hyperstone, can be found on the Crossroads, but only "
- "after you have found 10 of every other treasure.",
- "Dieses Land ist gut um schnell andere Länder zu erreichen. Es ist sehr einfach, diese von hier aus zu finden. Das bedeutet, dass hier auch Monster aus den meisten anderen Ländern sein können!\n\n"
- "Solange du genug Schätze in den Ländern gefunden hast, erscheinen magische Gegenstände in der Kreuzung. Spiegel und Wolken stammen aus dem Spiegelland, Orbs aus anderen Länder.\n\n"
- "Ein besonderer Schatz, der Hyperstein, kann hier gefunden werden aber du musst erst 10 von allen anderen Schätzen haben.")
+S("This land is a quick gateway to other lands. It is very easy to find other lands "
+  "from the Crossroads. Which means that you find monsters from most other lands here!\n\n"
+  "As long as you have found enough treasure in their native lands, you can "
+  "find magical items in the Crossroads. Mirror Land brings mirrors and clouds, "
+  "and other land types bring magical orbs.\n\n"
+  "A special treasure, Hyperstone, can be found on the Crossroads, but only "
+  "after you have found 10 of every other treasure.",
+  "Dieses Land ist gut um schnell andere Länder zu erreichen. Es ist sehr einfach, diese von hier aus zu finden. Das bedeutet, dass hier auch Monster aus den meisten anderen Ländern sein können!\n\n"
+  "Solange du genug Schätze in den Ländern gefunden hast, erscheinen magische Gegenstände in der Kreuzung. Spiegel und Wolken stammen aus dem Spiegelland, Orbs aus anderen Länder.\n\n"
+  "Ein besonderer Schatz, der Hyperstein, kann hier gefunden werden aber du musst erst 10 von allen anderen Schätzen haben.")
 
 S("A hot land, full of sand dunes, mysterious Spice, and huge and dangerous sand worms.",
   "Ein heißes Land, voller Sanddünen, geheimnisvollem Spice, und riesigen sowie gefährlichen Sandwürmern.")
 
-S(
- "A very cold land, full of ice walls. Your mere presence will cause these ice walls to "
- "melt, even if you don't want it.",
- "Ein ziemlich kaltes Land, voller Eiswände. Deine Gegenwart allein wird sie allerdings zum Schmelzen bringen, ob du willst oder nicht.")
+S("A very cold land, full of ice walls. Your mere presence will cause these ice walls to "
+  "melt, even if you don't want it.",
+  "Ein ziemlich kaltes Land, voller Eiswände. Deine Gegenwart allein wird sie allerdings zum Schmelzen bringen, ob du willst oder nicht.")
 
 S("A land filled with huge ivy plants and dangerous animals.",
   "Ein Land voller Efeu und gefährlicher Tiere.")
@@ -867,8 +847,8 @@ S("A strange land which contains mirrors and mirages, protected by Mirror Ranger
   "Ein seltsames Land voller Zauberspiegel und Trugbilder, die von den Rangern geschützt werden.")
 
 S("All the monsters you kill are carried to this strange land, and buried. "
- "Careless Rogues are also carried here...",
- "Alle Monster, die du tötest, werden hier begraben. Genauso wie achtlose Schurken...")
+  "Careless Rogues are also carried here...",
+  "Alle Monster, die du tötest, werden hier begraben. Genauso wie achtlose Schurken...")
 
 S("An ancient sunken city which can be reached only when the stars are right.\n\n"
   "You can find Temples of Cthulhu in R'Lyeh once you collect five Statues of Cthulhu.",
@@ -882,10 +862,10 @@ S("This frozen lake is a hellish version of the Icy Land. Now, your body heat me
   "Dieser gefrorene See ist wie eine höllische Version des Eisigen Landes. Hier schmilzt deine Körperwärme den Boden, nicht die Wände.")
 
 S("A land where you cannot stop, because every piece of floor is extremely unstable. Only monsters who "
- "can run forever are able to survive there, and only phoenix feathers are so light that they do not disturb "
- "the floor.\n",
- "Ein Land, in dem du nicht stehen bleiben darfst, denn jedes Stück Boden ist extrem instabil. Nur Monster die ewig laufen können sind in der Lage hier zu überleben. "
- "Nur Phönixfedern sind leicht genug, den Boden nicht zu erschüttern.\n")
+  "can run forever are able to survive there, and only phoenix feathers are so light that they do not disturb "
+  "the floor.\n",
+  "Ein Land, in dem du nicht stehen bleiben darfst, denn jedes Stück Boden ist extrem instabil. Nur Monster die ewig laufen können sind in der Lage hier zu überleben. "
+  "Nur Phönixfedern sind leicht genug, den Boden nicht zu erschüttern.\n")
 
 S("Affects looks and grammar", "Aussehen und Grammatik")
 
@@ -938,15 +918,15 @@ S("This has been recorded in the Google Leaderboards.", "Dies wurde in die Googl
 
 
 S("Ever wondered how some boardgame would look on the hyperbolic plane? "
- "I wondered about Go, so I have created this feature. Now you can try yourself!\n"
- "Enter = pick up an item (and score), space = clear an item\n"
- "Other keys place orbs and terrain features of various kinds\n"
- "In the periodic editor, press 0-4 to switch walls in different ways\n",
- "Hast du dich je gewundert, wie ein Brettspiel auf einer hyperbolischen Ebene aussehen würde? "
- "Ich habe mich über Go gewundert und dieses Feature erstellt. Probiere es selbst!\n"
- "Enter = Gegenstand aufheben (und punkte), [LEER] = Gegenstand löschen\n"
- "Andere Tasten platzieren Orbs, Terrain und Anderes\n"
- "Im periodischen Editor kannst du 0-4 verwenden um die Wände zu verändern\n")
+  "I wondered about Go, so I have created this feature. Now you can try yourself!\n"
+  "Enter = pick up an item (and score), space = clear an item\n"
+  "Other keys place orbs and terrain features of various kinds\n"
+  "In the periodic editor, press 0-4 to switch walls in different ways\n",
+  "Hast du dich je gewundert, wie ein Brettspiel auf einer hyperbolischen Ebene aussehen würde? "
+  "Ich habe mich über Go gewundert und dieses Feature erstellt. Probiere es selbst!\n"
+  "Enter = Gegenstand aufheben (und punkte), [LEER] = Gegenstand löschen\n"
+  "Andere Tasten platzieren Orbs, Terrain und Anderes\n"
+  "Im periodischen Editor kannst du 0-4 verwenden um die Wände zu verändern\n")
 
 S("Periodic Editor", "Periodischer Editor")
 // also translate this line:
@@ -965,39 +945,35 @@ N("Emerald", GEN_M, "Smaragd", "Smaragde", "Smaragd")
 
 Orb("the Mind", "der Psyche")
 
-S(
-     "Evil people are mining for emeralds in this living cave. "
-     "It does not grow naturally, but it is dug out in a regular "
-     "pattern, which is optimal according to the evil engineers.",
-     "Böse Leute bauen Smaragde in dieser lebenden Höhle ab. "
-     "Sie entsteht nicht natürlich, sondern wird in einem Muster ausgebaut "
-     "das die bösen Arbeiter als optimal ansehen.")
+S("Evil people are mining for emeralds in this living cave. "
+  "It does not grow naturally, but it is dug out in a regular "
+  "pattern, which is optimal according to the evil engineers.",
+  "Böse Leute bauen Smaragde in dieser lebenden Höhle ab. "
+  "Sie entsteht nicht natürlich, sondern wird in einem Muster ausgebaut "
+  "das die bösen Arbeiter als optimal ansehen.")
 
-S(
-    "Miners have special tools for dealing with the Living Cave. "
-    "When they die, these tools activate, destroying the living cave "
-    "around them.",
-    "Minenarbeiter haben spezielle Werkzeuge für den Umgang mit der Lebenden Höhle. "
-    "Sterben sie, aktivieren sich diese Werkzeuge, was die Höhle um sie herum einstürzen lässt.") // FIXME: is this correct?
+S("Miners have special tools for dealing with the Living Cave. "
+  "When they die, these tools activate, destroying the living cave "
+  "around them.",
+  "Minenarbeiter haben spezielle Werkzeuge für den Umgang mit der Lebenden Höhle. "
+  "Sterben sie, aktivieren sich diese Werkzeuge, was die Höhle um sie herum einstürzen lässt.") // FIXME: is this correct?
 
-S(
-    "When Pikemen move, they attack all cells which are now adjacent to them. "
-    "Luckily, they can be killed in the same way.\n\n"
-    "They never move if this would attack their friends.",
-    "Bewegen sich Bergmänner, greifen sie alle Zellen um sie herum an. "
-    "Glücklicherweise können sie genauso getötet werden.\n\n"
-    "Sie bewegen sich nicht wenn sie so ihre Freunde angreifen würden.")
+S("When Pikemen move, they attack all cells which are now adjacent to them. "
+  "Luckily, they can be killed in the same way.\n\n"
+  "They never move if this would attack their friends.",
+  "Bewegen sich Bergmänner, greifen sie alle Zellen um sie herum an. "
+  "Glücklicherweise können sie genauso getötet werden.\n\n"
+  "Sie bewegen sich nicht wenn sie so ihre Freunde angreifen würden.")
 
-S(
-    "This guard of the Emerald Mine is wielding a huge flail. "
-    "You cannot attack him directly, as the flail would still hit you then. "
-    "Luckily, you have learned a trick: if you step away from him, "
-    "he will hit himself with the flail!",
+S("This guard of the Emerald Mine is wielding a huge flail. "
+  "You cannot attack him directly, as the flail would still hit you then. "
+  "Luckily, you have learned a trick: if you step away from him, "
+  "he will hit himself with the flail!",
 
-    "Dieser Wächter der Smaragdmine hat einen riesigen Flegel. "
-    "Ihn direkt anzugreifen würde nichts bringen da der Flegel dich treffen würde. "
-    "Glücklicherweise kennst du einen Trick: "
-    "Wenn du dich von ihm entfernst, trifft er sich selbst!")
+  "Dieser Wächter der Smaragdmine hat einen riesigen Flegel. "
+  "Ihn direkt anzugreifen würde nichts bringen da der Flegel dich treffen würde. "
+  "Glücklicherweise kennst du einen Trick: "
+  "Wenn du dich von ihm entfernst, trifft er sich selbst!")
 
 S("A precious green gem from the Emerald Mines.", "Ein wertvoller grüner Edelstein aus den Smaragdminen.")
 
@@ -1023,10 +999,9 @@ N("vine", GEN_F, "Rebe", "Reben", "Rebe")
 N("partial fire", GEN_N, "partielles Feuer", "partielle Feuer", "partielle Feuer")
 N("Wine", GEN_M, "Wein", "Weine", "Wein")
 
-S(  "This cell is partially on fire.", "Diese Zelle brennt teilweise.")
+S("This cell is partially on fire.", "Diese Zelle brennt teilweise.")
 
-S(
-  "The Vineyard is filled with vines. A very dense pattern of straight lines here...\n\n"
+S("The Vineyard is filled with vines. A very dense pattern of straight lines here...\n\n"
   "Vine Beasts and Vine Spirits change vine cells to grass, and vice versa.", // FIXME: @zeno: wrong order!
   "Der Weingarten ist voller Reben. Ein dichtes Gitter aus lauter Geraden...\n\n"
   "Rebenbestien und Rebenseelen verwandeln Zellen von Gras in Reben und umgekehrt.")
@@ -1039,16 +1014,15 @@ S("A vine is growing here... but only on a half of the cell. How is that even po
   "Die meisten Monster können sich nicht von dieser Zelle aus auf die bewegen, die die andere Hälfte enthält. "
   "Rebenseelen können sich nur auf angrenzende Zellen bewegen, die auch der anderen Hälfte anliegen. ")
 
-S(
-    "A beast made of vines!\n\n"
-    "Vine Beasts turn into vines when they die.",
-    "Eine Bestie aus Reben!\n\n"
-    "Rebenbestien werden zu Reben wenn sie sterben.")
+S("A beast made of vines!\n\n"
+  "Vine Beasts turn into vines when they die.",
+  "Eine Bestie aus Reben!\n\n"
+  "Rebenbestien werden zu Reben wenn sie sterben.")
 
-S(  "A spirit living in the vines!\n\n"
-    "Vine Spirits destroy the vines when they die.",
-    "Eine Seele die in den Reben lebt!\n\n"
-    "Rebenseelen zerstören Reben, wenn sie sterben.")
+S("A spirit living in the vines!\n\n"
+  "Vine Spirits destroy the vines when they die.",
+  "Eine Seele die in den Reben lebt!\n\n"
+  "Rebenseelen zerstören Reben, wenn sie sterben.")
 
 S("Wine grown under hyperbolic sun would be extremely prized in your home location.",
   "Wein, der unter hyperbolischer Sonne wächst, würde in deiner Heimat ziemlich viel wert sein.")
@@ -1073,23 +1047,22 @@ N("Silver", GEN_N, "Silber", "Silber", "Silber")
 
 S("A precious metal from the Dead Caves.", "Ein wertvolles Metall aus den toten Höhlen.")
 
-S(  "A Troll without the power of Life.", "Ein Troll ohne die Kraft des Lebens.")
+S("A Troll without the power of Life.", "Ein Troll ohne die Kraft des Lebens.")
 
-S(
-    "A rare unliving construct from the Dead Caves. "
-    "It instantly destroys cave walls next to its path, and also leaves "
-    "an impassable wall behind it. You suppose that this impassable wall helps it to "
-    "escape from some threats. You hope you won't meet these threats...",
+S("A rare unliving construct from the Dead Caves. "
+  "It instantly destroys cave walls next to its path, and also leaves "
+  "an impassable wall behind it. You suppose that this impassable wall helps it to "
+  "escape from some threats. You hope you won't meet these threats...",
 
-    "Ein seltenes untotes Geschöpf aus den Toten Höhlen. "
-    "Es zerstört unmittelbar alle Höhlenwände vor und neben sich und hinterlässt "
-    "wiederum undurchdringbare Wände. Du vermutest, dass diese Wände ihm helfen sollen "
-    "irgendwelchen Gefahren zu entkommen. Hoffentlich wirst du nicht sehen, wovor es flieht...")
+  "Ein seltenes untotes Geschöpf aus den Toten Höhlen. "
+  "Es zerstört unmittelbar alle Höhlenwände vor und neben sich und hinterlässt "
+  "wiederum undurchdringbare Wände. Du vermutest, dass diese Wände ihm helfen sollen "
+  "irgendwelchen Gefahren zu entkommen. Hoffentlich wirst du nicht sehen, wovor es flieht...")
 
 S("%The1 punches %the2!", "%Der1 schlägt %den2 %a2!")
 S("%The1 is destroyed by the forces of Life!", "Die Kräfte des Lebens zerstören %den1 %a1!")
-S(  "Somehow, this cave has not received the spark of Life yet.",
-    "Diese Höhle wurde noch nicht vom Funken des Lebens berührt.")
+S("Somehow, this cave has not received the spark of Life yet.",
+  "Diese Höhle wurde noch nicht vom Funken des Lebens berührt.")
 
 // Hive
 N("Hive", GEN_N, "Nest", "Nest", "im Nest")
@@ -1122,7 +1095,7 @@ S("This is what Hyperbug Queens eat. Very tasty and healthy.",
   "Dieses Gelee wird von Hyperkäfer-Königinnen gegessen. Sehr schmackhaft und gesund.")
 
 S("When you have this Orb, most monsters won't see you, unless "
-    "you are standing still, attacking, or picking up items.",
+  "you are standing still, attacking, or picking up items.",
   "Während du diesen Orb besitzt, sehen dich die meisten Monster nicht, "
   "außer du stehst still, greifst an, oder hebst etwas auf.")
 
@@ -1147,56 +1120,53 @@ N("crystal cabinet", GEN_F, "Kristallvitrine", "Kristallvitrinen", "Kristallvitr
 S("When you have this Orb, you will leave a trail of fire behind you.",
   "Mit diesem Orb hinterlässt du eine Spur aus Feuer.")
 
-S(
-"A Witch without any special powers. But watch out! She will "
-    "pick up any basic Orbs on her path, and use their powers.",
-    "Eine Hexe ohne besondere Kräfte. Aber pass auf! "
-    "Sie wird alle Orbs in ihrer Nähe aufheben und verwenden.")
+S("A Witch without any special powers. But watch out! She will "
+  "pick up any basic Orbs on her path, and use their powers.",
+  "Eine Hexe ohne besondere Kräfte. Aber pass auf! "
+  "Sie wird alle Orbs in ihrer Nähe aufheben und verwenden.")
 
-S(  "A Witch with a Speed spell. She moves twice as fast as you. Unless you "
-    "have an Orb of Speed too, of course!",
-    "Eine Geschwindigkeitshexe, sie bewegt sich doppelt so schnell wie du. "
-    "Außer natürlich, du hast auch einen Orb der Geschwindigkeit!")
+S("A Witch with a Speed spell. She moves twice as fast as you. Unless you "
+  "have an Orb of Speed too, of course!",
+  "Eine Geschwindigkeitshexe, sie bewegt sich doppelt so schnell wie du. "
+  "Außer natürlich, du hast auch einen Orb der Geschwindigkeit!")
 
-S(  "A Witch with a Fire spell. She will leave a trail of fire behind her.",
-    "Eine Feuerhexe. Sie hinterlässt eine Spur aus Feuer.")
+S("A Witch with a Fire spell. She will leave a trail of fire behind her.",
+  "Eine Feuerhexe. Sie hinterlässt eine Spur aus Feuer.")
 
-S(  "A Witch with a Winter spell. She is able to move through fire.",
-    "Eine Frosthexe. Sie kann durch Feuer gehen.")
+S("A Witch with a Winter spell. She is able to move through fire.",
+  "Eine Frosthexe. Sie kann durch Feuer gehen.")
 
-S(  "A Witch with an Aether spell. She is able to move through fire and walls.",
-    "Eine Ätherhexe. Sie kann durch Feuer und Wände gehen.")
+S("A Witch with an Aether spell. She is able to move through fire and walls.",
+  "Eine Ätherhexe. Sie kann durch Feuer und Wände gehen.")
 
-S(  "Somebody has summoned these evil constructs with a magical process.",
-    "Jemand hat diese bösen Konstrukte mit einem magischen Ritual beschworen.")
+S("Somebody has summoned these evil constructs with a magical process.",
+  "Jemand hat diese bösen Konstrukte mit einem magischen Ritual beschworen.")
 
-S(  "The Land of Power is filled with everburning fire, magical Orbs, and guarded by "
-    "witches and golems. There are basic orbs lying everywhere, and more prized ones "
-    "are kept in crystal cabinets.\n\n"
-    "Witches are allowed to use all the powers of the "
-    "basic orbs against intruders. These powers never expire, but a Witch "
-    "can use only one power at a time (not counting Orbs of Life).\n\n"
-    "Witches and Golems don't pursue you into other Lands. Also, most Orb powers "
-    "are drained when you leave the Land of Power.",
-    "Das Land der Macht ist voll mit ewigen Flammen, magischen Orb sowie  Hexen und Golems die es bewachen. Überall liegen einfache Orbs herum, und wertvollere werden in Kristallvitrinen aufbewahrt.\n\n"
-    "Hexen dürfen alle Orbkräfte gegen Angreifer einsetzen. Diese laufen nie aus, allerdings kann eine Hexe jederzeit nur einen Zauber nutzen. (mit Ausnahme der Orbs des Lebens)\n\n"
-    "Hexen und Golems verfolgen dich nicht in andere Länder. Außerdem verlieren viele Zauber die Kraft sobald du das Land verlässt.")
+S("The Land of Power is filled with everburning fire, magical Orbs, and guarded by "
+  "witches and golems. There are basic orbs lying everywhere, and more prized ones "
+  "are kept in crystal cabinets.\n\n"
+  "Witches are allowed to use all the powers of the "
+  "basic orbs against intruders. These powers never expire, but a Witch "
+  "can use only one power at a time (not counting Orbs of Life).\n\n"
+  "Witches and Golems don't pursue you into other Lands. Also, most Orb powers "
+  "are drained when you leave the Land of Power.",
+  "Das Land der Macht ist voll mit ewigen Flammen, magischen Orb sowie  Hexen und Golems die es bewachen. Überall liegen einfache Orbs herum, und wertvollere werden in Kristallvitrinen aufbewahrt.\n\n"
+  "Hexen dürfen alle Orbkräfte gegen Angreifer einsetzen. Diese laufen nie aus, allerdings kann eine Hexe jederzeit nur einen Zauber nutzen. (mit Ausnahme der Orbs des Lebens)\n\n"
+  "Hexen und Golems verfolgen dich nicht in andere Länder. Außerdem verlieren viele Zauber die Kraft sobald du das Land verlässt.")
 
-S(
-    "Witches use these crystal cabinets to protect Powerstones, as well as the more "
-    "expensive Orbs. They are partially protected from thieves: they are too strong "
-    "to be smashed by conventional attacks, and if you try to steal the item "
-    "using an Orb of Aether, your Aether power will be completely drained.",
+S("Witches use these crystal cabinets to protect Powerstones, as well as the more "
+  "expensive Orbs. They are partially protected from thieves: they are too strong "
+  "to be smashed by conventional attacks, and if you try to steal the item "
+  "using an Orb of Aether, your Aether power will be completely drained.",
   "Hexen verwenden diese Kristallvitrinen um Machtsteine, und wertvolle "
   "Orbs zu schützen. Sie sind zu stark um von normalen Angriffen "
   " zerschmettert zu werden und solltest du versuchen den Inhalt "
   "mit einem Orb des Äthers zu stehlen, wird seine ganze Kraft verbraucht.")
 
-S(
-    "A Stone from the Land of Power. You are not sure what it is exactly, but "
-    "as the Powerstones are kept in crystal cabinets, they are surely valuable.",
-    "Ein Stein aus dem Land der Macht. Du bist dir nicht ganz sicher was er tut, "
-    "aber da er in einer Kristallvitrine ist, ist er sicher wertvoll!")
+S("A Stone from the Land of Power. You are not sure what it is exactly, but "
+  "as the Powerstones are kept in crystal cabinets, they are surely valuable.",
+  "Ein Stein aus dem Land der Macht. Du bist dir nicht ganz sicher was er tut, "
+  "aber da er in einer Kristallvitrine ist, ist er sicher wertvoll!")
 
 Orb("Fire", "des Feuers")
 
@@ -1227,10 +1197,10 @@ S("Your Aether power has expired! RUN!", "Deine Ätherkraft ist zu Ende! Renn!")
 S("%The1 tricks %the2.", "%Der1 %1 überlistet %den2 %a2.")
 S("You trick %the1.", "Du überlistest %den1 %a1.")
 
-S(  "A Witch with a Flash spell. Very dangerous!\n\nLuckily, she never uses the spell if it "
-    "would kill her friends. She could destroy an Evil Golem, though.",
-    "Eine Donnerhexe. Sehr gefährlich!\n\n"
-    "Glücklicherweise setzt sie den Zauber nicht ein, wenn dies ihre Freunde gefährden würde. Sie kann allerdings böse Golems zerstören.")
+S("A Witch with a Flash spell. Very dangerous!\n\nLuckily, she never uses the spell if it "
+  "would kill her friends. She could destroy an Evil Golem, though.",
+  "Eine Donnerhexe. Sehr gefährlich!\n\n"
+  "Glücklicherweise setzt sie den Zauber nicht ein, wenn dies ihre Freunde gefährden würde. Sie kann allerdings böse Golems zerstören.")
 
 S("Your Aether powers are drained by %the1!", "%Der1 %1 saugt deine Ätherkraft auf!")
 S("As you leave, your powers are drained!", "Deine Kraft verblasst, als du gehst.")
@@ -1255,8 +1225,7 @@ N("Round Table", GEN_F, "Tafelrunde", "Tafelrunde", "Tafelrunde")
 N("Knight", GEN_M, "Ritter", "Ritter", "Ritter")
 N("Holy Grail", GEN_M, "Heiliger Gral", "Heilige Grale", "Heiligen Gral")
 
-S(
-  "The Knights of the Round Table are the greatest warriors of these lands. "
+S("The Knights of the Round Table are the greatest warriors of these lands. "
   "They are not very inventive with names though, as they call each of their "
   "castles Camelot. "
   "You are probably worthy of joining them, but they will surely give you "
@@ -1315,8 +1284,7 @@ S("The temple of Cthulhu consists of many concentric circles of columns. "
   "Du wirst sicherlich einige Anhänger Cthulhus hier finden. Diese glauben, eine Reise in die "
   "inneren Kreise bringt lässt sie mächtige Grimoires finden und bringt "
   "sie näher an Cthulhu.\n\n"
-  "Die Kreise hier sind eigentlich Horozyklen. Unendlich groß und unendlich viele davon."
-  )
+  "Die Kreise hier sind eigentlich Horozyklen. Unendlich groß und unendlich viele davon.")
 
 S("The Grimoires contain many secrets of the Great Old Ones. "
   "Each new inner circle in the Temple of Cthulhu contains new Grimoires, with new secrets. "
@@ -1325,8 +1293,7 @@ S("The Grimoires contain many secrets of the Great Old Ones. "
   "several copies of the same Grimoire...",
   "Die Grimoires enthalten viele Geheimnisse der Weißen Alten. "
   "Jeder neue innere Kreis des Tempels von Cthulhu enthält neue Grimoires, mit mehr Geheimnissen. "
-  "Das Wissen ist dir sehr kostbar, aber es wäre natürlich sinnlos, mehrmals dasselbe Grimoire aufzuheben..."
-  )
+  "Das Wissen ist dir sehr kostbar, aber es wäre natürlich sinnlos, mehrmals dasselbe Grimoire aufzuheben...")
 
 S("These statues of Cthulhu are too large to carry, and they don't look too "
   "valuable anyway. Most monsters will never go through them... they probably have "
@@ -1335,8 +1302,7 @@ S("These statues of Cthulhu are too large to carry, and they don't look too "
 
   "Diese Cthulhu Statuen sind zu groß um sie zu tragen und sehen sowieso nicht wertvoll aus. "
   "Die meisten Monster gehen nie an ihnen vorbei, dafür haben sie schon ihre Gründe. "
-  "Du aber schon! Wenn du in die Zelle gehst, in der eine steht, schiebst du sie an deinen Ursprungsort."
-  )
+  "Du aber schon! Wenn du in die Zelle gehst, in der eine steht, schiebst du sie an deinen Ursprungsort.")
 
 S("These Cultists can push the statues, just like you.",
   "Diese Anhänger können die Statuen schieben, genau wie du.")
@@ -1350,8 +1316,7 @@ S("You push %the1 behind you!", "Die schiebst %den1 %1 hinter dich.")
 
 S("Your total kills", "Deine Gesamtkills")
 
-S(
-  "In most lands, more treasures are generated with each enemy native to this land you kill. "
+S("In most lands, more treasures are generated with each enemy native to this land you kill. "
   "Moreover, 100 kills is a requirement to enter the Graveyard and the Hive.\n\n"
   "Friendly creatures and parts of monsters (such as the Ivy) do appear in the list, "
   "but are not counted in the total kill count.",
@@ -1372,7 +1337,7 @@ S("You overhear miners talking about a castle...",
 S("A castle in the Crossroads...", "Ein Schloss in der Kreuzung...")
 
 /*
-S("You can find Temples of Cthulhu in R'Lyeh once you collect five Statues of Cthulhu.",
+  S("You can find Temples of Cthulhu in R'Lyeh once you collect five Statues of Cthulhu.",
   "Du kannst Tempel von Cthulhu in R'Lyeh finden, sobald du fünf seiner Statuen besitzt.")
 */
 
@@ -1389,8 +1354,7 @@ Orb("the Dragon", "des Drachen")
 S("This Orb allows you to throw fire, just like the Fire Cultists.\n\n"
   "Each fire drains 5 charges. You are not allowed to throw fire into adjacent cells.",
   "Dieser Orb erlaubt es dir, Feuer zu werfen.\n\n"
-  "Jedes Feuer verbraucht 5 Ladungen. Du darfst kein Feuer auf angrenzende Zellen werfen."
-  )
+  "Jedes Feuer verbraucht 5 Ladungen. Du darfst kein Feuer auf angrenzende Zellen werfen.")
 
 S("You throw fire!", "Du wirfst Feuer!")
 
@@ -1409,8 +1373,7 @@ S("This Orb allows you to create illusions of yourself. Illusions are targetted 
   "Jede Illusion benötigt 5 Ladungen zum Erschaffen, plus eine Ladung pro Zug. "
   "Du kannst deine Illusion anklicken um sie zu entfernen, wofür du 4 Ladungen bekommst.\n\n"
   "Besitzt du einen Orb der Teleportation und einen des Truges, wird Illusion bevorzugt "
-  "du kannst dich dann auf deine Illusion teleportieren, um die Plätze zu tauschen."
-  )
+  "du kannst dich dann auf deine Illusion teleportieren, um die Plätze zu tauschen.")
 
 S("Illusions are targetted "
   "by most monsters, just like yourself, Thumpers, and your friends.",
@@ -1438,15 +1401,14 @@ S("draw the heptagons darker", "Heptagone verdunkeln");
 S("targetting ranged Orbs Shift+click only", "Zielen mit Distanzorbs per Shift-Klick")
 S("Shift+F, Shift+O, Shift+T, Shift+L, Shift+U, etc.",
   "Shift+F, Shift+O, Shift+T, Shift+L, Shift+U, etc.")
-  S("also hold Alt during the game to toggle high contrast",
+S("also hold Alt during the game to toggle high contrast",
   "Du kannst auch ALT im Spiel halten, um hohen Kontrast umzuschalten")
 
 // Crossroads II
 
 N("Crossroads II", GEN_N, "II. Kreuzung", "II. Kreuzungen", "auf der II. Kreuzung")
 
-S(
-  "An alternate layout of the Crossroads. It is more dense and more regular, "
+S("An alternate layout of the Crossroads. It is more dense and more regular, "
   "although you won't find the castle of Camelot here.",
 
   "Ein alternatives Layout der Kreuzung. Es ist beständiger und dichter, aber du findest Camelot hier nicht.")
@@ -1476,28 +1438,25 @@ S("The islands of Caribbean are infinite and circular, and "
   "Die Inseln der Karibik sind unzählig und kreisförmig, die Piraten haben "
   "ihre Schätze sicher fernab der Küste versteckt.")
 
-S(
-    "Hyperbolic pirates do not need huge ships, since so many lands to conquest "
-    "are so close. These small boats are enough for them.\n\n"
-    "Boats allow you to go through water. If you are in a boat, you can move into "
-    "a water cell (and the boat will come with you).",
+S("Hyperbolic pirates do not need huge ships, since so many lands to conquest "
+  "are so close. These small boats are enough for them.\n\n"
+  "Boats allow you to go through water. If you are in a boat, you can move into "
+  "a water cell (and the boat will come with you).",
 
-    "Hyperbolische Piraten brauchen keine riesigen Schiffe, da viele Länder zum "
-    "Erobern so dicht zusammen sind. Diese kleinen Boote reichen ihnen.\n\n"
-    "Boote lassen dich durch Wasser bewegen. Bist du in einem, kannst du "
-    "dich auf Wasserzellen bewegen.")
+  "Hyperbolische Piraten brauchen keine riesigen Schiffe, da viele Länder zum "
+  "Erobern so dicht zusammen sind. Diese kleinen Boote reichen ihnen.\n\n"
+  "Boote lassen dich durch Wasser bewegen. Bist du in einem, kannst du "
+  "dich auf Wasserzellen bewegen.")
 
-S(
-    "The forests of Caribbean are too dense to be traversed by humans, "
-    "and they are hard to burn. Many colorful parrots can be found there.",
-    "Die karibischen Wälder sind zu dicht um von Menschen durchquert zu werden, "
-    "und brennen nur schwerlich. Es gibt hier aber viele, farbenfrohe Papageien.")
+S("The forests of Caribbean are too dense to be traversed by humans, "
+  "and they are hard to burn. Many colorful parrots can be found there.",
+  "Die karibischen Wälder sind zu dicht um von Menschen durchquert zu werden, "
+  "und brennen nur schwerlich. Es gibt hier aber viele, farbenfrohe Papageien.")
 
 S("Ye wonder where did th' Pirates find all these riches...",
-    "Du fragst dich, woher die Piraten all diese Schätze haben...")
+  "Du fragst dich, woher die Piraten all diese Schätze haben...")
 
-S(
-  "The hyperbolic pirates have no use for treasure maps. However, they have found "
+S("The hyperbolic pirates have no use for treasure maps. However, they have found "
   "out that a compass points to the center of the island. So they just go as "
   "far towards the center as they can, and hide their treasure there.",
 
@@ -1508,34 +1467,33 @@ S(
 S("Just a nasty shark.", "Ist bloß ein fieser Hai.")
 
 S("Parrots feel safe in the forests of Caribbean, so they "
-    "never leave them. But they will help the Pirates by attacking the intruders.",
+  "never leave them. But they will help the Pirates by attacking the intruders.",
 
   "Papageien fühlen sich sicher in den karibischen Wäldern, daher verlassen sie diese nie. "
   "Allerdings helfen sie den Piraten beim Angreifen der Eindringlinge.")
 
 S("Just a typical hyperbolic pirate.", "Ist bloß ein typischer, hyperbolischer Pirat.")
 
-S(
-    "Normally, the power of most Orbs slowly fades away, even when "
-    "you are not actively using them. This Orb prevents this.\n\n"
+S("Normally, the power of most Orbs slowly fades away, even when "
+  "you are not actively using them. This Orb prevents this.\n\n"
 
-    "When you have the Orb of Time, Orbs which are not active won't lose their power. "
-    "Orbs are considered active if they have a continuous power which has actually "
-    "affected something in the last turn.\n\n"
+  "When you have the Orb of Time, Orbs which are not active won't lose their power. "
+  "Orbs are considered active if they have a continuous power which has actually "
+  "affected something in the last turn.\n\n"
 
-    "Orbs of Shielding remain active after being activated (even if you are no longer "
-    "attacked), and Orbs of Time have a bigger cap inside their native Caribbean than "
-    "outside.",
+  "Orbs of Shielding remain active after being activated (even if you are no longer "
+  "attacked), and Orbs of Time have a bigger cap inside their native Caribbean than "
+  "outside.",
 
-    "Normalerweise schwindet die Kraft der meisten Orbs, sogar wenn du sie nicht einsetzt. "
-    "Der Orb der Zeit verhindert dies.\n\n"
+  "Normalerweise schwindet die Kraft der meisten Orbs, sogar wenn du sie nicht einsetzt. "
+  "Der Orb der Zeit verhindert dies.\n\n"
 
-    "Besitzt du einen, verlieren inaktive Orbs keine Kraft. "
-    "Orbs zählen als aktiv, wenn sie eine andauernde Kraft haben, die letzten Zug "
-    "etwas beeinflusst hat.\n\n"
+  "Besitzt du einen, verlieren inaktive Orbs keine Kraft. "
+  "Orbs zählen als aktiv, wenn sie eine andauernde Kraft haben, die letzten Zug "
+  "etwas beeinflusst hat.\n\n"
 
-    "Orbs der Abschirmung bleiben nach Aktivierung aktiv "
-    "und Orbs der Zeit halten in der Karibik länger als an anderen Orten.")
+  "Orbs der Abschirmung bleiben nach Aktivierung aktiv "
+  "und Orbs der Zeit halten in der Karibik länger als an anderen Orten.")
 
 // Achievements:
 
@@ -1575,8 +1533,7 @@ S("This land contains high rock formations. Most of the valley is at level 0, "
 S("A kind of Troll native to the Red Rock Valley.",
   "Eine spezielle Trollgattung, die im Rotfelsental lebt.")
 
-S(
-  "Rock snakes are similar to Sandworms, but they move each turn. However, they "
+S("Rock snakes are similar to Sandworms, but they move each turn. However, they "
   "only move on the hexagonal cells. They are also somewhat longer than the Sandworms.",
 
   "Felsschlangen sind Sandwürmern ähnlich, allerdings bewegen sie sich jeden Zug. "
@@ -1584,11 +1541,10 @@ S(
 
 S("A gem from the Red Rock Valley.", "Ein Edelstein aus dem Rotfelsental.")
 
-S(
-    "This Orb is able to bring faraway items to your location, even if there are "
-    "monsters or barriers on the way. The cost of "
-    "bringing an item (in charges) equals the square of its distance to you. Contrary "
-    "to some other Orbs, usage is not allowed if you have not enough power left.",
+S("This Orb is able to bring faraway items to your location, even if there are "
+  "monsters or barriers on the way. The cost of "
+  "bringing an item (in charges) equals the square of its distance to you. Contrary "
+  "to some other Orbs, usage is not allowed if you have not enough power left.",
 
   "Dieser Orb kann weit entfernte Gegenstände zu dir bringen, auch wenn Monster oder Barrieren im Weg sind. "
   "Die Kosten dafür ist die Distanz des Gegenstands zu dir zum Quadrat. "
@@ -1711,10 +1667,9 @@ S("The sandworm explodes!", "Der Sandwurm explodiert!")
 
 N("Ocean", GEN_M, "Ozean", "Ozeane", "im Ozean")
 
-S(
-    "You can collect some valuable Ambers on the coast, but beware the tides!\n\n"
-    "You can also take one of the boats and venture into the Ocean, "
-    "to find other coasts, dangerous whirlpools, and islands inhabited by Pirates.",
+S("You can collect some valuable Ambers on the coast, but beware the tides!\n\n"
+  "You can also take one of the boats and venture into the Ocean, "
+  "to find other coasts, dangerous whirlpools, and islands inhabited by Pirates.",
 
   "Du kannst wertvolle Bernsteine an der Küste sammeln, aber achte auf die Gezeiten!\n\n"
   "Du kannst ebenso eines der Boote nehmen und in den Ozean reisen "
@@ -1722,26 +1677,22 @@ S(
 
 N("Albatross", GEN_M, "Albatros", "Albatrosse", "Albatros")
 
-S(
-  "Those large seabirds attack you for some reason. At least they are not "
+S("Those large seabirds attack you for some reason. At least they are not "
   "as fast as Eagles...",
   "Diese großen Seevögel greifen dich aus irgendeinem Grund an. "
   "Wenigstens sind sie langsamer als Adler...")
 
 N("stranded boat", GEN_N, "gestrandetes Boot", "gestrandete Boote", "gestrandete Boot")
 
-S(
-  "This boat cannot go through the sand. But if you sit inside and "
+S("This boat cannot go through the sand. But if you sit inside and "
   "wait for the tide, you will be able to use it to travel through the Ocean.",
 
   "Dieses Boot kann nicht durch den Sand schwimmen. Wartest du allerdings bis zur Flut, "
-  "kannst du damit durch den Ozean reisen."
-  )
+  "kannst du damit durch den Ozean reisen.")
 
 N("Amber", GEN_M, "Bernstein", "Bernsteine", "Bernstein")
 
-S(
-  "When the tide is away, beautiful ambers can be found on the hyperbolic beaches. "
+S("When the tide is away, beautiful ambers can be found on the hyperbolic beaches. "
   "Perhaps there used to be a forest here?" ,
   "Bei Ebbe können wunderschöne Bernsteine auf den hyperbolischen Stränden gefunden werden. Vielleicht war hier früher ein Wald...?")
 
@@ -1750,8 +1701,7 @@ Orb("Air", "der Luft")
 S("This Orb allows you to blow your enemies away.\n\n"
   "Click a monster to blow it one cell away. It cannot be used against mimics, ghosts, sharks and other monsters restricted to a specific terrain, and multi-tile monsters.",
   "Dieser Orb erlaubt es dir, deine Feinde wegzuwehen.\n\n"
-  "Klicke auf ein Monster, um es eine Zelle wegzuwehen. Der Orb ist wirkungslos gegenüber Mimiken, Geistern, Haien, und anderen Monstern, die nur auf bestimmten Terrain leben können. Monster, die größer als eine Zelle sind, sind auch immun."
-  )
+  "Klicke auf ein Monster, um es eine Zelle wegzuwehen. Der Orb ist wirkungslos gegenüber Mimiken, Geistern, Haien, und anderen Monstern, die nur auf bestimmten Terrain leben können. Monster, die größer als eine Zelle sind, sind auch immun.")
 
 
 N("Sea Border", GEN_F, "Seegrenze", "Seegrenzen", "Seegrenze")
@@ -1768,31 +1718,27 @@ S("Border between seas.", "Eine Grenze zwischen Seen.")
 
 N("Whirlpool", GEN_M, "Strudel", "Strudel", "im Strudel")
 
-S(
-  "Many lost boats are spinning in this whirlpool. Some of them contain treasures "
+S("Many lost boats are spinning in this whirlpool. Some of them contain treasures "
   "and Pirates.\n\n"
   "Unmanned boats will go one cell clockwise in each turn. Sharks and manned boats "
   "are only allowed to go with the current, that is, towards the center, or clockwise.",
 
   "Viele verlorene Boote wirbeln in diesem Strudel... manche enthalten Schätze oder Piraten.\n\n"
   "Unbemannte Boote bewegen sich jeden Zug eine Zelle im Uhrzeigersinn. "
-  "Haie und bemannte Boote dürfen nur mit der Strömung schwimmen (das heißt, zur Mitte oder im Uhrzeigersinn)."
-  )
+  "Haie und bemannte Boote dürfen nur mit der Strömung schwimmen (das heißt, zur Mitte oder im Uhrzeigersinn).")
 
 N("Pearl", GEN_F, "Perle", "Perlen", "Perle")
 
-S(
-  "You do not know exactly why, but there are valuable pearls on many boats "
+S("You do not know exactly why, but there are valuable pearls on many boats "
   "in the whirlpool.",
-  "Du weißt nicht genau warum, aber es gibt schöne Perlen auf vielen Booten im Strudel."
-  )
+  "Du weißt nicht genau warum, aber es gibt schöne Perlen auf vielen Booten im Strudel.")
 
 Orb("Water", "des Wassers")
 
-S( "This Orb allows your boat to go against the current, "
-   "and also to go into the land, creating water on the way.",
-   "Dieser Orb erlaubt es dir, gegen die Strömung zu schwimmen. "
-   "Du kannst damit auch durch Land schwimmen, wobei du Wasser kreierst).")
+S("This Orb allows your boat to go against the current, "
+  "and also to go into the land, creating water on the way.",
+  "Dieser Orb erlaubt es dir, gegen die Strömung zu schwimmen. "
+  "Du kannst damit auch durch Land schwimmen, wobei du Wasser kreierst).")
 
 S("You cannot go against the current!", "Du kannst nicht gegen die Strömung schwimmen!")
 
@@ -1808,8 +1754,7 @@ N("Minefield", GEN_N, "Minenfeld", "Minenfelder", "im Minenfeld")
 N("minefield", GEN_F, "Mine?", "Minen?", "Mine?")
 N("cell without mine", GEN_F, "minenlose Zelle", "minenlose Zellen", "minenlose Zelle")
 
-S(
-  "This minefield has been created by the Bomberbirds to protect their valuable eggs. "
+S("This minefield has been created by the Bomberbirds to protect their valuable eggs. "
   "Mines explode when they are stepped on, creating fire all around them "
   "(this fire never expires in the Minefield). If you don't step on a mine, you "
   "know the number of mines in cells around you. These numbers are marked with "
@@ -1817,25 +1762,22 @@ S(
   "Dieses Minenfeld wurde von den Bombenvögeln erschaffen, um ihre wertvollen Eier zu schützen. "
   "Minen explodieren, wenn sie betreten werden, was Feuer um sie herum erzeugt (dieses erlischt im Minenfeld nicht). "
   "Wenn du auf keine Mine trittst, weißt du, wie viele Minen um dich herum sind. "
-  "Diese Zahlen werden auf Zellen, die du besucht hast farblich angezeigt."
-  )
+  "Diese Zahlen werden auf Zellen, die du besucht hast farblich angezeigt.")
 
 N("Bomberbird", GEN_M, "Bombenvogel", "Bombenvögel", "Bombenvogel")
 
-S(
-    "Dark red birds who have created the minefield.\n\n"
-    "They create a mine on the spot where they are killed, provided "
-    "that the terrain is suitable. Also note that mines are triggered "
-    "by dead birds falling on them.",
+S("Dark red birds who have created the minefield.\n\n"
+  "They create a mine on the spot where they are killed, provided "
+  "that the terrain is suitable. Also note that mines are triggered "
+  "by dead birds falling on them.",
 
-    "Dunkelrote Vögel, die das Minenfeld erschufen.\n\n"
-    "Wenn sie sterben erschaffen sie eine Mine, vorausgesetzt das Terrain passt). "
-    "Tote, fallende Vögel lösen Minen auch aus!")
+  "Dunkelrote Vögel, die das Minenfeld erschufen.\n\n"
+  "Wenn sie sterben erschaffen sie eine Mine, vorausgesetzt das Terrain passt). "
+  "Tote, fallende Vögel lösen Minen auch aus!")
 
 N("Tame Bomberbird", GEN_M, "Zahmer Bombenvogel", "Zahme Bombenvögel", "Zahmen Bombenvogel")
 
-S(
-  "This bomberbird will follow you at some distance, and attack your enemies. "
+S("This bomberbird will follow you at some distance, and attack your enemies. "
   "You can kill it to place a mine.",
 
   "Dieser Bombenvogel folgt dir auf Distanz, und attackiert deine Feinde. "
@@ -1843,8 +1785,7 @@ S(
 
 N("Bomberbird Egg", GEN_N, "Bombenvogel Ei", "Bombenvogel Eier", "Bombenvogel Ei")
 
-S(
-  "Bomberbird eggs are big and tasty, and thus valuable. "
+S("Bomberbird eggs are big and tasty, and thus valuable. "
   "They can hatch when left alone for some time (but this will never happen "
   "if you are watching).",
 
@@ -1892,8 +1833,7 @@ S("So better just to concentrate on collecting treasure. "
   "Beware the traps, and the guards, who are hard to kill!",
 
   "Konzentriere dich besser darauf Schätze zu sammeln. "
-  "Und achte auf Fallen, sowie Wachen die hart zu töten sind!"
-  )
+  "Und achte auf Fallen, sowie Wachen die hart zu töten sind!")
 
 N("trapdoor", GEN_F, "Falltür", "Falltüren", "Falltür")
 S("This floor will fall after someone goes there. Go quickly!",
@@ -1925,8 +1865,7 @@ S("You jump!", "Du springst!")
 S("\n\nNote: when pushing %the1 off a heptagonal cell, you can control the pushing direction "
   "by clicking left or right half of the heptagon.",
   "\n\nHinweis: Wenn du %den1 %a1 von einer heptagonalen Zelle schiebst kannst du die Richtung bestimmen, "
-  "indem du die linke oder rechte Seite des Heptagon anklickst."
-  )
+  "indem du die linke oder rechte Seite des Heptagon anklickst.")
 
 S(" With the keyboard, you can rotate the view for a similar effect (Page Up/Down).",
   "Du kannst die Ansicht mit der Tastatur für ändern, dies erzeugt einen ähnlichen Effekt (Page Up/Down).")
@@ -1985,8 +1924,7 @@ N("Fjord Troll", GEN_M, "Fjord Troll", "Fjord Trolle", "Fjord Troll")
 S("Fjord Trolls leave a wall when they die, causing the living fjord to rise around it. "
   "Contrary to Rock Trolls, items around are not destroyed.",
   "Fjordtrolle hinterlassen eine Wand wenn sie sterben, was den lebenden Fjord dazu bringt um sie herum anzusteigen. "
-  "Im Gegensatz zu Stein Trollen werden Items nicht zerstört."
-  )
+  "Im Gegensatz zu Stein Trollen werden Items nicht zerstört.")
 
 N("Viking", GEN_M, "Wikinger", "Wikinger", "Wikinger")
 S("Mighty warriors from the Fjord, who can use boats.",
@@ -2162,8 +2100,7 @@ S("F6 = HQ shot",             "F6 = HQ Screenshot")
 S("F7 = player on/off",       "F7 = Spieler an/aus")
 S("ESC = return to the game", "ESC = Zurück zum Spiel")
 
-S(
-  "This mode allows you to edit the map.\n\n"
+S("This mode allows you to edit the map.\n\n"
   "NOTE: Use at your own risk. Combinations which never "
   "appear in the real game may work in an undefined way "
   "(do not work, look strangely, give strange messages, or crash the game).\n\n"
@@ -2210,8 +2147,7 @@ S(
   "kann die Datei sehr groß sein! Allerdings werden große Strukturen, "
   "wie Große Mauern, große Kreise und sonstiges dadurch zerstört.\n\n"
   "Drücke 'b' um Zellen als Grenzen zu markieren. Solche Zellen, sowie "
-  "Zellen hinter diesen können nicht kopiert oder gespeichert werden.\n\n"
-  )
+  "Zellen hinter diesen können nicht kopiert oder gespeichert werden.\n\n")
 
 // Princess Quest
 //================
@@ -2220,8 +2156,7 @@ S(
 // Princess Challenge - "Misja Ksi??niczka" - "Zwyci?stwo w misji Ksi??niczka."
 // Martial Artist - "Sztuki walki" - "Pozwól nieuzbrojonej Ksi??niczce wygra? walk?"
 
-S(
-  "A mouse squeaks at you. It seems that it wants you to go somewhere. "
+S("A mouse squeaks at you. It seems that it wants you to go somewhere. "
   "That's interesting, what could you find here?\n\n"
   "Note: in the part of the Palace that you are exploring during this "
   "quest, the distribution of monsters, pressure plates, and items has been "
@@ -2437,37 +2372,35 @@ S("random black-and-white", "Zufalls Schwarz und Weiß")
 S("p = paint", "p = Farbe")
 S("r = regular", "r = regulär")
 
-S(
-   "In this mode you can draw your own player characters, "
-   "floors, monsters, and items. Press 'e' while hovering over "
-   "an object to edit it. Start drawing shapes with 'n', and "
-   "add extra vertices with 'a'. Press 0-9 to draw symmetric "
-   "pictures easily. More complex pictures can "
-   "be created by using several layers ('l'). See the edges of "
-   "the screen for more keys.",
+S("In this mode you can draw your own player characters, "
+  "floors, monsters, and items. Press 'e' while hovering over "
+  "an object to edit it. Start drawing shapes with 'n', and "
+  "add extra vertices with 'a'. Press 0-9 to draw symmetric "
+  "pictures easily. More complex pictures can "
+  "be created by using several layers ('l'). See the edges of "
+  "the screen for more keys.",
 
-   "In diesem Modus kannst du deine eigenen Charaktere, Böden, Monster "
-   "und Items zeichnen. Drücke 'e' während du auf ein Objekt zeigst um es "
-   "zu bearbeiten. Fang an Formen mit 'n' zu zeichnen und füg mit 'a'. "
-   "weitere Eckpunkte hinzu. Drücke 0-9 um einfach symmetrisch zu zeichnen. "
-   "Komplexere Bilder können durch mehrere Lagen ('l') erzeugt werden. "
-   "Weitere Hotkeys stehen am Rand des Bildschirms.")
+  "In diesem Modus kannst du deine eigenen Charaktere, Böden, Monster "
+  "und Items zeichnen. Drücke 'e' während du auf ein Objekt zeigst um es "
+  "zu bearbeiten. Fang an Formen mit 'n' zu zeichnen und füg mit 'a'. "
+  "weitere Eckpunkte hinzu. Drücke 0-9 um einfach symmetrisch zu zeichnen. "
+  "Komplexere Bilder können durch mehrere Lagen ('l') erzeugt werden. "
+  "Weitere Hotkeys stehen am Rand des Bildschirms.")
 
-S(
-   "Press 'r' to choose a regular pattern. When a pattern is on, "
-   "editing a cell automatically edits all cells which are "
-   "equivalent according to this pattern. You can choose from "
-   "several patterns, and choose which symmetries matter "
-   "for equivalence. Also, you can press Space to switch between "
-   "the map and graphics editor quickly -- note that editing floors "
-   "with the graphics editor also adheres to the pattern.",
+S("Press 'r' to choose a regular pattern. When a pattern is on, "
+  "editing a cell automatically edits all cells which are "
+  "equivalent according to this pattern. You can choose from "
+  "several patterns, and choose which symmetries matter "
+  "for equivalence. Also, you can press Space to switch between "
+  "the map and graphics editor quickly -- note that editing floors "
+  "with the graphics editor also adheres to the pattern.",
 
-   "Drücke 'r' um ein normales Muster zu wählen. Wenn ein Muster ausgewählt ist "
-   "sorgt das ändern einer Zelle automatisch für die Änderung aller Zellen, "
-   "die laut dem Muster gleich dieser sind. Du kannst aus mehreren Mustern "
-   "wählen und bestimmen welche Symmetrien als gleich zählen. "
-   "Durch das drücken von LEER wird zwischen dem Karten und Grafikeditor gewechselt. "
-   "Das ändern von Böden mit dem Grafikeditor wirkt sich auch auf das Muster aus.")
+  "Drücke 'r' um ein normales Muster zu wählen. Wenn ein Muster ausgewählt ist "
+  "sorgt das ändern einer Zelle automatisch für die Änderung aller Zellen, "
+  "die laut dem Muster gleich dieser sind. Du kannst aus mehreren Mustern "
+  "wählen und bestimmen welche Symmetrien als gleich zählen. "
+  "Durch das drücken von LEER wird zwischen dem Karten und Grafikeditor gewechselt. "
+  "Das ändern von Böden mit dem Grafikeditor wirkt sich auch auf das Muster aus.")
 
 S("monster" ,"Monster")
 S("item", "Item")
@@ -2511,8 +2444,7 @@ S("random pattern mode", "Zufallsmuster Modus")
 
 N("Ivory Tower", GEN_M, "Elfenbeinturm", "Elfenbeintürme", "Elfenbeinturm")
 
-S(
-  "Powerful wizards claimed this part of the world, to perform their magical "
+S("Powerful wizards claimed this part of the world, to perform their magical "
   "experiments in peace and solitude. They have changed the direction of gravity, "
   "to make it even harder for intruders to reach them.\n\n"
   "Gravity works as follows: cells are unstable if they are empty, and there is "
@@ -2524,8 +2456,7 @@ S(
   "Sie haben die Gravitation in diesem Land manipuliert um es Eindringlingen zu erschweren sie zu erreichen.\n\n"
   "Die Gravitation funktioniert wie folgt: Zellen sind instabil wenn sie "
   "leer sind und sich direkt unter ihnen keine Zelle mit Wand befindet. "
-  "Es ist unmöglich sich von einer instabilen Zelle zu einer anderen zu bewegen außer wenn man sich nach unten bewegt."
-  )
+  "Es ist unmöglich sich von einer instabilen Zelle zu einer anderen zu bewegen außer wenn man sich nach unten bewegt.")
 
 N("Servant", GEN_M, "Diener", "Diener", "Diener")
 S("A simple servant of the master of the Ivory Tower.",
@@ -2536,8 +2467,7 @@ N("stone gargoyle", GEN_M, "Steingargoyle", "Steingargoyles", "Steingargoyle")
 N("stone gargoyle floor", GEN_M, "Steingargoyle-Boden", "Steingargoyle-Böden", "Steingargoyle-Boden")
 N("stone gargoyle bridge", GEN_F, "Steingargoyle-Brücke", "Steingargoyle-Brücken", "Steingargoyle-Brücke")
 
-S(
-  "A being made of stone, who likes high buildings. It becomes normal stone when "
+S("A being made of stone, who likes high buildings. It becomes normal stone when "
   "killed, but only if next to something stable -- otherwise it falls.",
   "Ein Wesen aus Stein das hohe Gebäude mag. Es wird zu normalem Stein "
   "wenn es stirbt, vorausgesetzt es ist neben etwas Stabilem. Ansonsten fällt es.")
@@ -2587,8 +2517,7 @@ S("The Elemental Planes are divided into four subzones: Planes of Fire, Water, A
 
   "Die Elementare Ebene ist in 4 Zonen unterteilt: Die Feuerebene, die Erdebene, die Luftebene und die Wasserebene. "
   "Du brauchst eine Scherbe aus jeder Ebene um ein Elementjuwel herzustellen. "
-  "Es ist äußerst gefährliche mehrere Scherben des selben Typs zu sammeln ohne ein Elementjuwel herzustellen."
-  )
+  "Es ist äußerst gefährliche mehrere Scherben des selben Typs zu sammeln ohne ein Elementjuwel herzustellen.")
 
 N("Fire Elemental", GEN_M, "Feuerelementar", "Feuerelementare", "Feuerelementar")
 
@@ -2612,16 +2541,14 @@ N("Elemental Gem", GEN_N, "Elementjuwel", "Elementjuwelen", "Elementjuwel")
 
 Orb("Summoning", "der Beschwörung")
 
-S(
-    "This orb allows you to summon monsters. Usually, they are either Elementals or "
-    "native creatures. While the monsters do not like being summoned, and will "
-    "attack you once they recover from summoning sickness, such summoning "
-    "often has its uses.",
+S("This orb allows you to summon monsters. Usually, they are either Elementals or "
+  "native creatures. While the monsters do not like being summoned, and will "
+  "attack you once they recover from summoning sickness, such summoning "
+  "often has its uses.",
   "Dieser Orb erlaubt es dir Monster zu beschwören. Diese sind meist Elementare, "
   "oder einheimische Monster. Auch wenn Monster nicht gerne beschworen werden "
   "und sie dich angreifen sobald die Beschwörungsübelkeit vorüber ist "
-  "haben Beschwörungen oft einen Nutzen."
-  )
+  "haben Beschwörungen oft einen Nutzen.")
 
 N("limestone wall", GEN_F, "Kalkstein Wand", "Kalkstein Wände", "Kalkstein Wand")
 
@@ -2699,51 +2626,50 @@ S("\"The Knights of the Horocyclic Table salute you!\"", "\"Die Ritter der Horoz
 S("press 0 to leave this mode", "Drücke 0 um diesen Modus zu verlassen")
 S("Collect %1x %2 to unlock", "Sammle %1x %2 zum freischalten von")
 
-S(
-        "In the pure tactics mode, you concentrate on a specific land. "
-        "Your goal to obtain as high score as possible, without using "
-        "features of the other lands. You can then compare your score "
-        "with your friends!\n\n"
+S("In the pure tactics mode, you concentrate on a specific land. "
+  "Your goal to obtain as high score as possible, without using "
+  "features of the other lands. You can then compare your score "
+  "with your friends!\n\n"
 
-        "You need to be somewhat proficient in the normal game to "
-        "unlock the given land in this challenge "
-        "(collect 20 treasure in the given land, or 2 in case of Camelot).\n\n"
+  "You need to be somewhat proficient in the normal game to "
+  "unlock the given land in this challenge "
+  "(collect 20 treasure in the given land, or 2 in case of Camelot).\n\n"
 
-        "Since getting high scores in some lands is somewhat luck dependent, "
-        "you play each land N times, and your score is based on N consecutive "
-        "plays. The value of N depends on how 'fast' the land is to play, and "
-        "how random it is.\n\n"
+  "Since getting high scores in some lands is somewhat luck dependent, "
+  "you play each land N times, and your score is based on N consecutive "
+  "plays. The value of N depends on how 'fast' the land is to play, and "
+  "how random it is.\n\n"
 
-        "In the Caribbean, you can access Orbs of Thorns, Aether, and "
-        "Space if you have ever collected 25 treasure in their native lands.\n\n"
+  "In the Caribbean, you can access Orbs of Thorns, Aether, and "
+  "Space if you have ever collected 25 treasure in their native lands.\n\n"
 
-        "The rate of treasure spawn is static in this mode. It is not "
-        "increased by killing monsters.\n\n"
+  "The rate of treasure spawn is static in this mode. It is not "
+  "increased by killing monsters.\n\n"
 
-        "Good luck, and have fun!",
+  "Good luck, and have fun!",
 
-        "Im Strategiemodus konzentrierst du dich auf ein einziges Land. "
-        "Das Ziel ist es eine möglichst hohe Punktzahl zu erreichen ohne "
-        "features anderer Länder zu nutzen. Du kannst deine Punktzahl "
-        "mit denen deiner Freunde vergleichen!\n\n"
+  "Im Strategiemodus konzentrierst du dich auf ein einziges Land. "
+  "Das Ziel ist es eine möglichst hohe Punktzahl zu erreichen ohne "
+  "features anderer Länder zu nutzen. Du kannst deine Punktzahl "
+  "mit denen deiner Freunde vergleichen!\n\n"
 
-        "Du musst im normalen Spiel etwas erfahrener sein um das Land "
-	"in dieser Herausforderung freizuschalten. "
-        "(Sammle 20 Schätze im jeweiligem Land, oder 2 im Fall von "
-        "Camelot).\n\n"
+  "Du musst im normalen Spiel etwas erfahrener sein um das Land "
+  "in dieser Herausforderung freizuschalten. "
+  "(Sammle 20 Schätze im jeweiligem Land, oder 2 im Fall von "
+  "Camelot).\n\n"
 
   "Da die Punktzahl in manchen Ländern sehr glücksbasierend sein kann, "
-        "wird jedes Land N mal gespielt und die Punktzahl basiert auf N Durchläufen. "
-        "Die Anzahl N hängt davon ab wie 'schnell' und zufällig das Land ist.\n\n"
+  "wird jedes Land N mal gespielt und die Punktzahl basiert auf N Durchläufen. "
+  "Die Anzahl N hängt davon ab wie 'schnell' und zufällig das Land ist.\n\n"
 
-        "In der Karibik hast du Zugriff auf den Orb der Dornen, "
-        "den Orb des Aether und den Orb des Raumes wenn zuvor "
-	"25 Schätze in ihren Heimatländern gesammelt wurden.\n\n"
+  "In der Karibik hast du Zugriff auf den Orb der Dornen, "
+  "den Orb des Aether und den Orb des Raumes wenn zuvor "
+  "25 Schätze in ihren Heimatländern gesammelt wurden.\n\n"
 
-        "Die Anzahl der Schätze in diesem Modus ist festgelegt "
-        "und wird nicht durch das töten von Monstern erhöht.\n\n"
+  "Die Anzahl der Schätze in diesem Modus ist festgelegt "
+  "und wird nicht durch das töten von Monstern erhöht.\n\n"
 
-        "Viel Glück und Erfolg!")
+  "Viel Glück und Erfolg!")
 
 // Yendor Challenge
 //------------------
@@ -2762,48 +2688,46 @@ S(" (won!)", " (Gewonnen!)")
 S(" (won at level %1!)", " (Mit Level %1 gewonnen!)")
 S("(locked)", "(Gesperrt)")
 
-S(
-    "There are many possible solutions to the Yendor Quest. In the Yendor "
-    "Challenge, you will try many of them!\n\n"
-    "Each challenge takes part in a specific land, and you have to use what "
-    "you have available.\n\n"
+S("There are many possible solutions to the Yendor Quest. In the Yendor "
+  "Challenge, you will try many of them!\n\n"
+  "Each challenge takes part in a specific land, and you have to use what "
+  "you have available.\n\n"
 
-    "You need to obtain an Orb of Yendor in the normal game to activate "
-    "this challenge, and (ever) collect 10 treasures in one or two lands "
-    "to activate a specific level.\n\n"
+  "You need to obtain an Orb of Yendor in the normal game to activate "
+  "this challenge, and (ever) collect 10 treasures in one or two lands "
+  "to activate a specific level.\n\n"
 
-    "After you complete each challenge, you can try it again, on a harder "
-    "difficulty level.\n\n"
+  "After you complete each challenge, you can try it again, on a harder "
+  "difficulty level.\n\n"
 
-    "All the solutions showcased in the Yendor Challenge work in the normal "
-    "play too. However, passages to other lands, and (sometimes) some land features "
-    "are disabled in the Yendor "
-    "Challenge, so that you have to use the expected method. Also, "
-    "the generation rules are changed slightly for the Palace "
-    "and Minefield while you are looking for the Orb of Yendor, "
-    "to make the challenge more balanced "
-    "(but these changes are also active during the normal Yendor Quest).\n\n"
+  "All the solutions showcased in the Yendor Challenge work in the normal "
+  "play too. However, passages to other lands, and (sometimes) some land features "
+  "are disabled in the Yendor "
+  "Challenge, so that you have to use the expected method. Also, "
+  "the generation rules are changed slightly for the Palace "
+  "and Minefield while you are looking for the Orb of Yendor, "
+  "to make the challenge more balanced "
+  "(but these changes are also active during the normal Yendor Quest).\n\n"
 
-    "You get 1000 points for each challenge won, and 1 extra point for "
-    "each extra difficulty level.",
+  "You get 1000 points for each challenge won, and 1 extra point for "
+  "each extra difficulty level.",
 
-    "Es gibt viele mögliche Lösungen für die Quest von Yendor. "
-    "Während der Yendor Herausforderung wirst du viele davon ausprobieren!\n\n"
-    "Jede Herausforderung ist auf ein bestimmtes Land begrenzt und du musst "
-    "nutzen was gegeben ist.\n\n"
-    "Zum Freischalten dieser Herausforderung muss ein Orb von Yendor "
-    "im normalem Modus gesammelt werden sowie 10 Schätze in ein oder zwei "
-    "Ländern um bestimmte Level zu aktivieren.\n\n"
+  "Es gibt viele mögliche Lösungen für die Quest von Yendor. "
+  "Während der Yendor Herausforderung wirst du viele davon ausprobieren!\n\n"
+  "Jede Herausforderung ist auf ein bestimmtes Land begrenzt und du musst "
+  "nutzen was gegeben ist.\n\n"
+  "Zum Freischalten dieser Herausforderung muss ein Orb von Yendor "
+  "im normalem Modus gesammelt werden sowie 10 Schätze in ein oder zwei "
+  "Ländern um bestimmte Level zu aktivieren.\n\n"
 
-    "Nach dem Beenden einer Herausforderung kannst du eine schwierigere Version dieser spielen.\n\n"
+  "Nach dem Beenden einer Herausforderung kannst du eine schwierigere Version dieser spielen.\n\n"
 
-    "Alle Lösungen der Yendor-Herausforderung funktionieren auch im normalem Spiel. "
-    "Allerdings sind Wege zu anderen Ländern in der Yendor-Herausforderung "
-    "deaktiviert, somit bleiben weniger Lösungsmöglichkeiten. "
-    "Außerdem kann verändert werden wie der Palast und das Minenfeld "
-    "generiert werden um es einfacher zu machen einen Orb von Yendor zu finden. "
-    "(Diese Änderungen sind auch während des normalen Yendorquest aktiviert).\n\n"
-    )
+  "Alle Lösungen der Yendor-Herausforderung funktionieren auch im normalem Spiel. "
+  "Allerdings sind Wege zu anderen Ländern in der Yendor-Herausforderung "
+  "deaktiviert, somit bleiben weniger Lösungsmöglichkeiten. "
+  "Außerdem kann verändert werden wie der Palast und das Minenfeld "
+  "generiert werden um es einfacher zu machen einen Orb von Yendor zu finden. "
+  "(Diese Änderungen sind auch während des normalen Yendorquest aktiviert).\n\n")
 
 S("Unlock this challenge by getting the Orb of Yendor!",
   "Finde einen Orb von Yendor um diese Herausforderung freizuschalten!")
@@ -2823,8 +2747,7 @@ N("Revolver", GEN_M, "Revolver", "Revolver", "Revolver")
 S("%The1 shoots you!", "%Der1 %1 erschießt dich!")
 S("You shoot %the1!", "Du erschießt %den1 %a1!")
 
-S(
-  "Take a revolver, kill outlaws, collect bounties.\n\n"
+S("Take a revolver, kill outlaws, collect bounties.\n\n"
   "Note: since this land is anachronistic, it is not available in normal game. "
   "It is only available in special modes.",
 
@@ -2834,8 +2757,7 @@ S(
 // Land of Storms
 //----------------
 
-S(
-  "Whenever after your move there is a connection between a charged and a "
+S("Whenever after your move there is a connection between a charged and a "
   "grounded cell, there is a short circuit. All cells on any "
   "path connecting a charged and a grounded cell (without repeated cells, "
   "or two consecutive grounded/charged cells) become damaged.\n\n"
@@ -2885,8 +2807,7 @@ S("This Orb allows you to target monsters to stun them. "
 
   "Dieser Orb erlaubt es dir Monster zu betäuben. "
   "10 Ladungen betäuben für 5 Züge. Dies funktioniert nicht "
-  "gegen große Monster die mehrere Felder bedecken."
-  )
+  "gegen große Monster die mehrere Felder bedecken.")
 
 S("You stun %the1!", "Du betäubst %den1 %a1!")
 
@@ -2905,8 +2826,7 @@ S("This Orb allows you to find new lands more easily. "
   "Länder in denen du bisher weniger Schätze gesammelt hast "
   "und besonders Kreuzungen sind wahrscheinlicher anzutreffen "
   "so lange du ihn besitzt. Des weiteren sind Orbs der Geborgenheit "
-  "wahrscheinlicher im Strudel zu finden."
-  )
+  "wahrscheinlicher im Strudel zu finden.")
 
 N("Overgrown Woods", GEN_M, "Überwucherter Wald", "Überwucherte Wälder", "Überwucherter Wald")
 N("Mutant Ivy", GEN_M, "Mutierter Efeu", "Mutierter Efeu", "Mutierter Efeu")
@@ -2916,8 +2836,7 @@ N("Forest Troll", GEN_M, "Waldtroll", "Waldtrolle", "Waldtroll")
 S("Forest Trolls create an impassable wall when they die.",
   "Waldtrolle erschaffen eine unpassierbare Wand wenn sie sterben.")
 
-S(
-  "The Overgrown Woods are filled with mutant ivies! These plants "
+S("The Overgrown Woods are filled with mutant ivies! These plants "
   "grow very fast. Each leaf, after being grown, can grow itself "
   "on the next turn. However, each part is only able to grow "
   "once in 16 turns. Outside of the Overgrown Woods, the Mutant Ivy "
@@ -2931,8 +2850,7 @@ S(
   "Züge wachsen. Außerhalb des überwuchertem Walds wächst mutierter Efeu "
   "nur auf hexagonalen Zellen.\n\n"
   "Vielleicht können die schnell wachsenden Pflanzen das Hungerproblem in "
-  "deiner Welt lösen? Töte mutierten Efeu um mutierte Sätzlinge zu erhalten."
-  )
+  "deiner Welt lösen? Töte mutierten Efeu um mutierte Sätzlinge zu erhalten.")
 
 S("Trees in this forest can be cut down. Big trees take two turns to cut down.",
   "Bäume in diesem Wald können gefällt werden. Große Bäume zu fällen dauert 2 Züge."

@@ -1,7 +1,13 @@
-// HyperRogue German translation, by Jeffrey Smith, Arriator und Phillip 'TheGons' Gonsior
+// HyperRogue German translation        -*-coding: utf-8-dos -*-
+// by Jeffrey Smith, Arriator, Phillip 'TheGons' Gonsior and Michael Heerdegen
 // Copyright (C) 2011-2016 Zeno Rogue, see 'hyper.cpp' for details
 
-// This translation file is encoded with UTF-8
+// This translation file is encoded with UTF-8.  It is currently
+// hosted at https://github.com/michael-heerdegen/hyper-german-trans.
+// Please send improvements and bug reports directly to
+// michael_heerdegen@web.de (in English or German) or via Github -
+// any help is welcome!
+
 
 // Nouns.
 
@@ -14,18 +20,17 @@
 // feminine (GEN_F), or
 // neuter (GEN_N).
 
-// 2) all the forms required by HyperRogue. For example, in Polish the following are
-// given:
-// The following forms are given:
+// 2) all the forms required by HyperRogue. The following forms are given:
 // nominative (referred to as %1),
 // nominative plural (%P1),
 // accusative (%a1),
-// ablative (%abl1) (for land names, locative "in/on..." is given instead of ablative).
+// dative (%abl1; for land names, "in (der/den) ..." should be given).
 
 // Feel free to add more or less forms or types if needed. Note that you don't
 // have to provide all the forms in your language, only those used by HyperRogue
 // (in Polish just 4 of 14 forms are used, and this is probably similar in other
-// languages).
+// languages).  The forms being replaced are defined in language.cpp; search for
+// "if(l == 5)".
 
 // monsters
 N("Yeti", GEN_M, "Yeti", "Yetis", "Yeti")

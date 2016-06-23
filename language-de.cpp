@@ -57,7 +57,7 @@ N("Eagle", GEN_M, "Adler", "Adler", "Adler")
 N("Seep", GEN_M, "Tropfer", "Tropfer", "Tropfer")
 N("Zombie", GEN_M, "Zombie", "Zombies", "Zombie")
 N("Ghost", GEN_M, "Geist", "Geister", "Geist")
-N("Necromancer", GEN_M, "Nekromant", "Nekromanten", "Nekromant")
+N("Necromancer", GEN_M, "Totenbeschwörer", "Totenbeschwörer", "Totenbeschwörer")
 N("Shadow", GEN_M, "Schatten", "Schatten", "Schatten")
 N("Tentacle", GEN_F, "Tentakel", "Tentakel", "Tentakel")
 N("Tentacle Tail", GEN_M, "Tentakel Schweif", "Tentakel Schweif", "Tentakel Schweif")
@@ -80,7 +80,7 @@ N("Spice", GEN_N, "Spice", "Spice", "Spice")
 N("Ruby", GEN_M, "Rubin", "Rubine", "Rubin")
 N("Elixir of Life", GEN_N, "Lebenselixir", "Lebenselixir", "Lebenselixir")
 N("Shard", GEN_F, "Scherbe", "Scherben", "Scherbe")
-N("Necromancer's Totem", GEN_N, "Nekromanten Totem", "Nekromanten Totem", "Nekromanten Totem")
+N("Necromancer's Totem", GEN_N, "Totenbeschwörer-Totem", "Totenbeschwörer-Totems", "Totenbeschwörer-Totem")
 N("Demon Daisy", GEN_M, "Dämonenblümchen", "Dämonenblümchen", "Dämonenblümchen")
 N("Statue of Cthulhu", GEN_F, "Cthulhu Statue", "Cthulhu Statuen", "Cthulhu Statue")
 N("Phoenix Feather", GEN_F, "Phönixfeder", "Phönixfedern", "Phönixfeder")
@@ -88,7 +88,7 @@ N("Ice Sapphire", GEN_M, "Frostsaphir", "Frostsaphire", "Frostsaphir")
 N("Hyperstone", GEN_M, "Hyperstein", "Hypersteine", "Hyperstein")
 N("Key", GEN_M, "Schlüssel", "Schlüssel", "Schlüssel")
 N("Dead Orb", GEN_M, "Orb der Toten", "Orbs der Toten", "Orb der Toten")
-N("Fern Flower", GEN_M, "Farn", "Farn", "Farn")
+N("Fern Flower", GEN_M, "Farnblüte", "Farnblüten", "Farnblüte")
 // orbs: we are using a macro here
 #define Orb(E, P) N("Orb of " E, GEN_M, "Orb " P, "Orbs " P, "Orb " P)
 Orb("Yendor", "des Yendor")
@@ -225,7 +225,7 @@ S("You feel that %the1 slowly become%s1 dangerous...", "Du spürst wie %der1 %1 
 S("Better find some other place.", "Du solltest besser einen anderen Ort finden.")
 S("You have a vision of the future, fighting demons in Hell...", "Du hast eine Vision, du wirst in der Zukunft Dämonen in der Hölle bekämpfen...")
 S("With this Elixir, your life should be long and prosperous...", "Mit diesem Elixir sollte dein Leben lang und wohlhabend sein...")
-S("The Necromancer's Totem contains hellish incantations...", "Das Nekromanten Totem enthält diabolische Zaubersprüche...")
+S("The Necromancer's Totem contains hellish incantations...", "Das Totenbeschwörer-Totem enthält diabolische Zaubersprüche...")
 S("The inscriptions on the Statue of Cthulhu point you toward your destiny...", "Die Inschrift auf Cthulhus Statue zeigt dir den Weg zu deinem Schicksal...")
 S("Still, even greater treasures lie ahead...", "Dich erwarten größere Schätze auf deinem Weg")
 S("You collect %the1.", "Du sammelst %den1 %a1.")
@@ -536,8 +536,8 @@ S(
  "This also produces some Spice. They move two times slower than you.",
 
  "Diese riesigen Monster leben normalerweise unter dem Sand, aber deine Bewegungen haben sie "
- "geweckt. Sie sind zu groß, als dass du sie mit deinen Waffen erschlagen könntest, "
- "aber du kannst sie besiegen, indem du ihre Bewegung verhinderst. "
+ "geweckt. Sie sind zu groß, als dass du sie mit deinen Waffen erschlagen könntest. "
+ "Du kannst sie besiegen, indem du dafür sorgst, dass sie sich nicht mehr bewegen können. "
  "Dies produziert auch etwas Spice. Sie bewegen sich halb so schnell wie du.")
 
 S("The tentacles of Cthulhu are like sandworms, but longer. "
@@ -552,7 +552,7 @@ S(
  "order. The root itself is vulnerable.",
   "Eine riesige Pflanze, die im Dschungel wächst. Jeder Efeu hat viele Zweige, "
  "und jedes Mal, wenn du dich bewegst, wächst einer. Sie wachsen im Uhrzeigersinn. "
- "Die Wurzel selbst ist verwundbar.\n")
+ "Die Wurzel selbst ist verwundbar.")
 
 S("The Alchemists produce magical potions from pools of blue and red slime. You "
  "can go through these pools, but you cannot move from a blue pool to a red "
@@ -562,11 +562,11 @@ S("The Alchemists produce magical potions from pools of blue and red slime. You 
  "but when they are killed, they explode, destroying items and changing "
  "the color of the slime and slime beasts around them.",
 "Die Alchemisten produzieren magische Tränke aus Lachen von blauem und rotem Schleim. "
- "Du kannst durch sie hindurchgehen, aber du kannst nicht von Blau zu Rot wechseln, oder von "
- "Rot zu Blau. Lachen mit Gegenständen darin sind farblos, und werden zu der Farbe, auf der "
- "du schreitest, sobald diese aufgehoben werden. Schleimmonster müssen auch auf ihrer Farbe "
- "bleiben, wenn sie allerdings sterben explodieren sie, zerstören Items und "
- "ändern die Farbe von Schleim und Schleimmonstern um sie herum.\n")
+ "Du kannst durch sie hindurchgehen, aber du kannst nicht von Blau zu Rot wechseln oder umgekehrt. "
+ "Lachen mit Gegenständen darin sind farblos und bekommen die Farbe, auf der " // FIXME: find sysonym for "Lachen"
+ "du zuletzt warst, wenn du den Gegenstand aufhebst. Schleimmonster müssen auch auf ihrer Farbe "
+ "bleiben. Wenn sie sterben, explodieren sie, zerstören Items und "
+  "ändern die Farbe von Schleim und Schleimmonstern um sie herum.")
 
 S(
  "These creatures are slow, but very powerful... more powerful than you. "
@@ -577,9 +577,9 @@ S(
 
   "Diese Kreaturen sind langsam, aber sehr mächtig... mächtiger als du. "
  "Du brauchst Erfahrung im Kampf gegen Dämonen, bevor du sie besiegen kannst. "
- "Sogar dann kannst du vielleicht diesen töten, aber es werden stärkere Dämonen kommen...\n\n"
- "Jedes Mal, wenn du 10 schwache Dämonen tötest, wirst du stark genug, um alle mächtigen Dämonen "
- "auf dem Bildschirm zu töten (du verwandelst sie in schwache Dämonen). ")
+ "Trotzdem bist du in der Lage, diesen zu töten, aber es werden stärkere Dämonen kommen...\n\n"
+ "Jedes Mal, wenn du 10 schwache Dämonen getötet hast, wirst du stark genug, um alle mächtigen Dämonen "
+ "auf dem Bildschirm zu töten, indem du sie in schwache Dämonen verwandelst.")
 
 S("These creatures are slow, but they often appear in large numbers.",
   "Diese Monster sind langsam aber sie erscheinen oft in großen Gruppen.")
@@ -598,10 +598,10 @@ S(
  "currently of a different type than the majority of cells around it, it switches. "
  "Items count as three floor cells, and dead Trolls count as five wall cells. "
  "Some foreign monsters also count as floor or wall cells.\n",
- "Diese Höhle enthält Wände die leben. Nach jedem Zug zählt jede Zelle "
- "die Zahl von lebenden Wänden und Böden um sich ab und wenn sie der Minderheit entspricht, wechselt sie. "
- "Gegenstände zählen als drei Böden, und tote Trolle zählen als fünf Wände. "
- "Manche fremden Monster zählen auch als Böden oder Wände.\n")
+ "Diese Höhle enthält Wände, die auf irgendeine Art leben. Nach jedem Zug zählt jede Zelle "
+ "die Zahl von lebenden Wänden und Böden um sich herum. Wenn sie von anderer Art als die Mehrzahl der umgebenden Zellen ist, wandelt sie sich um. "
+ "Gegenstände zählen als drei Böden; tote Trolle zählen als fünf Wände. "
+ "Manche fremde Monster zählen auch als Böden oder Wände.\n")
 
 S(
  "This forest is quite dry. Beware the bushfires!\n"
@@ -609,10 +609,10 @@ S(
  "rises once per turn for each fire nearby, and becomes fire itself "
  "when its temperature has risen 10 times.\n"
  "You can also cut down the trees. Big trees take two turns to cut down.",
- "Dieser Wald ist ziemlich trocken. Vorsicht, Waldbrand!\n"
+ "Dieser Wald ist ziemlich trocken. Achtung - Waldbrände!\n"
  "Bäume fangen im nächsten Zug Feuer. Die Temperatur von Gras steigt jeden Zug für jedes Feuer in der Nähe, "
  "und wird selbst zu Feuer wenn dies 10-mal geschehen ist.\n"
- "Du kannst auch die Bäume fällen. Große Bäume brauchen zwei Züge dafür."
+ "Du kannst auch die Bäume fällen. Große Bäume zu fällen dauert zwei Züge."
  )
 
 S("A big and quite intelligent monster living in the Icy Land.",
@@ -621,38 +621,39 @@ S("A big and quite intelligent monster living in the Icy Land.",
 S(
  "A nasty predator from the Icy Land. Contrary to other monsters, "
  "it tracks its prey by their heat.",
- "Ein ziemlich fieser Jäger des Eisigen Landes. Anders als andere Monster, finden diese ihre Beute anhand ihrer Temperatur.")
+ "Ein scheußlicher Jäger des Eisigen Landes. Anders als andere Monster findet er seine Beute durch deren Wärme.")
 
 S("Rangers take care of the magic mirrors in the Land of Mirrors. "
  "They know that rogues like to break these mirrors... so "
  "they will attack you!",
- "Ranger nehmen die beschützen die Zauberspiegel im Spiegelland. Sie wissen, dass Schurken wie du "
- "gerne die Spiegel zerbrechen, also greifen sie dich an!")
+ "Ranger beschützen die Zauberspiegel im Spiegelland. Sie wissen, dass Schurken wie du "
+ "die Spiegel gerne zerbrechen - also greifen sie dich an!")
 
 S("A nasty creature native to the Living Caves. They don't like you "
  "for some reason.",
- "Ein fieses Geschöpf, das in den Lebenden Höhlen haust. Irgendwie können sie dich nicht leiden.")
+ "Ein grässliches Geschöpf, das in den Lebenden Höhlen haust. Irgendwie können diese Kreaturen dich nicht leiden.")
 
 S("A tribe of men native to the Desert. They have even tamed the huge Sandworms, who won't attack them.",
-  "Ein Menschenstamm, der in der Wüste lebt. Sie haben es sogar geschafft die Sandwürmer zu zähmen.")
+  "Ein Volk, das in der Wüste lebt. Sie haben es sogar geschafft, die Sandwürmer so zu zähmen, "
+  "dass diese sie nicht angreifen.")
 
-S("This giant ape thinks that you are an enemy.", "Dieser Riesenaffe glaubt, du bist sein Feind.")
+S("This giant ape thinks that you are an enemy.", "Dieser riesige Affe glaubt, dass du ein Feind bist.")
 
 S("A magical being which copies your movements.", "Ein magisches Wesen, das deine Bewegungen kopiert.")
 
 S("A magical being which copies your movements. "
  "You feel that it would be much more useful in an Euclidean space.",
  "Ein magisches Wesen, das deine Bewegungen kopiert.\n"
- "Du hast das Gefühl, als wäre es in einer euklidischen Umgebung viel nützlicher.")
+ "Du hast das Gefühl, es wäre in einer euklidischen Umgebung viel nützlicher.")
 
 S("You can summon these friendly constructs with a magical process.",
-  "Du kannst diese freundlichen Steinriesen mit einem Ritual beschwören.")
+  "Du kannst diese freundlichen Steinriesen mit einem Ritual beschwören.") // FIXME: correct?
 
 S("A majestic bird, who is able to fly very fast.",
   "Ein majestätischer Vogel der sehr schnell fliegt.")
 
 S("A monster who is able to live inside the living cave wall.",
-  "Ein Monster, das innerhalb der Lebenden Wände leben kann.")
+  "Ein Monster, das innerhalb der lebenden Wände leben kann.")
 
 S("A typical Graveyard monster.", "Ein typisches Friedhofsmonster.")
 
@@ -661,49 +662,50 @@ S("A typical monster from the Graveyard, who moves through walls.\n\n"
   "if you do not explore any new places for a long time (about 100 turns). "
   "They can appear anywhere in the game.",
   "Ein Monster das vom Friedhof stammt und sich durch Wände bewegen kann.\n\n"
-  "Es gibt auch Wandernde Geister, diese erscheinen wenn du dich lange (um die 100 Züge) "
-  "am selben Ort aufhältst. Sie können überall auftauchen."
+  "Es gibt auch umherirrende Geister. Diese erscheinen, wenn du dich lange (um die 100 Züge) "
+  "am selben Ort aufhältst. Sie können überall im Spiel auftauchen."
   )
 
 S("Necromancers can raise ghosts and zombies from fresh graves.",
-  "Nekromanten können Geister und Zombies aus frischen Gräbern beschwören.")
+  "Totenbeschwörer können Geister und Zombies aus frischen Gräbern auferwecken.")
 
 S("A creepy monster who follows you everywhere in the Graveyard.",
   "Ein gruseliges Monster das dir über den ganzen Friedhof folgt!")
 
 S("People worshipping Cthulhu. They are very dangerous.",
-  "Anhänger Cthulhus. Sie sind sehr gefährlich.")
+  "Verehrer Cthulhus. Sie sind sehr gefährlich.")
 
 S("People worshipping Cthulhu. This one is especially dangerous, "
  "as he is armed with a weapon which launches fire from afar.",
- "Anhänger Cthulhus. Dieser hier ist besonders gefährlich, er besitzt eine Waffe, die aus "
+ "Verehrer Cthulhus. Dieser ist besonders gefährlich, er besitzt eine Waffe, die aus "
  "der Ferne Feuer schleudern kann.")
 
 S("This dangerous predator has killed many people, and has been sent to Cocytus.",
-  "Dieser gefürchtete Jäger hat schon Viele das Leben gekostet, und wurde darum nach Kokytos entsandt.")
+  "Dieser gefürchtete Jäger hat schon viele das Leben gekostet und wurde nach Kokytos geschickt.")
 
 S("This white dog is able to run all the time. It is the only creature "
  "able to survive and breed in the Land of Eternal Motion.",
- "Dieser weiße Hund kann die ganze Zeit rennen! Es die einzige Kreatur, die im "
- "Land der Endlosen Antriebs überleben, und sich vermehren kann.")
+ "Dieser weiße Hund kann unablässig rennen. Er ist die einzige Kreatur, die im "
+ "Land des Endlosen Antriebs überleben und sich vermehren kann.")
 
 S("Demons of Hell do not drown when they fall into the lake in Cocytus. "
  "They turn into demonic sharks, enveloped in a cloud of steam.",
- "Dämonen aus der Hölle ertrinken nicht wenn sie in den See von Kokytos fallen, stattdessen "
- "werden sie zu Dämonenhaien eingehüllt in eine Wolke aus Dampf.")
+ "Dämonen aus der Hölle ertrinken nicht, wenn sie in den See von Kokytos fallen. Stattdessen "
+ "werden sie zu Dämonenhaien, eingehüllt in eine Wolke aus Dunst.")
 
 S("These fairies would rather burn the forest, than let you get some Fern Flowers. "
  "The forest is infinite, after all...\n\n"
  "Fire Fairies transform into fires when they die.",
- "Diese Feen würden eher den ganzen Wald abfackeln, als dich Farn sammeln zu lassen. "
+ "Diese Feen würden eher den ganzen Wald niederbrennen als dich Farnblüten sammeln zu lassen. "
  "Der Wald ist schließlich grenzenlos...\n\n"
- "Wenn Feuerfeen sterben werden sie selbst zu Feuer.")
+ "Wenn Feuerfeen sterben, werden sie selbst zu Feuer.")
 
 S("These warriors of the Forest wield exotic weapons called hedgehog blades. "
  "These blades protect them from a frontal attack, but they still can be 'stabbed' "
  "easily by moving from one place next to them to another.",
- "Diese Krieger besitzen exotische Waffen, die Igelklingen. "
- "Diese schützen sie vor frontalen Attacken, aber Igelkrieger können dennoch 'erstochen' werden indem du dich sie seitlich oder von hinten angreifst.")
+ "Diese Krieger des Waldes besitzen exotische Waffen, die Igelklingen. "
+ "Diese schützen sie vor frontalen Angriffen - aber sie können dennoch "
+  "'erstochen' werden indem man sich direkt neben ihnen von einer Zelle auf eine andere bewegt.")
 
 S("This being radiates an aura of wisdom. "
  "It is made of a beautiful crystal, you would love to take it home. "
@@ -828,9 +830,9 @@ S("A heap of wood that can be used to start a fire. Everything is already here, 
 
 S("An ancient grave.", "Ein antikes Grab.")
 
-S("A fresh grave. Necromancers like those.", "Ein frisches Grab. Nekromanten mögen diese.")
+S("A fresh grave. Necromancers like those.", "Ein frisches Grab. Totenbeschwörer mögen diese.")
 
-S("A piece of architecture typical to R'Lyeh.", "Ein Stück R'Lyeh typischer Architektur.")
+S("A piece of architecture typical to R'Lyeh.", "Ein Stück R'Lyeh-typischer Architektur.")
 
 S("An impassable lake in Cocytus.", "Ein undurchdringbarer See im Kokytos.")
 

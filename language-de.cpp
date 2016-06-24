@@ -16,7 +16,7 @@
 // 1) the type (usually gender) of the noun. For example, in Polish each noun can be:
 
 // masculine living (GEN_M),
-// masculine object (GEN_O),
+// masculine object (GEN_O), //FIXME: do we need this?
 // feminine (GEN_F), or
 // neuter (GEN_N).
 
@@ -43,11 +43,11 @@ N("Sand Worm Tail", GEN_M, "Sandwurm Schweif", "Sandwurm Schweife", "Sandwurm Sc
 N("Sand Worm W", GEN_M, "Sandwurm W", "Sandwürmer W", "Sandwurm W")
 N("Desert Man", GEN_M, "Wüstenläufer", "Wüstenläufer", "Wüstenläufer")
 N("Ivy Root", GEN_F, "Efeu Wurzel", "Efeu Wurzeln", "Efeu Wurzel")
-N("Active Ivy", GEN_M, "Lebender Efeu", "Lebende Efeu", "Lebenden Efeu")
+N("Active Ivy", GEN_M, "Lebender Efeu", "Lebende Efeue", "Lebenden Efeu")
 N("Ivy Branch", GEN_M, "Efeuzweig", "Efeuzweige", "Efeuzweig")
-N("Dormant Ivy", GEN_M, "Ruhender Efeu", "Ruhende Efeu", "Ruhenden Efeu")
-N("Ivy N", GEN_M, "Efeu N", "Efeu N", "Efeu N")
-N("Ivy D", GEN_M, "Efeu D", "Efeu D", "Efeu D")
+N("Dormant Ivy", GEN_M, "Ruhender Efeu", "Ruhende Efeue", "Ruhenden Efeu")
+N("Ivy N", GEN_M, "Efeu N", "Efeue N", "Efeu N")
+N("Ivy D", GEN_M, "Efeu D", "Efeue D", "Efeu D")
 N("Giant Ape", GEN_M, "Riesenaffe", "Riesenaffen", "Riesenaffen")
 N("Slime Beast", GEN_F, "Schleimbestie", "Schleimbestien", "Schleimbestie")
 N("Mirror Image", GEN_N, "Spiegelbild", "Spiegelbilder", "Spiegelbild")
@@ -126,7 +126,7 @@ N("big tree", GEN_M, "Großer Baum", "Große Bäume", "Großer Baum")
 N("tree", GEN_M, "Baum", "Bäume", "Baum")
 // lands
 N("Great Wall", GEN_F, "Große Mauer", "Großen Mauern", "auf der Großen Mauer")
-N("Crossroads", GEN_F, "Kreuzungen", "Kreuzungen", "auf den Kreuzungen")
+N("Crossroads", GEN_F, "Kreuzungen", "Kreuzungen", "auf den Kreuzungen") // FIXME: what sex to use here (plural...?)
 N("Desert", GEN_F, "Wüste", "Wüsten", "in der Wüste")
 N("Icy Land", GEN_N, "Eisiges Land", "Eisige Länder", "im Eisigen Land")
 N("Living Cave", GEN_F, "Lebendige Höhle", "Lebendige Höhlen", "in der Lebendigen Höhle")
@@ -1270,7 +1270,7 @@ S("\"Nice castle, eh?\"", "\"Nettes Schloss, nicht?\"")
 // Temple
 
 N("Temple of Cthulhu", GEN_M, "Cthulhus Tempel", "Cthulhus Tempel", "in Cthulhus Tempel")
-N("big statue of Cthulhu", GEN_F, "große Cthulhu Statue", "große Cthulhu Statuen", "große Cthulhu Statue")
+N("big statue of Cthulhu", GEN_F, "große Cthulhu Statue", "große Cthulhu Statuen", "große Cthulhu Statue") // FIXME: 3/=4
 N("Grimoire", GEN_N, "Grimoire", "Grimoires", "Grimoire")
 N("Cult Leader", GEN_M, "Anführer des Kultes", "Anführer des Kultes", " Anführer des Kultes")
 
@@ -1683,7 +1683,7 @@ S("Those large seabirds attack you for some reason. At least they are not "
   "Diese großen Seevögel greifen dich aus irgendeinem Grund an. "
   "Wenigstens sind sie langsamer als Adler...")
 
-N("stranded boat", GEN_N, "gestrandetes Boot", "gestrandete Boote", "gestrandete Boot")
+N("stranded boat", GEN_N, "gestrandetes Boot", "gestrandete Boote", "gestrandete Boot") // FIXME: 3/=4
 
 S("This boat cannot go through the sand. But if you sit inside and "
   "wait for the tide, you will be able to use it to travel through the Ocean.",
@@ -1840,8 +1840,8 @@ N("trapdoor", GEN_F, "Falltür", "Falltüren", "Falltür")
 S("This floor will fall after someone goes there. Go quickly!",
   "Der Boden wird zusammenbrechen sobald jemand über ihn geht. Beeile dich!")
 
-N("closed gate", GEN_N, "Geschlossenes Tor", "Geschlossene Tore", "Geschlossene Tor")
-N("open gate", GEN_N, "Offenes Tor", "Offene Tor", "Offenes Tor")
+N("closed gate", GEN_N, "Geschlossenes Tor", "Geschlossene Tore", "Geschlossene Tor") // FIXME: 3/=4
+N("open gate", GEN_N, "Offenes Tor", "Offene Tor", "Offenes Tor")// FIXME: 3/=4
 N("closing plate", GEN_M, "Schließmechanismus", "Schließmechanismen", "Schließsmechanismus")
 N("opening plate", GEN_M, "Öffnungsmechanismus", "Öffnungsmechanismen", "Öffnungsmechanismus")
 
@@ -2046,7 +2046,7 @@ S("\"Have you tried to take a boat and go into the Ocean? Try it!\"", "\"Hast du
 
 // new name for 'Ivy D'
 
-N("Dead Ivy", GEN_M, "Toter Efeu", "Tote Efeu", "Toter Efeu")
+N("Dead Ivy", GEN_M, "Toter Efeu", "Tote Efeue", "Toten Efeu")
 
 // new messages for living/nonliving monsters
 
@@ -2197,7 +2197,7 @@ S("%The1 squeaks with hope!", "%Die1 %1 piepst hoffnungsvoll!");
 S("%The1 squeaks happily!", "%Die1 %1 piepst fröhlich!");
 S("%The1 squeaks excitedly!", "%Die1 %1 piepst aufgeregt!");
 
-N("giant rug", GEN_O, "Riesiger Teppich", "Riesige Teppiche", "Riesiger Teppich")
+N("giant rug", GEN_O, "Riesiger Teppich", "Riesige Teppiche", "Riesigen Teppich")
 
 S("This is the biggest Hypersian Rug you have ever seen! "
   "Unfortunately, it is too large to take it as a trophy.",
@@ -2272,7 +2272,7 @@ N("Fire", GEN_N, "Feuer", "Feuer", "Feuer")
 S("This cell is on fire. Most beings and items cannot survive.",
   "Diese Zelle brennt. Die meisten Items und Monster können dies nicht überleben.")
 
-N("Eternal Fire", GEN_N, "Ewiges Feuer", "Ewiges Feuer", "Ewiges Feuer")
+N("Eternal Fire", GEN_N, "Ewiges Feuer", "Ewige Feuer", "Ewige Feuer") // FIXME: 3/=4
 S("This fire never burns out.", "Dieses Feuer erlischt niemals.")
 
 S("Some rubble.", "Trümmer.")
@@ -2494,7 +2494,7 @@ S("This Orb allows to temporarily create impassable matter, either to block path
   "Dieser Orb erlaubt es dir, unpassierbare temporäre Materie zu erzeugen, um "
   "Pfade zu blockieren oder Brücken über Wasser und Schluchten zu bauen.")
 
-N("temporary wall", GEN_F, "temporäre Wand", "temporäre Wände", "temporäre Wand")
+N("temporary wall", GEN_F, "temporäre Wand", "temporäre Wände", "temporäre Wand")// FIXME: 3/=4 (3*)
 N("temporary floor", GEN_M, "temporärer Boden", "temporäre Böden", "temporären Boden")
 N("temporary bridge", GEN_F, "temporäre Brücke", "temporäre Brücken", "temporäre Brücke")
 
@@ -2596,7 +2596,7 @@ S(" Additionally, all items around the killed Troll will be destroyed.",
 
 // 'dead cave troll' and 'dead troll' are separated now
 
-N("dead rock troll", GEN_M, "toter Felsentroll" ,"tote Felsentrolle", "toter Felsentroll")
+N("dead rock troll", GEN_M, "toter Felsentroll" ,"tote Felsentrolle", "toten Felsentroll")
 
 S("There are several species of trolls living in the hyperbolic world. "
   "Some of them leave this wall behind them when they die.",
@@ -2795,8 +2795,8 @@ N("metal wall", GEN_F, "Metallwand", "Metallwände", "Metallwand")
 N("sandstone wall", GEN_F, "Sandsteinwand", "Sandsteinwände", "Sandsteinwand")
 N("Storm Troll", GEN_M, "Sturmtroll", "Sturmtrolle", "Sturmtroll")
 N("Metal Beast", GEN_N, "Metallbiest", "Metallbiester", "Metallbiest")
-N("Rich Metal Beast", GEN_N, "Ergiebiges Metallbiest", "Ergiebige Metallbiester", "Ergiebiges Metallbiest")
-N("electric discharge", GEN_N, "Elektrische Entladung", "Elektrische Entladungen", "Elektrische Entladung")
+N("Rich Metal Beast", GEN_N, "Ergiebiges Metallbiest", "Ergiebige Metallbiester", "Ergiebige Metallbiest")// FIXME: 3/=4
+N("electric discharge", GEN_N, "Elektrische Entladung", "Elektrische Entladungen", "Elektrische Entladung")// FIXME: 3/=4
 
 S("There is a flash of thunder!", "Ein Blitz!")
 
@@ -2830,8 +2830,8 @@ S("This Orb allows you to find new lands more easily. "
   "wahrscheinlicher im Strudel zu finden.")
 
 N("Overgrown Woods", GEN_M, "Überwucherter Wald", "Überwucherte Wälder", "Überwucherter Wald")
-N("Mutant Ivy", GEN_M, "Mutierter Efeu", "Mutierter Efeu", "Mutierter Efeu")
-N("Mutant Sapling", GEN_M, "Mutierter Sätzling", "Mutierte Sätzlinge", "Mutierter Sätzling")
+N("Mutant Ivy", GEN_M, "Mutierter Efeu", "Mutierte Efeue", "Mutierten Efeu")
+N("Mutant Sapling", GEN_M, "Mutierter Sätzling", "Mutierte Sätzlinge", "Mutierten Sätzling")
 N("Forest Troll", GEN_M, "Waldtroll", "Waldtrolle", "Waldtroll")
 
 S("Forest Trolls create an impassable wall when they die.",

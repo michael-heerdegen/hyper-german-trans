@@ -126,7 +126,7 @@ N("big tree", GEN_M, "Großer Baum", "Große Bäume", "Großer Baum")
 N("tree", GEN_M, "Baum", "Bäume", "Baum")
 // lands
 N("Great Wall", GEN_F, "Große Mauer", "Großen Mauern", "auf der Großen Mauer")
-N("Crossroads", GEN_F, "Kreuzung", "Kreuzungen", "an der Kreuzung")
+N("Crossroads", GEN_F, "Kreuzungen", "Kreuzungen", "auf den Kreuzungen")
 N("Desert", GEN_F, "Wüste", "Wüsten", "in der Wüste")
 N("Icy Land", GEN_N, "Eisiges Land", "Eisige Länder", "im Eisigen Land")
 N("Living Cave", GEN_F, "Lebendige Höhle", "Lebendige Höhlen", "in der Lebendigen Höhle")
@@ -331,7 +331,7 @@ S("Collect at least 10 treasures in each of 9 types to access Hell", "Sammle 9 v
 S("Collect at least 10 Demon Daisies to find the Orbs of Yendor", "Sammle mindestens 10 Dämonenblümchen um die Orbs von Yendor zu finden")
 S("Hyperstone Quest: collect at least 10 %1 in %the2", "Hyperstein Quest: Sammle 10 %1 %a2")
 S("Hyperstone Quest completed!", "Hyperstein Quest abgeschlossen!")
-S("Look for the Orbs of Yendor in Hell or in the Crossroads!", "Such die Orbs von Yendor in der Hölle oder auf der Kreuzung!")
+S("Look for the Orbs of Yendor in Hell or in the Crossroads!", "Such die Orbs von Yendor in der Hölle oder auf den Kreuzungen!")
 S("Unlock the Orb of Yendor!", "Öffne den Orb von Yendor!")
 S("Defeat 100 enemies to access the Graveyard", "Töte 100 Gegner um Zugang zum Friedhof zu erhalten")
 S("(press ESC during the game to review your quest)", "(Drücke ESC während des Spiels, um deine aktuelle Quest anzuzeigen)")
@@ -740,7 +740,7 @@ S("One of few things that does not cause the floor in the Land of Eternal Motion
 S("Cold blue gems, found in the Cocytus.", "Kalte, blaue Edelsteine aus dem Kokytos.")
 
 S("These bright yellow gems can be found only by those who have mastered the Crossroads.",
-  "Diese hellen, gelben Edelsteine können nur von denen gefunden werden, die die Kreuzung gemeistert haben.")
+  "Diese hellen, gelben Edelsteine können nur von denen gefunden werden, die die Kreuzungen gemeistert haben.")
 
 S("That's all you need to unlock the Orb of Yendor! Well... as long as you are able to return to the Orb that this key unlocks...\n\n"
   "Each key unlocks only the Orb of Yendor which led you to it.",
@@ -831,7 +831,7 @@ S("This land is a quick gateway to other lands. It is very easy to find other la
   "A special treasure, Hyperstone, can be found on the Crossroads, but only "
   "after you have found 10 of every other treasure.",
   "Dieses Land ist gut um schnell andere Länder zu erreichen. Es ist sehr einfach, diese von hier aus zu finden. Das bedeutet, dass hier auch Monster aus den meisten anderen Ländern sein können!\n\n"
-  "Solange du genug Schätze in den Ländern gefunden hast, erscheinen magische Gegenstände in der Kreuzung. Spiegel und Wolken stammen aus dem Spiegelland, Orbs aus anderen Länder.\n\n"
+  "Solange du genug Schätze in den Ländern gefunden hast, erscheinen magische Gegenstände auf den Kreuzungen. Spiegel und Wolken stammen aus dem Spiegelland, Orbs aus anderen Länder.\n\n"
   "Ein besonderer Schatz, der Hyperstein, kann hier gefunden werden aber du musst erst 10 von allen anderen Schätzen haben.")
 
 S("A hot land, full of sand dunes, mysterious Spice, and huge and dangerous sand worms.",
@@ -1335,7 +1335,7 @@ S("You overheard Hedgehog Warriors talking about emeralds...",
 S("You overhear miners talking about a castle...",
   "Du hörst Minenarbeiter über ein Schloss sprechen...")
 
-S("A castle in the Crossroads...", "Ein Schloss in der Kreuzung...")
+S("A castle in the Crossroads...", "Ein Schloss in den Kreuzungen...")
 
 /*
   S("You can find Temples of Cthulhu in R'Lyeh once you collect five Statues of Cthulhu.",
@@ -1407,12 +1407,12 @@ S("also hold Alt during the game to toggle high contrast",
 
 // Crossroads II
 
-N("Crossroads II", GEN_N, "II. Kreuzung", "II. Kreuzungen", "auf der II. Kreuzung")
+N("Crossroads II", GEN_N, "II. Kreuzungen", "II. Kreuzungen", "auf den II. Kreuzungen")
 
 S("An alternate layout of the Crossroads. It is more dense and more regular, "
   "although you won't find the castle of Camelot here.",
 
-  "Ein alternatives Layout der Kreuzung. Es ist beständiger und dichter, aber du findest Camelot hier nicht.")
+  "Ein alternatives Layout der Kreuzungen. Es ist beständiger und dichter, aber du findest Camelot hier nicht.")
 
 // Caribbean
 
@@ -2571,10 +2571,10 @@ S("A black gem with white stripes. It is beautiful.", "Ein schwarzer Edelstein m
 // Crossroads III
 //================
 
-N("Crossroads III", GEN_F, "Kreuzung III", "Kreuzungen III", "an Kreuzung III")
+N("Crossroads III", GEN_F, "Kreuzungen III", "Kreuzungen III", "auf den Kreuzungen III")
 
 S("An alternate layout of the Crossroads. Great Walls cross here at right angles.",
-  "Ein alternatives Layout der Kreuzung. Große Mauern kreuzen sich hier in rechten Winkeln.")
+  "Ein alternatives Layout der Kreuzungen. Große Mauern kreuzen sich hier in rechten Winkeln.")
 
 S("Cannot create temporary matter on a monster!", "Temporäre Materie kann nicht auf einem Monster erzeugt werden!");
 S("Cannot create temporary matter on an item!", "Temporäre Materie kann nicht auf einem Item erzeugt werden!");

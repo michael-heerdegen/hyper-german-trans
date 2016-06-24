@@ -44,14 +44,14 @@ N("Sand Worm W", GEN_M, "Sandwurm W", "Sandwürmer W", "Sandwurm W")
 N("Desert Man", GEN_M, "Wüstenläufer", "Wüstenläufer", "Wüstenläufer")
 N("Ivy Root", GEN_F, "Efeu Wurzel", "Efeu Wurzeln", "Efeu Wurzel")
 N("Active Ivy", GEN_M, "Lebender Efeu", "Lebende Efeu", "Lebenden Efeu")
-N("Ivy Branch", GEN_M, "Efeu Zweig", "Efeu Zweige", "Efeu Zweig")
+N("Ivy Branch", GEN_M, "Efeuzweig", "Efeuzweige", "Efeuzweig")
 N("Dormant Ivy", GEN_M, "Ruhender Efeu", "Ruhende Efeu", "Ruhenden Efeu")
 N("Ivy N", GEN_M, "Efeu N", "Efeu N", "Efeu N")
 N("Ivy D", GEN_M, "Efeu D", "Efeu D", "Efeu D")
 N("Giant Ape", GEN_M, "Riesenaffe", "Riesenaffen", "Riesenaffen")
-N("Slime Beast", GEN_F, "Schleim Bestie", "Schleim Bestien", "Schleim Bestie")
-N("Mirror Image", GEN_N, "Trugbild", "Trugbilder", "Trugbild")
-N("Mirage", GEN_F, "Illusion", "Illusionen", "Illusion")
+N("Slime Beast", GEN_F, "Schleimbestie", "Schleimbestien", "Schleimbestie")
+N("Mirror Image", GEN_N, "Spiegelbild", "Spiegelbilder", "Spiegelbild")
+N("Mirage", GEN_F, "Luftspiegelung", "Luftspiegelungen", "Luftspiegelung")
 N("Golem", GEN_M, "Golem", "Golems", "Golem")
 N("Eagle", GEN_M, "Adler", "Adler", "Adler")
 N("Seep", GEN_M, "Tropfer", "Tropfer", "Tropfer")
@@ -66,12 +66,12 @@ N("Tentacle (withdrawing)", GEN_M, "Fliehende Tentakel", "Fliehenden Tentakel", 
 N("Cultist", GEN_M, "Anhänger", "Anhänger", "Anhänger")
 N("Fire Cultist", GEN_M, "Anhänger des Feuers", "Anhänger des Feuers", "Anhänger des Feuers")
 N("Greater Demon", GEN_M, "Mächtige Dämon", "Mächtigen Dämonen", "Mächtige Dämon")
-N("Lesser Demon", GEN_M, "Schwacher Dämon", "Schwachen Dämonen", "Schwache Dämon")
+N("Lesser Demon", GEN_M, "Gewöhnliche Dämon", "Gewöhnlichen Dämonen", "Gewöhnlichen Dämon")
 N("Ice Shark", GEN_M, "Frosthai", "Frosthaie", "Frosthai")
-N("Running Dog", GEN_M, "Streuner", "Streuner", "Streuner")
+N("Running Dog", GEN_M, "Rennende Hund", "Rennenden Hunde", "Rennenden Hund")
 N("Demon Shark", GEN_M, "Dämonenhai", "Dämonenhaie", "Dämonenhai")
 N("Fire Fairy", GEN_F, "Feuerfee", "Feuerfeen", "Feuerfee")
-N("Crystal Sage", GEN_M, "Kristall Weise", "Kristall Weisen", "Kristall Weise")
+N("Crystal Sage", GEN_M, "Kristallweise", "Kristallweisen", "Kristallweisen")
 N("Hedgehog Warrior", GEN_M, "Igelkrieger", "Igelkrieger", "Igelkrieger")
 // items
 N("Ice Diamond", GEN_M, "Frostdiamant", "Frostdiamanten", "Frostdiamant")
@@ -105,14 +105,14 @@ Orb("Thorns", "der Dornen")
 N("none", GEN_O, "keines", "keines", "keines")
 N("ice wall", GEN_F, "Eiswand", "Eiswände", "Eiswand")
 N("great wall", GEN_F, "Große Mauer", "Großen Mauern", "Große Mauer")
-N("red slime", GEN_M, "Rotem Schleim", "Rotem Schleim", "Roten Schleim")
-N("blue slime", GEN_M, "Blauer Schleim", "Blauer Schleim", "Blauer Schleim")
+N("red slime", GEN_M, "Roter Schleim", "Roten Schleime", "Roten Schleim")
+N("blue slime", GEN_M, "Blauer Schleim", "Blauen Schleime", "Blauen Schleim")
 N("living wall", GEN_F, "Lebende Wand", "Lebende Wände", "Lebende Wand")
 N("living floor", GEN_M, "Lebender Boden", "Lebende Böden", "Lebender Boden")
 N("dead troll", GEN_M, "Toter Troll" ,"Tote Trolle", "Toten Troll")
 N("sand dune", GEN_F, "Sanddüne", "Sanddünen", "Sanddüne")
 N("Magic Mirror", GEN_M, "Zauberspiegel", "Zauberspiegel", "Zauberspiegel")
-N("Cloud of Mirage", GEN_F, "Illusions Wolke", "Illusions Wolken", "Illusions Wolke")
+N("Cloud of Mirage", GEN_F, "Illusionswolke", "Illusionswolken", "Illusionswolke")
 N("Thumper", GEN_M, "Stampfer", "Stampfer", "Stampfer")
 N("Bonfire", GEN_N, "Leuchtfeuer", "Leuchtfeuer", "Leuchtfeuer")
 N("ancient grave", GEN_M, "Antike Grab", "Antike Gräber", "Antike Grab")
@@ -130,7 +130,7 @@ N("Crossroads", GEN_F, "Kreuzung", "Kreuzungen", "an der Kreuzung")
 N("Desert", GEN_F, "Wüste", "Wüsten", "in der Wüste")
 N("Icy Land", GEN_N, "Eisiges Land", "Eisige Länder", "im Eisigen Land")
 N("Living Cave", GEN_F, "Lebendige Höhle", "Lebendige Höhlen", "in der Lebendigen Höhle")
-N("Jungle", GEN_M, "Urwald", "Urwälder", "im Urwald")
+N("Jungle", GEN_M, "Dschungel", "Dschungel", "im Dschungel")
 N("Alchemist Lab", GEN_M, "Alchemielabor", "Alchemielabore", "im Alchemielabor")
 N("Mirror Land", GEN_M, "Spiegelland", "Spiegelländer", "im Spiegelland")
 N("Graveyard", GEN_M, "Friedhof", "Friedhöfe", "auf dem Friedhof")
@@ -213,14 +213,14 @@ S("%The1 would kill you there!", "%Der1 %1 würde dich dort töten!")
 S("Wow! %1! This trip should be worth it!", "Wow, %1! Diese Reise lohnt sich!")
 S("For now, collect as much treasure as possible...", "Aber sammle vorerst so viele Schätze wie möglich.")
 S("Prove yourself here, then find new lands, with new quests...", "Beweise hier deine Fähigkeiten und finde dann neue Länder mit neuen Aufgaben....")
-S("You collect your first %1!", "Du hast dein erstes mal %a1 eingesammelt!")
+S("You collect your first %1!", "Du hast dein erstes mal %a1 eingesammelt!") // FIXME
 S("You have found the Key! Now unlock this Orb of Yendor!", "Du hast den Schlüssel gefunden! Zeit den Orb von Yendor zu öffnen!")
 S("This orb is dead...", "Dieser Orb ist tot...")
 S("Another Dead Orb.", "Ein weiterer toter Orb.")
 S("You have found %the1!", "Du hast %den1 %a1 gefunden!")
 S("You feel that %the2 become%s2 more dangerous.", "Du spürst, dass %der2 %2 gefährlicher wird,")
-S("With each %1 you collect...", "mit jedem gesammeltem %a1")
-S("Are there any magical orbs in %the1?...", "Gibt es irgendwelche Orbs in %dem1 %d1?")
+S("With each %1 you collect...", "mit jedem gesammelten %abl1") // FIXME: Grammar
+S("Are there any magical orbs in %the1?...", "Gibt es irgendwelche Orbs in %dem1 %abl1?") // FIXME
 S("You feel that %the1 slowly become%s1 dangerous...", "Du spürst wie %der1 %1 langsam gefährlich wird...")
 S("Better find some other place.", "Du solltest besser einen anderen Ort finden.")
 S("You have a vision of the future, fighting demons in Hell...", "Du hast eine Vision, du wirst in der Zukunft Dämonen in der Hölle bekämpfen...")
@@ -242,8 +242,8 @@ S("You switch places with %the1.", "Du tauschst den Platz mit %dem1 %a1.")
 S("You rejoin %the1.", "Du stößt wieder zu %den1 %a1 hinzu")
 S("The mirror shatters!", "Der Spiegel zerbricht")
 S("The cloud turns into a bunch of images!", "Die Wolke verwandelt sich in mehrere Bilder!")
-S("The slime reacts with %the1!", "Der Schleim reagiert mit %dem %1!")
-S("You drop %the1.", "Du lässt %den1 %a1.")
+S("The slime reacts with %the1!", "Der Schleim reagiert mit %dem %abl1!")
+S("You drop %the1.", "Du legst %den1 %a1 ab.")
 S("You feel great, like a true treasure hunter.", "Du fühlst dich großartig, wie ein echter Schatzjäger.")
 S("Your eyes shine like gems.", "Deine Augen funkeln wie Edelsteine.")
 S("Your eyes shine as you glance at your precious treasures.", "Deine Augen strahlen als du die Schätze erblickst.")
@@ -350,15 +350,15 @@ S("time", "zeit")
 S("ver", "ver")
 S("SORT", "SORT")
 S("PLAY", "START")
-S("Your total wealth", "Dein Gesamt Reichtum")
+S("Your total wealth", "Dein Gesamtvermögen")
 S("treasure collected: %1", "Schätze gesammelt: %1")
 S("objects found: %1", "Objekte gefunden: %1")
 S("orb power: %1", "Orb Kraft: %1")
-S(" (click to drop)", " (Klicke zum Fallenlassen)")
-S("You can also scroll to the desired location and then press 't'.", "Du kannst auch an die gewünschte Position scrollen und T drücken.")
+S(" (click to drop)", " (Klicke zum Ablegen)")
+S("You can also scroll to the desired location and then press 't'.", "Du kannst auch an die gewünschte Position scrollen und 't' drücken.")
 S("Thus, it is potentially useful for extremely long games, which would eat all the memory on your system otherwise.\n",
   "Dies ist nützlich für sehr lange Spiele, welche ansonsten viel Speicher nutzen würden.")
-S("You can touch the Dead Orb in your inventory to drop it.", "Du kannst den toten Orb in deinem Inventar berühren, um ihn fallenzulassen..")
+S("You can touch the Dead Orb in your inventory to drop it.", "Du kannst den toten Orb in deinem Inventar berühren, um ihn abzulegen.")
 S("This might be useful for Android devices with limited memory.", "Könnte für Android-Geräte mit begrenztem Speicher nützlich sein.")
 S("You can press 'g' or click them in the list to drop a Dead Orb.", "Du kannst 'g' drücken oder sie in der Liste anklicken um tote Orbs fallenzulassen.")
 S("frames per second", "FPS")
@@ -536,7 +536,7 @@ S("These huge monsters normally live below the sand, but your movements have "
 S("The tentacles of Cthulhu are like sandworms, but longer. "
   "They also withdraw one cell at a time, instead of exploding instantly.",
 
-  "Die Tentakel von Cthulhu sind wie Sandwürmer, nur länger. "
+  "Die Tentakel von Cthulhu sind wie Sandwürmer, aber länger. "
   "Anstatt zu explodieren ziehen sie sich zurück, eine Zelle nach der anderen.")
 
 S("A huge plant growing in the Jungle. Each Ivy has many branches, "
@@ -569,8 +569,8 @@ S("These creatures are slow, but very powerful... more powerful than you. "
   "Diese Kreaturen sind langsam, aber sehr mächtig... mächtiger als du. "
   "Du brauchst Erfahrung im Kampf gegen Dämonen, bevor du sie besiegen kannst. "
   "Trotzdem bist du in der Lage, diesen zu töten, aber es werden stärkere Dämonen kommen...\n\n"
-  "Jedes Mal, wenn du 10 schwache Dämonen getötet hast, wirst du stark genug, um alle mächtigen Dämonen "
-  "auf dem Bildschirm zu töten, indem du sie in schwache Dämonen verwandelst.")
+  "Jedes Mal, wenn du 10 gewöhnliche Dämonen getötet hast, wirst du stark genug, um alle mächtigen Dämonen "
+  "auf dem Bildschirm zu töten, indem du sie in gewöhnliche Dämonen verwandelst.")
 
 S("These creatures are slow, but they often appear in large numbers.",
   "Diese Monster sind langsam aber sie erscheinen oft in großen Gruppen.")
@@ -698,40 +698,41 @@ S("This being radiates an aura of wisdom. "
   "But how is it going to defend itself? Better not to think of it, "
   "thinking causes your brain to go hot...\n\n"
   "Crystal Sages melt at -30 °C, and they can rise the temperature around you from afar.",
-  "Dieses Wesen strahlt eine Aura aus Weisheit aus. Es besteht aus einem schönen Kristall, "
+  "Dieses Wesen strahlt eine Aura der Weisheit aus. Es besteht aus einem schönen Kristall, "
   "am liebsten würdest du es mit nach Hause nehmen... Nur, wie verteidigt es sich? Besser "
-  "nicht daran denken... Denken verursacht Kopfschmerzen...\n\n"
-  "Kristallweisen schmelzen bei -30 °C, und können deine Temperatur aus der Ferne steigern.")
+  "nicht daran denken... Denken lässt dein Gehirn heiß werden...\n\n"
+  "Kristallweisen schmelzen bei -30 °C. Sie können die Temperatur um dich herum aus der Ferne ansteigen lassen.")
 
-S("Cold white gems, found in the Icy Land.", "Kalte, weiße Edelsteine aus dem Eisigem Land.")
+S("Cold white gems, found in the Icy Land.", "Kalte weiße Edelsteine aus dem Eisigen Land.")
 
 S("An expensive metal from the Living Caves. For some reason "
   "gold prevents the living walls from growing close to it.",
-  "Ein teures Metall aus den Lebenden Höhlen. Aus irgendeinem Grund verhindert Gold, dass Lebende Wände in seiner Nähe entstehen.")
+  "Ein teures Metall aus den Lebenden Höhlen. Aus irgendeinem Grund verhindert Gold, dass lebende Wände in seiner Nähe entstehen.")
 
 S("A rare and expensive substance found in the Desert. "
   "It is believed to extend life and raise special psychic powers.",
-  "Eine seltene, teure Substanz aus der Wüste. Man sagt, es verlängert das Leben und verleiht besondere, psychische Kräfte.")
+  "Eine seltene und teure Substanz aus der Wüste. Man sagt, sie verlängert das Leben und verleiht besondere, psychische Kräfte.")
 
-S("A beautiful gem from the Jungle.", "Ein schöner Edelstein aus dem Urwald.")
+S("A beautiful gem from the Jungle.", "Ein schöner Edelstein aus dem Dschungel.")
 
 S("A wonderful beverage, apparently obtained by mixing red and blue slime. You definitely feel more "
   "healthy after drinking it, but you still fell that one hit of a monster is enough to kill you.",
-  "Ein wundervolles Getränk, entstanden aus der Mischung blauen und roten Schleims. Du fühlst dich gesünder nach seinem Genuss und dennoch zerbrechlich genug, dass dich ein Schlag eines Monsters töten könnte. ")
+  "Ein wunderbares Getränk, anscheinend entstanden aus der Mischung von blauem und rotem Schleim. "
+  "Du fühlst dich definitiv gesünder nach seinem Genuss, aber trotzdem ahnst du, dass ein Schlag eines Monsters ausreichen würde, dich zu töten.")
 
 S("A piece of a magic mirror, or a mirage cloud, that can be used for magical purposes. Only mirrors and clouds "
   "in the Land of Mirrors leave these.",
-  "Ein Stück eines Zauberspiegels oder einer Illusionswolke, das für magische Zwecke brauchbar ist. "
-  "Zauberspiegel und Illusionswolken im Land der Spiegel hinterlassen diese.")
+  "Ein Stück eines Zauberspiegels oder einer Illusionswolke, das für magische Zwecke verwendet werden kann. "
+  "Ausschließlich Zauberspiegel und Illusionswolken im Land der Spiegel hinterlassen so etwas.")
 
 S("These sinister totems contain valuable gems.",
   "Diese schaurigen Totems enthalten wertvolle Edelsteine.")
 
 S("These star-shaped flowers native to Hell are a valuable alchemical component.",
-  "Diese sternförmigen Blumen, die aus der Hölle stammen, sind eine wertvolle alchemistische Komponente.")
+  "Diese sternförmigen Blumen aus der Hölle sind eine wertvolle alchemistische Zutat.")
 
 S("This statue is made of materials which cannot be found in your world.",
-  "Diese Statue ist aus Materialien, die in deiner Welt nicht existieren.")
+  "Diese Statue besteht aus Materialien, die in deiner Welt nicht existieren.")
 
 S("One of few things that does not cause the floor in the Land of Eternal Motion to collapse. Obviously they are quite valuable.",
   "Eines der wenigen Dinge, die den Boden im Land des Endlosen Antriebs nicht einstürzen lassen. Sie sind offensichtlich sehr wertvoll.")
@@ -797,7 +798,7 @@ S("Ice Walls melt after some time has passed.", "Eiswände schmelzen nach gewiss
 S("A natural terrain feature of the Desert.", "Eine natürliche Terrain Form der Wüste.")
 
 S("You can go inside the Magic Mirror, and produce some mirror images to help you.",
-  "Du kannst den Zauberspiegel betreten, um Trugbilder zu erzeugen, die dir helfen.")
+  "Du kannst den Zauberspiegel betreten, um Spiegelbilder zu erzeugen, die dir helfen.")
 
 S("Tiny droplets of magical water. You see images of yourself inside them. "
   "Go inside the cloud, to make these images help you.",
@@ -844,7 +845,7 @@ S("A land filled with huge ivy plants and dangerous animals.",
   "Ein Land voller Efeu und gefährlicher Tiere.")
 
 S("A strange land which contains mirrors and mirages, protected by Mirror Rangers.",
-  "Ein seltsames Land voller Zauberspiegel und Trugbilder, die von den Rangern geschützt werden.")
+  "Ein seltsames Land voller Zauberspiegel und Illusionswolken, die von den Rangern geschützt werden.")
 
 S("All the monsters you kill are carried to this strange land, and buried. "
   "Careless Rogues are also carried here...",
@@ -1028,7 +1029,7 @@ S("Wine grown under hyperbolic sun would be extremely prized in your home locati
   "Wein, der unter hyperbolischer Sonne wächst, würde in deiner Heimat ziemlich viel wert sein.")
 
 S("This orb allows one to pass through all kinds of walls and chasms.",
-  "Dieser Orb erlaubt es dir, alle Wände und Abgründe zu durchqueren.")
+  "Dieser Orb erlaubt es dir, alle Arten von Wänden und Abgründen zu passieren.")
 
 S("You cannot attack through the Vine!",
   "Du kannst nicht durch die Reben hindurch angreifen!")
@@ -1160,7 +1161,7 @@ S("Witches use these crystal cabinets to protect Powerstones, as well as the mor
   "using an Orb of Aether, your Aether power will be completely drained.",
   "Hexen verwenden diese Kristallvitrinen um Machtsteine, und wertvolle "
   "Orbs zu schützen. Sie sind zu stark um von normalen Angriffen "
-  " zerschmettert zu werden und solltest du versuchen den Inhalt "
+  "zerschmettert zu werden und solltest du versuchen den Inhalt "
   "mit einem Orb des Äthers zu stehlen, wird seine ganze Kraft verbraucht.")
 
 S("A Stone from the Land of Power. You are not sure what it is exactly, but "
@@ -1310,7 +1311,7 @@ S("These Cultists can push the statues, just like you.",
 S("You already have this Grimoire! Seek new tomes in the inner circles.",
   "Du hast dieses Grimoire schon! Suche neue in den inneren Kreisen.")
 
-S("You push %the1 behind you!", "Die schiebst %den1 %1 hinter dich.")
+S("You push %the1 behind you!", "Du schiebst %den1 %a1 hinter dich.")
 
 // More texts
 
@@ -1332,7 +1333,7 @@ S("You overheard Hedgehog Warriors talking about emeralds...",
   "Du überhörst Igelkrieger, die über Smaragde sprechen...")
 
 S("You overhear miners talking about a castle...",
-  "Du hörst Minenarbeiter die über ein Schloss sprechen...")
+  "Du hörst Minenarbeiter über ein Schloss sprechen...")
 
 S("A castle in the Crossroads...", "Ein Schloss in der Kreuzung...")
 
@@ -1609,7 +1610,7 @@ S(", m - mode: shoot'em up", "m - Modus: Ballern")
 S("You would get hurt!", "Du würdest dir wehtun!")
 S("PARTIAL", "TEILWEISE")
 
-S("Cannot drop %the1 here!", "Du kannst %den1 %1 hier nicht fallenlassen!");
+S("Cannot drop %the1 here!", "Du kannst %den1 %a1 hier nicht ablegen!");
 
 // Euclidean scores
 S(" (E:%1)", " (E:%1)");
@@ -1868,7 +1869,7 @@ S("\n\nNote: when pushing %the1 off a heptagonal cell, you can control the pushi
   "indem du die linke oder rechte Seite des Heptagon anklickst.")
 
 S(" With the keyboard, you can rotate the view for a similar effect (Page Up/Down).",
-  "Du kannst die Ansicht mit der Tastatur für ändern, dies erzeugt einen ähnlichen Effekt (Page Up/Down).")
+  " Du kannst die Ansicht mit der Tastatur rotieren; dies erzeugt einen ähnlichen Effekt (Bild Hoch/Runter).")
 
 N("Palace Guard", GEN_F, "Palastwache", "Palastwachen", "Palastwache")
 
@@ -1930,13 +1931,13 @@ N("Viking", GEN_M, "Wikinger", "Wikinger", "Wikinger")
 S("Mighty warriors from the Fjord, who can use boats.",
   "Mächtige Krieger die von den Fjorden stammen und Boote benutzen.")
 
-N("Water Elemental", GEN_N, "Wasserelementar", "Wasserelementar", "Wasserelementar")
+N("Water Elemental", GEN_M, "Wasserelementar", "Wasserelementare", "Wasserelementar")
 S("Wherever this powerful being goes, the living fjord "
   "sinks below water, non-magical boats are destroyed, and fires are extinguished.\n\n"
   "As a special case, you can attack the Water Elemental from the water, without drowning immediately.",
   "Wohin auch immer sich dieses Wesen bewegt sinkt der lebende Fjord. "
   "Dadurch werden nicht magische Boote zerstört und Feuer gelöscht.\n\n"
-  "Die Besonderheit ist du kannst das Wasserelementar vom Wasser aus angreifen ohne direkt zu ertrinken.")
+  "Die Besonderheit ist: du kannst den Wasserelementar vom Wasser aus angreifen ohne sofort zu ertrinken.")
 
 
 N("Garnet", GEN_M, "Granat", "Granate", "Granat")
@@ -2057,7 +2058,7 @@ S("You destroy %the1.", "Du zerstörst %den1 %a1.")
 S("%The1 kills %the2!", "%Der1 %1 tötet %den2 %a2!")
 S("%The1 sinks!", "%Der1 %1 sinkt!");
 
-S("Cannot jump on %the1!", "Du kannst nicht auf %den1 %1!")
+S("Cannot jump on %the1!", "Du kannst nicht auf %den1 %a1!")
 
 // renamed Fifty to Palace
 S("explore the Palace Pattern (4 colors)", "Erkunde die Schlossstruktur (4 Farben)")
@@ -2206,22 +2207,22 @@ S("This is the biggest Hypersian Rug you have ever seen! "
 N("Prince", GEN_M, "Prinz", "Prinzen", "Prinz")
 N("Princess", GEN_F, "Prinzessin", "Prinzessinnen", "Prinzessin")
 
-S("%1 takes %his1 revenge on %the2!", "%1 nimmt Rache an %der2!")
+S("%1 takes %his1 revenge on %the2!", "%1 nimmt Rache an %dem2 %abl2!")
 S("\"That should teach you to take me seriously!\"",
   "\"Das sollte dir beweisen mich Ernst zu nehmen!\"")
 
 S("%The1 kisses you, and begs you to bring %him1 away from here.",
-  "%Der1 %1 küsst dich und bitten dich %den1 von hier weg zu bringen.")
+  "%Der1 %1 küsst dich und bittet dich %den1 von hier weg zu bringen.") // FIXME
 
 S("\"I want my revenge. Stun a guard and leave him for me!\"",
-  "Ich will Rache. Betäube eine Wache und lass sie mir!\"")
+  "Ich will Rache. Betäube eine Wache und überlasse sie mir!\"")
 
 S("\"That felt great. Thanks!\"", "\"Danke, das hat sich gut angefühlt.\"")
 
 S("\"Bring me out of here please!\"", "Bitte bring mich hier raus!\"")
 
 S("%The1 kisses you, and thanks you for saving %him1.",
-  "%Der1 %1 küsst dich und dankt dir dafür %den1 gerettet zu haben.")
+  "%Der1 %1 küsst dich und dankt dir für die Rettung.")
 
 S("\"I have been trained to fight with a Hypersian scimitar, you know?\"",
   "Ich habe trainiert um mit einem Hypersischem Scimitar zu kämpfen, wusstest du das?\"")
@@ -2233,7 +2234,7 @@ S("\"Straight lines stay close to each other forever, this is so romantic!\"",
   "\"Grade Linien bleiben einander für immer nah, wie romantisch!\"")
 
 S("\"Maps... Just like the world, but smaller... how is that even possible?!\"",
-  "\"Katzen... Genau wie die Welt, nur kleiner... wie ist das möglich?!\"")
+  "\"Karten... Genau wie die Welt, nur kleiner... wie ist das möglich?!\"")
 
 Orb("Love", "der Liebe")
 S("Love takes time, but it heals all wounds, and transcends time and space.\n\n"
@@ -2322,14 +2323,14 @@ S("Treasure required: %1 x %2.\n", "Benötigte Schätze: %1 x %2.\n")
 S("Alternatively: kill a %1.\n", "Alternativ: töte einen %a1.\n")
 
 S("Kills required: any Elemental (Living Fjord/Dead Caves).\n",
-  "Benötigte Kills: beliebiges Elementar (Lebender Fjord/Tote Höhle).")
+  "Benötigte Kills: beliebiger Elementar (Lebender Fjord/Tote Höhle).")
 
 S("Variants of %the1 are always available in the Random Pattern Mode.",
-  "Varianten der %1 sind im Zufallsmuster Modus verfügbar.")
+  "Varianten der %1 sind im Zufallsmuster-Modus verfügbar.")
 
 S("Variants of %the1 are available in the Random Pattern Mode after "
   "getting a highscore of at least 10 %2.",
-  "Varianten der %1 sind im Zufallsmuster Modus verfügbar, "
+  "Varianten der %1 sind im Zufallsmuster-Modus verfügbar, "
   "nachdem eine Punktzahl von 10x %2 erreicht wurde.")
 
 S(" kills: %1", " Kills: %1")
@@ -2624,7 +2625,7 @@ S("pure tactics mode", "Strategiemodus")
 S("Not available in the pure tactics mode!", "Nicht verfügbar im Strategiemodus!")
 S("\"The Knights of the Horocyclic Table salute you!\"", "\"Die Ritter der Horozyklischen Tafel salutieren!\"")
 S("press 0 to leave this mode", "Drücke 0 um diesen Modus zu verlassen")
-S("Collect %1x %2 to unlock", "Sammle %1x %2 zum freischalten von")
+S("Collect %1x %2 to unlock", "Sammle %1x %2 zum Freischalten")
 
 S("In the pure tactics mode, you concentrate on a specific land. "
   "Your goal to obtain as high score as possible, without using "
@@ -2752,7 +2753,7 @@ S("Take a revolver, kill outlaws, collect bounties.\n\n"
   "It is only available in special modes.",
 
   "Schnapp dir einen Revolver, erschieß Banditen und beanspruche das Kopfgeld!\n\n"
-  "Hinweis: Dieses Land ist nur in Spezialmodi verfügbar. ")
+  "Hinweis: Dieses Land ist nur in Spezialmodi verfügbar.")
 
 // Land of Storms
 //----------------
@@ -2853,8 +2854,7 @@ S("The Overgrown Woods are filled with mutant ivies! These plants "
   "deiner Welt lösen? Töte mutierten Efeu um mutierte Sätzlinge zu erhalten.")
 
 S("Trees in this forest can be cut down. Big trees take two turns to cut down.",
-  "Bäume in diesem Wald können gefällt werden. Große Bäume zu fällen dauert 2 Züge."
-  )
+  "Bäume in diesem Wald können gefällt werden. Große Bäume zu fällen dauert zwei Züge.")
 
 S("Your power is drained by %the1!", "Deine Kraft wird von %dem1 %abl1 ausgesaugt!")
 S("Wow! That was close.", "Wow! Das war knapp.");
@@ -2865,7 +2865,7 @@ S("You construct some Elemental Gems!", "Du erstellst ein paar Elementjuwelen!")
 
 N("Fulgurite", GEN_M, "Fulgurit", "Fulgurite", "Fulgurit")
 
-S("Alternatively: kill a %1 in %the2.\n", "Alternativ: töte einen %a1.\n")
+S("Alternatively: kill a %1 in %the2.\n", "Alternativ: töte einen %a1 %abl2.\n") // FIXME
 
 S("TRANSLATIONWARNING", "VORSICHT: Die deutsche Übersetzung enthält keine")
 S("TRANSLATIONWARNING2", "Funktionen nach Version 8.1! (Arbeite dran <3)")

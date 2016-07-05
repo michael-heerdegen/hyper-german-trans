@@ -24,7 +24,7 @@
 // nominative (referred to as %1),
 // nominative plural (%P1),
 // accusative (%a1),
-// dative (%abl1; for land names, "in (der/den) ..." should be given).
+// dative (%d1; for land names, "in (der/den) ..." should be given).
 
 // Feel free to add more or less forms or types if needed. Note that you don't
 // have to provide all the forms in your language, only those used by HyperRogue
@@ -219,8 +219,8 @@ S("This orb is dead...", "Dieser Orb ist tot...")
 S("Another Dead Orb.", "Ein weiterer toter Orb.")
 S("You have found %the1!", "Du hast %den1 %a1 gefunden!")
 S("You feel that %the2 become%s2 more dangerous.", "Du spürst, dass %der2 %2 gefährlicher wird,")
-S("With each %1 you collect...", "mit jedem gesammelten %abl1") // FIXME: Grammar
-S("Are there any magical orbs in %the1?...", "Gibt es irgendwelche Orbs in %dem1 %abl1?") // FIXME
+S("With each %1 you collect...", "mit jedem gesammelten %d1") // FIXME: Grammar
+S("Are there any magical orbs in %the1?...", "Gibt es irgendwelche Orbs in %dem1 %d1?") // FIXME
 S("You feel that %the1 slowly become%s1 dangerous...", "Du spürst wie %der1 %1 langsam gefährlich wird...")
 S("Better find some other place.", "Du solltest besser einen anderen Ort finden.")
 S("You have a vision of the future, fighting demons in Hell...", "Du hast eine Vision, du wirst in der Zukunft Dämonen in der Hölle bekämpfen...")
@@ -242,7 +242,7 @@ S("You switch places with %the1.", "Du tauschst den Platz mit %dem1 %a1.")
 S("You rejoin %the1.", "Du stößt wieder zu %den1 %a1 hinzu")
 S("The mirror shatters!", "Der Spiegel zerbricht")
 S("The cloud turns into a bunch of images!", "Die Wolke verwandelt sich in mehrere Bilder!")
-S("The slime reacts with %the1!", "Der Schleim reagiert mit %dem %abl1!")
+S("The slime reacts with %the1!", "Der Schleim reagiert mit %dem %d1!")
 S("You drop %the1.", "Du legst %den1 %a1 ab.")
 S("You feel great, like a true treasure hunter.", "Du fühlst dich großartig, wie ein echter Schatzjäger.")
 S("Your eyes shine like gems.", "Deine Augen funkeln wie Edelsteine.")
@@ -2207,7 +2207,7 @@ S("This is the biggest Hypersian Rug you have ever seen! "
 N("Prince", GEN_M, "Prinz", "Prinzen", "Prinz")
 N("Princess", GEN_F, "Prinzessin", "Prinzessinnen", "Prinzessin")
 
-S("%1 takes %his1 revenge on %the2!", "%1 nimmt Rache an %dem2 %abl2!")
+S("%1 takes %his1 revenge on %the2!", "%1 nimmt Rache an %dem2 %d2!")
 S("\"That should teach you to take me seriously!\"",
   "\"Das sollte dir beweisen mich Ernst zu nehmen!\"")
 
@@ -2856,7 +2856,7 @@ S("The Overgrown Woods are filled with mutant ivies! These plants "
 S("Trees in this forest can be cut down. Big trees take two turns to cut down.",
   "Bäume in diesem Wald können gefällt werden. Große Bäume zu fällen dauert zwei Züge.")
 
-S("Your power is drained by %the1!", "Deine Kraft wird von %dem1 %abl1 ausgesaugt!")
+S("Your power is drained by %the1!", "Deine Kraft wird von %dem1 %d1 ausgesaugt!")
 S("Wow! That was close.", "Wow! Das war knapp.");
 S("Collect four different Elemental Shards!", "Sammle vier verschiedene Elementscherben!")
 S("Unbalanced shards in your inventory are dangerous.",
@@ -2865,7 +2865,7 @@ S("You construct some Elemental Gems!", "Du erstellst ein paar Elementjuwelen!")
 
 N("Fulgurite", GEN_M, "Fulgurit", "Fulgurite", "Fulgurit")
 
-S("Alternatively: kill a %1 in %the2.\n", "Alternativ: töte einen %a1 %abl2.\n") // FIXME
+S("Alternatively: kill a %1 in %the2.\n", "Alternativ: töte einen %a1 %d2.\n") // FIXME
 
 S("TRANSLATIONWARNING", "VORSICHT: Die deutsche Übersetzung enthält keine")
 S("TRANSLATIONWARNING2", "Funktionen nach Version 8.1! (Arbeite dran <3)")

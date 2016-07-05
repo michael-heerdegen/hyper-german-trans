@@ -940,7 +940,7 @@ S("Collect 60 $$$ to access even more lands", "Sammle 60 $$$ um noch mehr Lände
 
 N("Emerald Mine", GEN_F, "Smaragdmine", "Smaragdminen", "in der Smaragdmine")
 N("Pikeman", GEN_M, "Bergmann", "Bergmänner", "Bergmann")
-N("Flail Guard", GEN_M, "Flegelwächter", "Flegelwächter", "Flegelwächter")
+N("Flail Guard", GEN_M, "Morgenstern-Wächter", "Morgenstern-Wächter", "Morgenstern-Wächter")
 N("Miner", GEN_M, "Minenarbeiter", "Minenarbeiter", "Minenarbeiter")
 N("Emerald", GEN_M, "Smaragd", "Smaragde", "Smaragd")
 
@@ -971,8 +971,8 @@ S("This guard of the Emerald Mine is wielding a huge flail. "
   "Luckily, you have learned a trick: if you step away from him, "
   "he will hit himself with the flail!",
 
-  "Dieser Wächter der Smaragdmine hat einen riesigen Flegel. "
-  "Ihn direkt anzugreifen würde nichts bringen da der Flegel dich treffen würde. "
+  "Dieser Wächter der Smaragdmine hat einen riesigen Morgenstern. "
+  "Ihn direkt anzugreifen würde nichts bringen da der Morgenstern dich treffen würde. "
   "Glücklicherweise kennst du einen Trick: "
   "Wenn du dich von ihm entfernst, trifft er sich selbst!")
 
@@ -1581,7 +1581,7 @@ S("F/;/Space/Enter/KP5 = fire, WASD/IJKL/Numpad = move", "F/[;]/[LEER]/[ENTER]/[
 
 N("Rogue", GEN_M, "Schurke", "Schurken", "Schurken")
 N("Knife", GEN_N, "Messer", "Messer", "Messer")
-N("Flail", GEN_M, "Flegel", "Flegel", "Flegel")
+N("Flail", GEN_M, "Morgenstern", "Morgensterne", "Morgenstern")
 N("Fireball", GEN_M, "Feuerball", "Feuerbälle", "Feuerball")
 N("Tongue", GEN_F, "Zunge", "Zungen", "Zunge")
 

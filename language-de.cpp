@@ -51,7 +51,7 @@ N("Ivy D", GEN_M, "Efeu D", "Efeue D", "Efeu D")
 N("Giant Ape", GEN_M, "Riesenaffe", "Riesenaffen", "Riesenaffen")
 N("Slime Beast", GEN_F, "Schleimbestie", "Schleimbestien", "Schleimbestie")
 N("Mirror Image", GEN_N, "Spiegelbild", "Spiegelbilder", "Spiegelbild")
-N("Mirage", GEN_F, "Luftspiegelung", "Luftspiegelungen", "Luftspiegelung")
+N("Mirage", GEN_F, "Spiegelung", "Spiegelungen", "Spiegelung")
 N("Golem", GEN_M, "Golem", "Golems", "Golem")
 N("Eagle", GEN_M, "Adler", "Adler", "Adler")
 N("Seep", GEN_M, "Tropfer", "Tropfer", "Tropfer")
@@ -63,12 +63,12 @@ N("Tentacle", GEN_F, "Tentakel", "Tentakel", "Tentakel")
 N("Tentacle Tail", GEN_M, "Tentakel Schweif", "Tentakel Schweif", "Tentakel Schweif")
 N("Tentacle W", GEN_M, "Tentakel W", "Tentakel W", "Tentakel W")
 N("Tentacle (withdrawing)", GEN_M, "Fliehende Tentakel", "Fliehenden Tentakel", "Fliehende Tentakel")
-N("Cultist", GEN_M, "Anhänger", "Anhänger", "Anhänger")
-N("Fire Cultist", GEN_M, "Anhänger des Feuers", "Anhänger des Feuers", "Anhänger des Feuers")
+N("Cultist", GEN_M, "Kultanhänger", "Kultanhänger", "Kultanhänger")
+N("Fire Cultist", GEN_M, "Feuerkultist", "Feuerkultisten", "Feuerkultisten")
 N("Greater Demon", GEN_M, "Mächtige Dämon", "Mächtigen Dämonen", "Mächtige Dämon")
 N("Lesser Demon", GEN_M, "Gewöhnliche Dämon", "Gewöhnlichen Dämonen", "Gewöhnlichen Dämon")
 N("Ice Shark", GEN_M, "Frosthai", "Frosthaie", "Frosthai")
-N("Running Dog", GEN_M, "Rennende Hund", "Rennenden Hunde", "Rennenden Hund")
+N("Running Dog", GEN_M, "Laufhund", "Laufhunde", "Laufhund")
 N("Demon Shark", GEN_M, "Dämonenhai", "Dämonenhaie", "Dämonenhai")
 N("Fire Fairy", GEN_F, "Feuerfee", "Feuerfeen", "Feuerfee")
 N("Crystal Sage", GEN_M, "Kristallweise", "Kristallweisen", "Kristallweisen")
@@ -117,7 +117,7 @@ N("Thumper", GEN_M, "Stampfer", "Stampfer", "Stampfer")
 N("Bonfire", GEN_N, "Leuchtfeuer", "Leuchtfeuer", "Leuchtfeuer")
 N("ancient grave", GEN_M, "Antike Grab", "Antike Gräber", "Antike Grab")
 N("fresh grave", GEN_M, "Frische Grab", "Frische Gräber", "Frisches Grab")
-N("column", GEN_M, "Riss", "Risse", "Riss") // FIXME: Säule?
+N("column", GEN_F, "Säule", "Säulen", "Säule")
 N("lake of sulphur", GEN_M, "Schwefelsee", "Schwefelseen", "Schwefelsee")
 N("lake", GEN_M, "See", "Seen", "See")
 N("frozen lake", GEN_M, "Gefrorene See", "Gefrorene Seen", "Gefrorene See")
@@ -126,7 +126,7 @@ N("big tree", GEN_M, "Großer Baum", "Große Bäume", "Großer Baum")
 N("tree", GEN_M, "Baum", "Bäume", "Baum")
 // lands
 N("Great Wall", GEN_F, "Große Mauer", "Großen Mauern", "auf der Großen Mauer")
-N("Crossroads", GEN_F, "Kreuzungen", "Kreuzungen", "auf den Kreuzungen") // FIXME: what sex to use here (plural...?)
+N("Crossroads", GEN_F, "Kreuzungen", "Kreuzungen", "auf den Kreuzungen") // FIXME: what sex to use here (it's plural...?)
 N("Desert", GEN_F, "Wüste", "Wüsten", "in der Wüste")
 N("Icy Land", GEN_N, "Eisiges Land", "Eisige Länder", "im Eisigen Land")
 N("Living Cave", GEN_F, "Lebendige Höhle", "Lebendige Höhlen", "in der Lebendigen Höhle")
@@ -186,7 +186,7 @@ S("You join %the1.", "Du führst die %P1 zusammen.")
 S("Two of your images crash and disappear!", "Zwei %P1 stürzen gegeneinander!")
 S("%The1 breaks the mirror!", "%Der1 %1 zerstört den Spiegel!")
 S("%The1 disperses the cloud!", "%Der1 %1 löst die Wolke auf!")
-S("You activate the Flash spell!", "Du aktivierst den Blitz Zauber!")
+S("You activate the Flash spell!", "Du aktivierst den Blitz Zauber!") // FIXME: Getrennt-Zusammenschr.
 S("You activate the Lightning spell!", "Du aktivierst den Donner Zauber!")
 S("Ice below you is melting! RUN!", "Das Eis unter dir schmilz! RENN!")
 S("This spot will be burning soon! RUN!", "Dieser Ort wird bald in Flammen stehen - RENN!")
@@ -329,7 +329,7 @@ S("Orbs of Yendor found: %1", "Orbs von Yendor gefunden: %1")
 S("Collect 30 $$$ to access more worlds", "Sammle 30 $$$ um mehr Länder betreten zu können")
 S("Collect at least 10 treasures in each of 9 types to access Hell", "Sammle 9 verschiedene Schätze mindestens 10x um Zugang zur Hölle zu erhalten")
 S("Collect at least 10 Demon Daisies to find the Orbs of Yendor", "Sammle mindestens 10 Dämonenblümchen um die Orbs von Yendor zu finden")
-S("Hyperstone Quest: collect at least 10 %1 in %the2", "Hyperstein Quest: Sammle 10 %1 %a2")
+S("Hyperstone Quest: collect at least 10 %1 in %the2", "Hyperstein Quest: Sammle 10 %P1 %a2")
 S("Hyperstone Quest completed!", "Hyperstein Quest abgeschlossen!")
 S("Look for the Orbs of Yendor in Hell or in the Crossroads!", "Such die Orbs von Yendor in der Hölle oder auf den Kreuzungen!")
 S("Unlock the Orb of Yendor!", "Öffne den Orb von Yendor!")
@@ -464,7 +464,7 @@ S("Usually, you move by touching somewhere on the map; you can also touch one "
 
 S("Move with mouse, num pad, qweadzxc, or hjklyubn. Wait by pressing 's' or '.'. Spin the world with arrows, PageUp/Down, and Home/Space. "
   "To save the game you need an Orb of Safety. Press 'v' for config, ESC for the quest status and menu.\n\n",
-  "Bewege dich mit der Maus, dem Numpad, QWEADZXC, oder HJKLYUBN. Warte mit S oder '.'. Drehe die Welt mit den Pfeiltasten, Bild vor/Bild zurück und Pos1/Space. "
+  "Bewege dich mit der Maus, dem Numpad, qweadzxc, oder hjklyubn. Warte mit 's' oder '.'. Drehe die Welt mit den Pfeiltasten, Bild auf/ab und Pos1/Space. " // FIXME: Leertaste?
   "Um zu speichern, benötigst du einen Orb der Geborgenheit. Drücke V für Einstellungen, ESC für den Quest-Status und das Menü.\n\n")
 
 S("See more on the website: ", "Mehr auf der Website: ")
@@ -601,7 +601,7 @@ S("This forest is quite dry. Beware the bushfires!\n"
   "Dieser Wald ist ziemlich trocken. Achtung - Waldbrände!\n"
   "Bäume fangen im nächsten Zug Feuer. Die Temperatur von Gras steigt jeden Zug für jedes Feuer in der Nähe, "
   "und wird selbst zu Feuer wenn dies 10-mal geschehen ist.\n"
-  "Du kannst auch die Bäume fällen. Große Bäume zu fällen dauert zwei Züge.")
+  "Du kannst auch Bäume fällen. Große Bäume zu fällen dauert zwei Züge.")
 
 S("A big and quite intelligent monster living in the Icy Land.",
   "Ein großes und äußerst intelligentes Monster das im Eisigem Land lebt.")
@@ -621,7 +621,7 @@ S("A nasty creature native to the Living Caves. They don't like you "
   "Ein grässliches Geschöpf, das in den Lebenden Höhlen haust. Irgendwie können diese Kreaturen dich nicht leiden.")
 
 S("A tribe of men native to the Desert. They have even tamed the huge Sandworms, who won't attack them.",
-  "Ein Volk, das in der Wüste lebt. Sie haben es sogar geschafft, die Sandwürmer so zu zähmen, "
+  "Ein Volk, das in der Wüste lebt. Sie haben es sogar geschafft, die riesigen Sandwürmer so zu zähmen, "
   "dass diese sie nicht angreifen.")
 
 S("This giant ape thinks that you are an enemy.", "Dieser riesige Affe glaubt, dass du ein Feind bist.")
@@ -677,7 +677,7 @@ S("This white dog is able to run all the time. It is the only creature "
 S("Demons of Hell do not drown when they fall into the lake in Cocytus. "
   "They turn into demonic sharks, enveloped in a cloud of steam.",
   "Dämonen aus der Hölle ertrinken nicht, wenn sie in den See von Kokytos fallen. Stattdessen "
-  "werden sie zu Dämonenhaien, eingehüllt in eine Wolke aus Dunst.")
+  "werden sie zu Dämonenhaien, eingehüllt in eine Wolke aus Dampf.")
 
 S("These fairies would rather burn the forest, than let you get some Fern Flowers. "
   "The forest is infinite, after all...\n\n"
@@ -711,7 +711,7 @@ S("An expensive metal from the Living Caves. For some reason "
 
 S("A rare and expensive substance found in the Desert. "
   "It is believed to extend life and raise special psychic powers.",
-  "Eine seltene und teure Substanz aus der Wüste. Man sagt, sie verlängert das Leben und verleiht besondere, psychische Kräfte.")
+  "Eine seltene und teure Substanz aus der Wüste. Man sagt, sie verlängert das Leben und verleiht besondere psychische Kräfte.")
 
 S("A beautiful gem from the Jungle.", "Ein schöner Edelstein aus dem Dschungel.")
 
@@ -784,7 +784,7 @@ S("This orb lets you instantly move to a safe faraway location. Knowing the natu
   "that you will ever find the way back...\n\n"
   "Your game will be saved if you quit the game while the Orb of Safety is still powered.\n\n"
   "Technical note: as it is virtually impossible to return, this Orb recycles memory used for the world so far (even if you do not use it to save the game). ",
-  "Dieser Orb versetzt dich augenblicklich an einen weit entfernten, sicheren Ort. In Anbetracht der Natur dieser Welt bezweifelst du, dass du je zurückfinden würdest...\n\n"
+  "Dieser Orb versetzt dich augenblicklich an einen weit entfernten, sicheren Ort. In Anbetracht der Natur dieser Welt bezweifelst du, dass du je einen Weg zurückfindest...\n\n"
   "Dein Spiel wird gespeichert wenn du es beendest während der Orb der Geborgenheit noch Kraft besitzt.\n\n"
   "Technische Anmerkung: Da es wirklich unmöglich ist zurückzukehren, gibt dieser Orb den Speicher, den die Welt bis dahin belegt hat, frei (selbst wenn du das Spiel nicht speicherst.)")
 
@@ -840,7 +840,7 @@ S("This land is a quick gateway to other lands. It is very easy to find other la
   "Aber du musst zuerst 10 von allen anderen Schätzen gesammelt haben.")
 
 S("A hot land, full of sand dunes, mysterious Spice, and huge and dangerous sand worms.",
-  "Ein heißes Land, voller Sanddünen, geheimnisvollem Spice, und riesigen und gefährlichen Sandwürmern.")
+  "Ein heißes Land voller Sanddünen, geheimnisvollem Spice, und riesigen und gefährlichen Sandwürmern.")
 
 S("A very cold land, full of ice walls. Your mere presence will cause these ice walls to "
   "melt, even if you don't want it.",
@@ -1045,7 +1045,7 @@ Orb("Aether", "des Äthers")
 
 N("Dead Cave", GEN_F, "Tote Höhle", "Tote Höhlen", "in der Toten Höhle")
 N("Dark Troll", GEN_M, "Dunkle Troll", "Dunkle Trolle", "Dunklen Troll")
-N("Earth Elemental", GEN_N, "Erdelementar", "Erdelementare", "Erdelementar")
+N("Earth Elemental", GEN_M, "Erdelementar", "Erdelementare", "Erdelementar")
 N("dead wall", GEN_F, "tote Wand", "tote Wände", "tote Wand")
 N("dead floor", GEN_F, "toter Boden", "tote Böden", "toten Boden")
 N("rubble", GEN_N, "Geröll", "Geröll", "Geröll")
@@ -1198,7 +1198,7 @@ Orb("Fire", "des Feuers")
 
 // lines forgotten previously
 
-S("Your Aether power has expired! RUN!", "Deine Ätherkraft ist zu Ende! Lauf!")
+S("Your Aether power has expired! RUN!", "Deine Ätherkraft ist zu Ende! Lauf!!!")
 
 S("%The1 tricks %the2.", "%Der1 %1 überlistet %den2 %a2.")
 S("You trick %the1.", "Du überlistest %den1 %a1.")
@@ -1210,7 +1210,7 @@ S("A Witch with a Flash spell. Very dangerous!\n\nLuckily, she never uses the sp
 
 S("Your Aether powers are drained by %the1!", "%Der1 %1 saugt deine Ätherkraft auf!")
 S("As you leave, your powers are drained!", "Deine Kraft verblasst, als du gehst.")
-S("%The1 picks up %the2!", "%Die1 %1 hebt %den2 %a2 auf!") // currently only Witches, so only female form
+S("%The1 picks up %the2!", "Die %1 hebt %den2 %a2 auf!") // currently only Witches, so only female form
 
 S("You can right click any element to get more information about it.\n\n",
   "Du kannst auf alles rechtsklicken, um Informationen darüber zu erhalten.\n\n")
@@ -1296,21 +1296,21 @@ S("The Grimoires contain many secrets of the Great Old Ones. "
   "You hope to read them when you return home, and to learn many things. "
   "The knowledge is valuable to you, but it is rather pointless to try to get "
   "several copies of the same Grimoire...",
-  "Die Grimoires enthalten viele Geheimnisse der Weißen Alten. "
-  "Jeder neue innere Kreis des Tempels des Cthulhu enthält neue Grimoires, mit mehr Geheimnissen. "
-  "Das Wissen ist dir sehr kostbar, aber es wäre natürlich sinnlos, mehrmals dasselbe Grimoire aufzuheben...")
+  "Die Grimoires enthalten viele Geheimnisse der weisen Alten. "
+  "Jeder neue innere Kreis des Tempels des Cthulhu enthält neue Grimoires mit mehr Geheimnissen. "
+  "Das Wissen ist dir sehr kostbar, aber es wäre natürlich sinnlos, mehrmals das gleiche Grimoire aufzuheben...")
 
 S("These statues of Cthulhu are too large to carry, and they don't look too "
   "valuable anyway. Most monsters will never go through them... they probably have "
   "their reasons. But you can go! When you move into the cell containing "
   "a statue, you push the statue to the cell you left.\n",
 
-  "Diese Cthulhu Statuen sind zu groß um sie zu tragen und sehen sowieso nicht wertvoll aus. "
-  "Die meisten Monster gehen nie an ihnen vorbei, dafür haben sie schon ihre Gründe. "
+  "Diese Cthulhu-Statuen sind zu groß um sie zu tragen - und sehen sowieso nicht sonderlich wertvoll aus. "
+  "Die meisten Monster gehen nie an ihnen vorbei, dafür haben sie wohl ihre Gründe. "
   "Du aber schon! Wenn du in die Zelle gehst, in der eine steht, schiebst du sie an deinen Ursprungsort.")
 
 S("These Cultists can push the statues, just like you.",
-  "Diese Anhänger können die Statuen schieben, genau wie du.")
+  "Diese Kultanhänger können die Statuen schieben, genau wie du.")
 
 S("You already have this Grimoire! Seek new tomes in the inner circles.",
   "Du hast dieses Grimoire schon! Suche neue in den inneren Kreisen.")
@@ -1331,10 +1331,10 @@ S("In most lands, more treasures are generated with each enemy native to this la
   "Freundliche Kreaturen und Monsterteile (z.B. Efeu) werden zwar gezeigt, zählen aber nicht zur Gesamt-Punktzahl.")
 
 S("There must be some temples of Cthulhu in R'Lyeh...",
-  "Es muss doch ein paar Tempel des Cthulhu in R'Lyeh geben...")
+  "Es muss doch auch Tempel des Cthulhu in R'Lyeh geben...")
 
 S("You overheard Hedgehog Warriors talking about emeralds...",
-  "Du überhörst Igelkrieger, die über Smaragde sprechen...")
+  "Du hörst Igelkrieger über Smaragde sprechen...")
 
 S("You overhear miners talking about a castle...",
   "Du hörst Minenarbeiter über ein Schloss sprechen...")
@@ -1359,7 +1359,7 @@ Orb("the Dragon", "des Drachen")
 S("This Orb allows you to throw fire, just like the Fire Cultists.\n\n"
   "Each fire drains 5 charges. You are not allowed to throw fire into adjacent cells.",
   "Dieser Orb erlaubt es dir, Feuer zu werfen.\n\n"
-  "Jedes Feuer verbraucht 5 Ladungen. Du darfst kein Feuer auf angrenzende Zellen werfen.")
+  "Jedes Feuer verbraucht 5 Ladungen. Du kannst kein Feuer auf angrenzende Zellen werfen.")
 
 S("You throw fire!", "Du wirfst Feuer!")
 
@@ -1873,7 +1873,7 @@ S("\n\nNote: when pushing %the1 off a heptagonal cell, you can control the pushi
   "indem du die linke oder rechte Seite des Heptagon anklickst.")
 
 S(" With the keyboard, you can rotate the view for a similar effect (Page Up/Down).",
-  " Du kannst die Ansicht mit der Tastatur rotieren; dies erzeugt einen ähnlichen Effekt (Bild Hoch/Runter).")
+  " Du kannst die Ansicht mit der Tastatur rotieren; dies erzeugt einen ähnlichen Effekt (Bild auf/ab).")
 
 N("Palace Guard", GEN_F, "Palastwache", "Palastwachen", "Palastwache")
 
@@ -2062,7 +2062,7 @@ S("You destroy %the1.", "Du zerstörst %den1 %a1.")
 S("%The1 kills %the2!", "%Der1 %1 tötet %den2 %a2!")
 S("%The1 sinks!", "%Der1 %1 sinkt!");
 
-S("Cannot jump on %the1!", "Du kannst nicht auf %den1 %a1!")
+S("Cannot jump on %the1!", "Du kannst nicht auf %den1 %a1 springen!")
 
 // renamed Fifty to Palace
 S("explore the Palace Pattern (4 colors)", "Erkunde die Schlossstruktur (4 Farben)")
@@ -2522,7 +2522,7 @@ S("The Elemental Planes are divided into four subzones: Planes of Fire, Water, A
 
   "Die Elementare Ebene ist in 4 Zonen unterteilt: Die Feuerebene, die Erdebene, die Luftebene und die Wasserebene. "
   "Du brauchst eine Scherbe aus jeder Ebene um ein Elementjuwel herzustellen. "
-  "Es ist äußerst gefährliche mehrere Scherben des selben Typs zu sammeln ohne ein Elementjuwel herzustellen.")
+  "Es ist äußerst gefährlich mehrere Scherben des selben Typs zu sammeln ohne ein Elementjuwel herzustellen.")
 
 N("Fire Elemental", GEN_M, "Feuerelementar", "Feuerelementare", "Feuerelementar")
 

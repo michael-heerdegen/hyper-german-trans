@@ -197,8 +197,8 @@ S("You fall into a wormhole!", "Du fällst in ein Wurmloch!")
 S("You activate %the1.", "Du aktivierst %den1 %a1.")
 S("No room to push %the1.", "Kein Platz um %den1 %a1 zu schieben.")
 S("You push %the1.", "Du schiebst %den1 %a1.")
-S("You start cutting down the tree.", "Du fängst an, den Baum zu fällen.")
-S("You cut down the tree.", "Du fällst den Baum.")
+S("You start chopping down the tree.", "Du fängst an, den Baum zu fällen.")
+S("You chop down the tree.", "Du fällst den Baum.")
 S("You cannot attack Sandworms directly!", "Du kannst Sandwürmer nicht direkt angreifen!")
 S("You cannot attack Tentacles directly!", "Du kannst Tentakel nicht direkt angreifen!")
 S("You cannot defeat the Shadow!", "Du kannst den Schatten nicht besiegen!")
@@ -597,7 +597,7 @@ S("This forest is quite dry. Beware the bushfires!\n"
   "Trees catch fire on the next turn. The temperature of the grass cells "
   "rises once per turn for each fire nearby, and becomes fire itself "
   "when its temperature has risen 10 times.\n"
-  "You can also cut down the trees. Big trees take two turns to cut down.",
+  "You can also chop down the trees. Big trees take two turns to chop down.",
   "Dieser Wald ist ziemlich trocken. Achtung - Waldbrände!\n"
   "Bäume fangen im nächsten Zug Feuer. Die Temperatur von Gras steigt jeden Zug für jedes Feuer in der Nähe, "
   "und wird selbst zu Feuer wenn dies 10-mal geschehen ist.\n"
@@ -716,7 +716,7 @@ S("A rare and expensive substance found in the Desert. "
 S("A beautiful gem from the Jungle.", "Ein schöner Edelstein aus dem Dschungel.")
 
 S("A wonderful beverage, apparently obtained by mixing red and blue slime. You definitely feel more "
-  "healthy after drinking it, but you still fell that one hit of a monster is enough to kill you.",
+  "healthy after drinking it, but you still feel that one hit of a monster is enough to kill you.",
   "Ein wunderbares Getränk, anscheinend entstanden aus der Mischung von blauem und rotem Schleim. "
   "Du fühlst dich definitiv gesünder nach seinem Genuss, aber trotzdem ahnst du, dass ein Schlag eines Monsters ausreichen würde, dich zu töten.")
 
@@ -1367,7 +1367,7 @@ Orb("Trickery", "des Truges")
 
 N("Illusion", GEN_F, "Illusion", "Illusionen", "Illusion")
 
-S("This Orb allows you to create illusions of yourself. Illusions are targetted "
+S("This Orb allows you to create illusions of yourself. Illusions are targeted "
   "by most monsters, just like yourself, Thumpers, and your friends.\n\n"
   "Each illusion takes 5 charges to create, and one extra charge "
   "per turn. You can also click your illusion to take it away, restoring 4 charges.\n\n"
@@ -1380,7 +1380,7 @@ S("This Orb allows you to create illusions of yourself. Illusions are targetted 
   "Besitzt du einen Orb der Teleportation und einen des Truges, wird Illusion bevorzugt "
   "du kannst dich dann auf deine Illusion teleportieren, um die Plätze zu tauschen.")
 
-S("Illusions are targetted "
+S("Illusions are targeted "
   "by most monsters, just like yourself, Thumpers, and your friends.",
   "Illusionen werden von den meisten Monstern verfolgt.")
 
@@ -2857,7 +2857,7 @@ S("The Overgrown Woods are filled with mutant ivies! These plants "
   "Vielleicht können die schnell wachsenden Pflanzen das Hungerproblem in "
   "deiner Welt lösen? Töte mutierten Efeu um mutierte Sätzlinge zu erhalten.")
 
-S("Trees in this forest can be cut down. Big trees take two turns to cut down.",
+S("Trees in this forest can be chopped down. Big trees take two turns to chop down.",
   "Bäume in diesem Wald können gefällt werden. Große Bäume zu fällen dauert zwei Züge.")
 
 S("Your power is drained by %the1!", "Deine Kraft wird von %dem1 %d1 ausgesaugt!")

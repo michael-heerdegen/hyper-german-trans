@@ -8,6 +8,14 @@
 // michael_heerdegen@web.de (in English or German) or via Github -
 // any help is welcome!
 
+// Some help may come from steam forum, e.g.
+//
+//   https://steamcommunity.com/sharedfiles/filedetails/?id=390176864
+//
+// and
+//
+//   http://www.rollenspiel-info.de/downloads.html
+
 
 // Nouns.
 
@@ -162,7 +170,7 @@ S("%The1 would get you!", "%Der1 %1 würde dich fangen!")
 S("%The1 destroys %the2!", "%Der1 %1 zerstört %den2 %a2!")
 S("%The1 eats %the2!", "%Der1 %1 frisst %den2 %a2!")
 S("The ivy destroys %the1!", "Der Efeu zerstört %den1 %a1!")
-S("%The1 claws %the2!", "%Der1 %1 zerschlitzt %den2 %a2!")
+S("%The1 claws %the2!", "%Der1 %1 zerkratzt %den2 %a2!")
 S("%The1 scares %the2!", "%Der1 %1 erschreckt %den2 %a2!")
 S("%The1 melts away!", "%Der1 %1 schmilzt!")
 S("%The1 stabs %the2.", "%Der1 %1 ersticht %den2 %a2.")
@@ -219,7 +227,7 @@ S("This orb is dead...", "Dieser Orb ist tot...")
 S("Another Dead Orb.", "Ein weiterer toter Orb.")
 S("You have found %the1!", "Du hast %den1 %a1 gefunden!")
 S("You feel that %the2 become%s2 more dangerous.", "Du spürst, dass %der2 %2 gefährlicher wird,")
-S("With each %1 you collect...", "mit jedem gesammelten %d1") // FIXME: Grammar
+S("With each %1 you collect...", "Mit jedem gesammelten %d1...") // FIXME: Grammar
 S("Are there any magical orbs in %the1?...", "Gibt es irgendwelche Orbs in %dem1 %d1?") // FIXME
 S("You feel that %the1 slowly become%s1 dangerous...", "Du spürst wie %der1 %1 langsam gefährlich wird...")
 S("Better find some other place.", "Du solltest besser einen anderen Ort finden.")
@@ -962,7 +970,7 @@ S("Miners have special tools for dealing with the Living Cave. "
   "When they die, these tools activate, destroying the living cave "
   "around them.",
   "Minenarbeiter haben spezielle Werkzeuge für den Umgang mit der Lebenden Höhle. "
-  "Sterben sie, aktivieren sich diese Werkzeuge, was die Höhle um sie herum einstürzen lässt.") // FIXME: is this correct?
+  "Sterben sie, aktivieren sich diese Werkzeuge, was die Höhle um sie herum zerstört.")
 
 S("When Pikemen move, they attack all cells which are now adjacent to them. "
   "Luckily, they can be killed in the same way.\n\n"
@@ -993,8 +1001,8 @@ S("This orb allows you to instantly kill a non-adjacent enemy by clicking it. "
   "Dieser Orb erlaubt es dir, einen nicht angrenzenden Feind augenblicklich zu töten, indem du auf ihn klickst. "
   "Jede Verwendung verbraucht 30 Ladungen.")
 
-S("%The1 is immune to mental blasts!", "%Der1 ist immun gegen mentale Korruption!") // FIXME
-S("You kill %the1 with a mental blast!", "Du tötest %den1 %a1 mit mentaler Korruption!")
+S("%The1 is immune to mental blasts!", "%Der1 %1 ist immun gegen mentale Stöße!")
+S("You kill %the1 with a mental blast!", "Du tötest %den1 %a1 mit einem mentalen Stoß!")
 
 // Vineyard
 
@@ -1009,7 +1017,7 @@ S("This cell is partially on fire.", "Diese Zelle brennt teilweise.")
 
 S("The Vineyard is filled with vines. A very dense pattern of straight lines here...\n\n"
   "Vine Beasts and Vine Spirits change vine cells to grass, and vice versa.", // FIXME: @zeno: wrong order!
-  "Der Weingarten ist voller Reben. Ein dichtes Gitter aus lauter Geraden...\n\n"
+  "Der Weingarten ist voller Reben. Ein sehr dichtes Netz aus Geraden...\n\n"
   "Rebenbestien und Rebenseelen verwandeln Zellen von Gras in Reben und umgekehrt.")
 
 S("A vine is growing here... but only on a half of the cell. How is that even possible?!"
@@ -1706,7 +1714,7 @@ Orb("Air", "der Luft")
 S("This Orb allows you to blow your enemies away.\n\n"
   "Click a monster to blow it one cell away. It cannot be used against mimics, ghosts, sharks and other monsters restricted to a specific terrain, and multi-tile monsters.",
   "Dieser Orb erlaubt es dir, deine Feinde wegzuwehen.\n\n"
-  "Klicke auf ein Monster, um es eine Zelle wegzuwehen. Der Orb ist wirkungslos gegenüber Mimiken, Geistern, Haien, und anderen Monstern, die nur auf bestimmten Terrain leben können. Monster, die größer als eine Zelle sind, sind auch immun.")
+  "Klicke auf ein Monster, um es eine Zelle wegzuwehen. Der Orb ist wirkungslos gegenüber Mimiken, Geistern, Haien, und anderen Monstern, die nur auf bestimmtem Terrain leben können. Monster, die größer als eine Zelle sind, sind auch immun.")
 
 
 N("Sea Border", GEN_F, "Seegrenze", "Seegrenzen", "Seegrenze")
@@ -1788,13 +1796,13 @@ S("This bomberbird will follow you at some distance, and attack your enemies. "
   "Dieser Bombenvogel folgt dir auf Distanz, und attackiert deine Feinde. "
   "Du kannst ihn töten, um eine Mine zu legen.")
 
-N("Bomberbird Egg", GEN_N, "Bombenvogel Ei", "Bombenvogel Eier", "Bombenvogel Ei")
+N("Bomberbird Egg", GEN_N, "Bombenvogelei", "Bombenvogeleier", "Bombenvogelei")
 
 S("Bomberbird eggs are big and tasty, and thus valuable. "
   "They can hatch when left alone for some time (but this will never happen "
   "if you are watching).",
 
-  "Bombenvogel Eier sind groß und schmackhaft, daher wertvoll. "
+  "Bombenvogeleier sind groß und schmackhaft, daher wertvoll. "
   "Sie können nach einiger Zeit schlüpfen (aber machen dies nie, wenn du zusiehst).")
 
 
@@ -1846,7 +1854,7 @@ S("This floor will fall after someone goes there. Go quickly!",
 
 N("closed gate", GEN_N, "Geschlossenes Tor", "Geschlossene Tore", "Geschlossene Tor") // FIXME: 3/=4
 N("open gate", GEN_N, "Offenes Tor", "Offene Tor", "Offenes Tor")// FIXME: 3/=4
-N("closing plate", GEN_M, "Schließmechanismus", "Schließmechanismen", "Schließsmechanismus")
+N("closing plate", GEN_M, "Schließmechanismus", "Schließmechanismen", "Schließmechanismus")
 N("opening plate", GEN_M, "Öffnungsmechanismus", "Öffnungsmechanismen", "Öffnungsmechanismus")
 
 S("Green pressure plates open all gates in radius 3 around them. "
@@ -1897,11 +1905,11 @@ S("Skeletons work similar to Palace Guards, but they won't die no matter how man
 N("Vizier", GEN_M, "Wesir", "Wesire", "Wesir")
 S("Viziers are neither pushed away nor stunned. However, you attack them automatically when "
   "escaping from them.",
-  "Wesire kannst du weder zurück stoßen noch betäuben. Jedoch greifst du sie automatisch an wenn du von ihnen fliehst.")
+  "Wesire kannst du weder zurückstoßen noch betäuben. Jedoch greifst du sie automatisch an wenn du von ihnen fliehst.")
 
 S("You stun %the1.", "Du betäubst %den1 %a1.")
 S("The gate is closing right on you! RUN!", "Das Tor über dir schließt sich! Renne!")
-S("%The1 is crushed!", "%der1 wurde zerquetscht!")
+S("%The1 is crushed!", "%Der1 wurde zerquetscht!")
 S("You hit %the1.", "Du triffst %den1 %a1.")
 S("Hit him by walking away from him.", "Triff ihn indem du dich von ihm entfernst.")
 S("Hmm, he has been training in the Emerald Mine. Interesting...", "Er  hat in der Smaragdmine trainiert. Interessant...")
@@ -1954,9 +1962,8 @@ S("This Orb lets you dive into the water. While diving, you are able to see and 
   "Dieser Orb erlaubt es dir zu tauchen. Während du tauchst kannst du versunkene Schätze sammeln, dabei bist du für Monster unsichtbar. "
   "Du hast Angst von einem Boot aus ins Meer zu springen daher tust du es meist nicht.")
 
-S("%The1 is washed away!", "%der1 %a1 wurde weggeschwemmt!")
-// %1 zosta%?1 zmyt%ya1!")
-S("%The1 is extinguished!", "%der1 %a1 wurde gelöscht!")
+S("%The1 is washed away!", "%Der1 %a1 wurde weggeschwemmt!")
+S("%The1 is extinguished!", "%Der1 %a1 wurde ausgelöscht!")
 
 // Reached the Living Fjord: Find and collect a Garnet.
 // Viking: Collect 10 Garnets.
@@ -2007,16 +2014,26 @@ S("player 2 X", "Spieler 2 X")
 S("player 2 Y", "Spieler 2 Y")
 S("player 2 go", "Spieler 2 los")
 S("player 2 spin", "Spieler 2 drehen")
+S("player 3 X", "Spieler 3 X")
+S("player 3 Y", "Spieler 3 Y")
+S("player 3 go", "Spieler 3 los")
+S("player 3 spin", "Spieler 3 drehen")
+S("player 4 X", "Spieler 4 X")
+S("player 4 Y", "Spieler 4 Y")
+S("player 4 go", "Spieler 4 los")
+S("player 4 spin", "Spieler 4 drehen")
 
 S("Joystick %1, axis %2", "Joystick %1, Achse %2")
 S("one player", "Ein Spieler")
 S("two players", "Zwei Spieler")
 S("configure player 1", "Spieler 1 konfigurieren")
 S("configure player 2", "Spieler 2 konfigurieren")
+S("configure player 3", "Spieler 3 konfigurieren")
+S("configure player 4", "Spieler 4 konfigurieren")
 S("configure panning", "Schwenken konfigurieren")
 S("configure joystick axes", "Joystick Achsen konfigurieren")
 S("continue playing", "Weiterspielen")
-S("start playing in the shmup mode", "shmup Modus starten")
+S("start playing in the shmup mode", "shmup Modus starten") // Fixme: shmup
 S("return to the turn-based mode", "Zurück zum turn based Modus")
 S("save the configuration", "Konfiguration speichern")
 S("press a key to unassign", "Drücke eine Taste zum entbinden")
@@ -2056,7 +2073,7 @@ N("Dead Ivy", GEN_M, "Toter Efeu", "Tote Efeue", "Toten Efeu")
 
 S("%The1 bites %the2!", "%Der1 %1 beißt %den2 %a2!")
 S("%The1 attacks %the2!", "%Der1 %1 greift %den2 %a2 an!")
-S("You destroy %the1 with a mental blast!", "Du zerstörst %den1 %a1 mit mentaler Korruption!")
+S("You destroy %the1 with a mental blast!", "Du zerstörst %den1 %a1 mit einem mentalen Stoß!")
 S("The ivy kills %the1!", "Der Efeu tötet %den1 %a1!")
 S("You destroy %the1.", "Du zerstörst %den1 %a1.")
 S("%The1 kills %the2!", "%Der1 %1 tötet %den2 %a2!")
@@ -2270,7 +2287,7 @@ S("other", "Andere") // other keys in the main menu
 // missing texts, refactored things, and rule changes
 //====================================================
 
-S("%The1 activates her Flash spell!", "%der1 %1 aktiviert den Blitzzauber!")
+S("%The1 activates her Flash spell!", "%Der1 %1 aktiviert den Blitzzauber!")
 
 N("Fire", GEN_N, "Feuer", "Feuer", "Feuer")
 S("This cell is on fire. Most beings and items cannot survive.",
@@ -2507,6 +2524,7 @@ S("This structure will disappear after some time.", "Diese Struktur wird nach ei
 S("Nothing to stand on here!", "Hier gibt es nichts worauf du stehen kannst!")
 S("Gravity does not allow this!", "Die Gravitation erlaubt das nicht!")
 
+
 // Elemental Planes
 //==================
 
@@ -2522,7 +2540,7 @@ S("The Elemental Planes are divided into four subzones: Planes of Fire, Water, A
 
   "Die Elementare Ebene ist in 4 Zonen unterteilt: Die Feuerebene, die Erdebene, die Luftebene und die Wasserebene. "
   "Du brauchst eine Scherbe aus jeder Ebene um ein Elementjuwel herzustellen. "
-  "Es ist äußerst gefährlich mehrere Scherben des selben Typs zu sammeln ohne ein Elementjuwel herzustellen.")
+  "Es ist äußerst gefährlich mehrere Scherben desselben Typs zu sammeln ohne ein Elementjuwel herzustellen.")
 
 N("Fire Elemental", GEN_M, "Feuerelementar", "Feuerelementare", "Feuerelementar")
 
@@ -2584,7 +2602,7 @@ S("Cannot create temporary matter on a monster!", "Temporäre Materie kann nicht
 S("Cannot create temporary matter on an item!", "Temporäre Materie kann nicht auf einem Item erzeugt werden!");
 S("Cannot create temporary matter here!", "Hier kann keine temporäre Materie erzeugt werden!");
 S("Cannot summon on a monster!", "Kann nicht auf einem Monster beschworen werden!");
-S("No summoning possible here!", "Beschwören nicht möglich!");
+S("No summoning possible here!", "Beschwören hier nicht möglich!");
 S("You summon %the1!", "Du beschwörst %den1 %a1!")
 
 S("F4 = file", "F4 = Datei")
@@ -2893,9 +2911,9 @@ S("friends killed: %1", "getötete Freunde: %1")
 S("monsters destroyed: %1", "zerstörte Monster: %1")
 S("friends destroyed: %1", "zerstörte Freunde: %1")
 S("\n\nThis is a part of a monster. It does not count for your total kills.",
-  "\n\nDas ist ein Teil eines Monsters. Es wird der Gesamtzahl deiner Tötungen nicht angerechnet.")
+  "\n\nDas ist ein Teil eines Monsters. Es wird der Gesamtzahl deiner Tötungen nicht eingerechnet.")
 S("\n\nThis is a friendly being. It does not count for your total kills.",
-  "\n\nDas ist ein freundliches Wesen. Es wird der Gesamtzahl deiner Tötungen nicht angerechnet.")
+  "\n\nDas ist ein freundliches Wesen. Es wird der Gesamtzahl deiner Tötungen nicht eingerechnet.")
 
 // Overgrown Clearing (Verwilderte Lichtung)
 //------------------------------------------
@@ -2938,7 +2956,7 @@ S("This orb is activated if you are unable to escape (radius 4) "
   "ohne unerlaubte Züge zu machen oder "
   "Zellen zu überqueren, die sich neben einem feindlichen Monster befinden. "
   "Die meisten game-over-Situationen erfüllen diese Bedingung, aber im Allgemeinen ist dieser Orb überempfindlich...\n\n"
-  "Wenn er aktiviert wird, erzeugt er einen Lichtblitz von Radius 5.")
+  "Wenn er aktiviert wird, erzeugt er einen Lichtblitz vom Radius 5.")
 
 S("Your %1 activates!", "Dein %1 aktiviert sich!") //FIXME: Grammatik (dein)
 
@@ -2948,7 +2966,7 @@ S("Your %1 activates!", "Dein %1 aktiviert sich!") //FIXME: Grammatik (dein)
 
 S("You become a bit nervous...", "Du wirst ein wenig nervös...")
 S("Better not to let your greed make you stray from your path.",
-  "Lass deine Gier dich besser nicht vom Weg abbringen!")
+  "Lass dich besser nicht durch Gier von deinem Weg abbringen!")
 
 N("Haunted Woods", GEN_M, "Verwunschener Wald", "Verwunschene Wälder", "im Verwunschenen Wald")
 
@@ -2957,9 +2975,9 @@ S("A dark forest filled with ghosts and graves. But there is also treasure hidde
   "you can get lost!\n\n"
   "The Haunted Woods are bounded by a single equidistant curve. It is not a circle or horocycle.\n\n",
 
-  "Ein dunkler Wald voller Geister und Gräber. Aber in seinen Tiefen sind auch Schätze versteckt... "
-  "Aber lass deine Gier dich nicht vom Weg abbringen, du könntest dich verlaufen!\n\n"
-  "Der verwunschene Wald ist begrenzt durch eine äquidisdante Kurve. Es ist kein Kreis oder Horozyklus.\n\n") //FIXME: Horozyklus; äquidistant to what?
+  "Ein dunkler Wald voller Geister und Gräber. Doch in seinen Tiefen sind auch Schätze versteckt... "
+  "Aber lass dich nicht durch Gier von deinem Weg abbringen, du könntest dich verlaufen!\n\n"
+  "Der verwunschene Wald ist begrenzt durch eine einzige äquidisdante Kurve. Diese ist kein Kreis oder Horozyklus.\n\n") //FIXME: Horozyklus; äquidistant to what?
 
 
 N("Black Lotus", GEN_M, "Schwarzer Lotus", "Schwarze Lotus", "Schwarzen Lotus")
@@ -2967,8 +2985,8 @@ N("Black Lotus", GEN_M, "Schwarzer Lotus", "Schwarze Lotus", "Schwarzen Lotus")
 S("This beautiful flower is greatly prized by wizards, as it allows them to cast powerful magical spells "
   "without preparation.\n",
 
-  "Diese schöne Blume ist hochgeschätzt bei Zauberern, denn sie erlaubt es ihnen, machtvolle magische Zauber "
-  "ohne Vorbereitung zu wirken.\n")
+  "Diese schöne Blume ist hochgeschätzt bei Zauberern, denn sie erlaubt es ihnen, ohne Vorbereitung machtvolle magische Zauber "
+  "zu wirken.\n")
 
 Orb("Undeath", "der Untoten")
 
@@ -3006,20 +3024,20 @@ S("Someone has put air fans in these plains, causing strong winds everywhere. "
   "and so can the birds.",
 
   "Jemand hat Ventilatoren in diese Ebenen gebracht, die überall starke Winde hervorrufen. "
-  "Du denkst der Zweck ist, die magische Kraft der Luftelementare zu zügeln, "
+  "Du vermutest, sie sollen die magische Kraft der Luftelementare zügeln, "
   "aber du bist dir nicht sicher.\n\n"
 
-  "Alle Zellen außer den Ventilatoren unterteilen sich nach einem Muster in drei Farben. "
+  "Alle Zellen außer den Ventilatoren unterteilen sich einem Muster entsprechend in drei Farben. "
   "Der Wind weht gegen den Uhrzeigersinn in jeder Gruppe von Zellen mit einer Farbe. "
-  "Zellen, die durch Wände blockiert sind oder mehr als 2 Zellen von einem Luftelementar entfernt sind, "
-  "zählen dabei nicht.\n\n"
+  "Zellen, die durch Wände blockiert oder nicht mehr als 2 Zellen von einem Luftelementar entfernt sind, "
+  "sind dabei ausgenommen.\n\n"
   "Es ist unzulässig in eine Richtung zu gehen, die näher am einströmenden als "
   "am ausströmenden Wind liegt. Aber du kannst in einem Zug zwei Zellen mit dem Wind gehen, "
   "genau wie die Vögel.")
 
 N("White Dove Feather", GEN_F, "Feder der weißen Taube", "Federn der weißen Taube", "Feder der weißen Taube")
 S("This feather is truly beautiful and strong.",
-  "Diese Feder ist wahrlich schön und mächtig.")
+  "Diese Feder ist wahrlich schön und stark.")
 
 N("Wind Crow", GEN_F, "Windkrähe", "Windkrähen", "Windkrähe")
 S("A large bird who likes strong winds. Just as you, it can fly quickly in the wind.",
@@ -3101,11 +3119,11 @@ S("what's this?", "Was ist das?")
 S("take me back", "Bring mich zurück")
 S("enable the Hypersian Rug mode", "Aktiviere den Hypersischen-Teppich-Modus")
 S("render the texture only once", "Rendere die Textur nur einmal")
-S("render texture without OpenGL", "Rendere Textur ohne OpenGL")
+S("render texture without OpenGL", "Rendere die Textur ohne OpenGL")
 S("texture size", "Texturgröße")
 
 // Crossroads IV & Chaos Mode (Kreuzungen IV & Chaos Modus)
-//----------------------------
+//---------------------------------------------------------
 
 N("Crossroads IV", GEN_F, "Kreuzungen IV", "Kreuzungen IV", "auf den Kreuzungen IV")
 
@@ -3205,7 +3223,7 @@ S("This part of the world is warped, restricting the movement somewhat. "
   "\"Diagonal\" movement and attacking between triangular cells is not allowed. "
   "Flash, Storms, and Freedom spells ignore this, and Ghosts can move, attack, and "
   "be attacked diagonally.",
-  "Dieser Teil der Welt ist verzerrt, was die Bewegungen etwas einschränkt. "
+  "Dieser Teil der Welt ist verzerrt, was die Bewegung etwas einschränkt. "
   "\"Diagonale\" Bewegung und Angriffe zwischen dreieckigen Zellen sind nicht erlaubt. "
   "Lichtblitz-, Sturm- und Freiheitszauber ignorieren das. Geister können sich diagonal "
   "bewegen und diagonal angegriffen werden.")
@@ -3214,7 +3232,7 @@ S("This Orb creates a warped zone of radius 5 around you, "
   "and also allows you to move diagonally in warped zones.",
 
   "Dieser Orb erzeugt einen verzerrten Bereich vom Radius 5 um dich herum "
-  "und erlaubt dir dich diagonal in verzerrten Bereichen zu bewegen.")
+  "und erlaubt es dir dich diagonal in verzerrten Bereichen zu bewegen.")
 
 S("Corals have a somewhat hyperbolic structure even in your home world, "
   "but natural corals from the Warped Sea have truly beautiful shapes. "
@@ -3260,7 +3278,7 @@ S("This Orb halves the power usage of orbs which cost some "
   "if you have an Orb of Energy.",
 
   "Dieser Orb halbiert den Kraftverbrauch von Orbs, die mit jeder Aktivierung "
-  "einige Aufladungen verbrauchen. Es beeinflusst auch die "
+  "Aufladungen verbrauchen. Es beeinflusst auch die "
   "einmalig aktivierbaren Orbs wie Lichtblitz oder Teleportation. Verbraucht "
   "eine Aktivierung normalerweise x Ladungen, dann verbraucht sie nur x/2 Ladungen (aufgerundet),  "
   "wenn du einen Orb der Energie besitzt.")
@@ -3269,11 +3287,11 @@ S("This Orb halves the power usage of orbs which cost some "
 
 N("warp gate", GEN_N, "verzerrtes Tor", "verzerrte Tore", "verzerrte Tor")
 S("This gate separates the warped area from the normal land.",
-  "Dieses Tor trennt den verzerrten Bereich von normalem Land.")
+  "Dieses Tor trennt den verzerrten Bereich vom normalen Land.")
 S("You cannot move between the cells without dots here!",
-  "Du kannst dich hier nicht zwischen Zellen ohne Punkten bewegen!") // FIXME: Was ist gemeint?
+  "Du kannst dich hier nicht zwischen Zellen ohne Punkte bewegen!") // FIXME: Was ist gemeint?
 S("Those roses smell too nicely. You can only target cells closer to them!",
-  "Diese Rosen duften zu gut. Du kannst nur Zellen näher bei ihnen anvisieren!") // Was ist gemeint?
+  "Diese Rosen duften zu gut. Du kannst nur Zellen näher bei ihnen anvisieren!")
 S("You need to move to give space to %the1!",
   "Du musst dich bewegen, um Platz für %den1 %a1 zu machen!")
 
@@ -3300,10 +3318,10 @@ S("\"Thank you very much for talking, and have a great rest of your day!\"",
 
 // Conformal/history mode
 
-S("conformal/history mode", "winkeltreu/historischer Modus")
-S("Preparing the line (%1/1000)...", "Vorbereitung der Linie (%1/1000)...")//FIXME: Was bedeutet das?
-S("Could not create an image of that size.", "Kann ein Bild dieser Größe nicht erzeugen.")
-S("Saved the band image as: ", "Speichere das band image als: ")//FIXME: Was bedeutet das? band image?
+S("conformal/history mode", "konformer/historischer Modus")
+S("Preparing the line (%1/1000)...", "Vorbereitung der Strecke (%1/1000)...")
+S("Could not create an image of that size.", "Konnte ein Bild dieser Größe nicht erzeugen.")
+S("Saved the band image as: ", "Bänderbild gespeichert als: ")
 S("right", "rechts")
 S("left", "links")
 S("up", "hoch")
@@ -3312,40 +3330,40 @@ S("counterclockwise", "gegen den Uhrzeigersinn")
 S("clockwise", "im Uhrzeigersinn")
 S("zoom out", "herauszoomen")
 S("zoom in", "hereinzoomen")
-S("left to right", "links zu rechts")
-S("right to left", "rechts zu links")
+S("left to right", "von links nach rechts")
+S("right to left", "von rechts nach links")
 S("spin down", "hochdrehen")
 S("spin up", "herunterdrehen")
-S("disk", "Festplatte")//FIXME: Was bedeutet das? disk
+S("disk", "Scheibe")
 S("half-plane", "Halbebene")
-S("band", "wstęga")//FIXME: Was bedeutet das? band?
-S("polygonal", "vieleckig")
-S("polynomial", "mehrnamig")
-S("include history", "inklusiv History")
+S("band", "Band")
+S("polygonal", "polygonal")
+S("polynomial", "polynomisch")
+S("include history", "inklusive Vergangenheit")
 S("model used", "verwendetes Modell")
 S("rotation", "Rotation")
 
 S("coefficient", "Koeffizient")
 S("which coefficient", "welcher Koeffizient")
 S("polygon sides", "Polygon-Seiten")
-S("star factor", "współczynnik gwiazdki")//FIXME: Was bedeutet das? star factor?
+S("star factor", "Sternfaktor")
 S("degree of the approximation", "Grad der Näherung")
 S("prepare the line animation", "bereite die Linien-Animation vor")
 S("animation speed", "Animationsgeschwindigkeit")
-S("render bands automatically", "rendere die bands automatisch")
-S("band width", "band breite")
-S("length of a segment", "Länge des Segments")
+S("render bands automatically", "rendere Bänder automatisch")
+S("band width", "Bandbreite")
+S("length of a segment", "Länge eines Segments")
 S("spiral on rendering", "Spirale beim Rendering")
 S("render now (length: %1)", "rendere jetzt (Länge: %1)")
-S("exit this menu", "verlasse dieses Menü")
-S("Enable cheat mode or GAME OVER to use this", "Aktivere den ’Cheat Modus’ oder GAME OVER um diese Funktion zu nutzen.")
+S("exit this menu", "Menü verlassen")
+S("Enable cheat mode or GAME OVER to use this", "Aktivere den Cheat-Modus oder GAME OVER um diese Funktion zu nutzen")
 
-// remember to note it's in English
-S("see http://www.roguetemple.com/z/hyper/conformal.php", "patrz http://www.roguetemple.com/z/hyper/conformal.php (po angielsku)")
+S("see http://www.roguetemple.com/z/hyper/conformal.php", "siehe http://www.roguetemple.com/z/hyper/conformal.php (in Englisch)")
+
 
 // Yendorian Forest
 
-N("Yendorian Forest", GEN_O, "Yendorischer Wald", "Yendorische Wälder", "im Yendorischen Wald")//FIXME: Grammatik
+N("Yendorian Forest", GEN_O, "Yendorianischer Wald", "Yendorianische Wälder", "im Yendorianischen Wald")
 
 S("This forest was planted by one of the wizards from the Ivory Tower "
   "to conduct experiments with gravity.",
@@ -3353,49 +3371,50 @@ S("This forest was planted by one of the wizards from the Ivory Tower "
   "Dieser Wald wurde von einem der Zauberer des Elfenbeinturmes gepflanzt, um "
   "Experimente mit der Graviation durchzuführen.")
 
-N("Yendorian Researcher", GEN_M, "Yendorischer Forscher", "Yendorische Forscher", "Yendorischen Forscher")//FIXME: Grammatik
+N("Yendorian Researcher", GEN_M, "Yendorianischer Forscher", "Yendorianische Forscher", "Yendorianischen Forscher")
 
 S("These people study gravity and infinite trees. "
   "They have no special features, other than wearing a strange hat.",
 
   "Diese Leute studieren die Gravitation und unendliche Bäume. "
-  "Sie haben keine Besonderheiten außer dem Tragen eines seltsamen Hutes.")
+  "Sie haben keine besonderen Eigenschaften außer dem Tragen eines seltsamen Hutes.")
 
-N("Sparrowhawk", GEN_M, "Sperber", "Sperber", "Sperber") //FIXME: Grammatik
+N("Sparrowhawk", GEN_M, "Sperber", "Sperber", "Sperber")
 
 S("A bird who hunts in the treetops of the Yendorian Forest.",
-  "Ein Vogel der die Baumwipfel des yendorischen Waldes heimsucht.") // Jagd er dort nicht einfach???
+  "Ein Vogel welcher in den Baumwipfeln des Yendorianischen Waldes jagt.")
 
 N("Apple", GEN_N, "Apfel", "Äpfel", "Apfel")
 
-S("A fruit from the Yendorian Forest.", "Eine Frucht des yendorischen Waldes.")
+S("A fruit from the Yendorian Forest.", "Eine Frucht des Yendorianischen Waldes.")
 
-N("trunk", GEN_O, "Baumstamm", "Baumstämme", "Baumstamm")//FIXME: Grammatik
+N("trunk", GEN_M, "Baumstamm", "Baumstämme", "Baumstamm")
 
 S("The skeleton of a tree.", "Das Skelett eines Baumes.")
 
-N("solid branch", GEN_F, "solider Ast", "solide Äste", "soliden Ast")//FIXME: Grammatik
+N("solid branch", GEN_M, "solider Ast", "solide Äste", "soliden Ast")
 
 S("Branches here could bear your weight easily.",
   "Die Äste hier tragen dein Gewicht mit Leichtigkeit.")
 
-N("weak branch", GEN_F, "schwacher Ast", "schwachen Äste", "schwachen Ast")
+N("weak branch", GEN_M, "schwacher Ast", "schwachen Äste", "schwachen Ast")
 
 S("Branches here will bear you weight, but if you use them to move (not fall) to an unstable place, they will break.",
-  "Die Äste hier werden dein Gewicht tragen, aber wenn du sie nutzt um dich zu einem unstabilem Platz zu bewegen (nicht fallen), werden sie brechen.")
+  "Die Äste hier werden dein Gewicht tragen, aber wenn du sie nutzt um dich zu einem instabilen Platz zu bewegen (nicht fallen), werden sie brechen.")
 
-N("canopy", GEN_N, "Kronendach", "Kronendächer", "Kronendach")//FIXME: Grammatik
+N("canopy", GEN_N, "Kronendach", "Kronendächer", "Kronendach")
 
 S("Only thin twigs and leaves here. They may bear fruits, but for you, these cells count as unstable.",
   "Hier sind nur dünne Zweige und Blätter. Sie mögen Früchte tragen, aber für dich sind diese Zellen instabil.")
 
-// Dragon Chasm (Drachenschlucht)
 
-N("Dragon Chasms", GEN_F, "Drachenschluchten", "Drachenschluchten", "in den Drachenschluchten")//FIXME: Grammatik
+// Dragon Chasms (Drachenschluchten)
 
-N("Dragon", GEN_M, "Drachen", "Drachen", "Drachen")//FIXME: Grammatik
+N("Dragon Chasms", GEN_F, "Drachenschluchten", "Drachenschluchten", "in den Drachenschluchten")
 
-N("Dragon Scale", GEN_F, "Drachenschuppe", "Drachenschuppen", "Drachenschuppe")//FIXME: Grammatik
+N("Dragon", GEN_M, "Drachen", "Drachen", "Drachen")
+
+N("Dragon Scale", GEN_F, "Drachenschuppe", "Drachenschuppen", "Drachenschuppe")
 
 S("Dragon Scales are a prized material for armors. "
   "They are also prized by collectors, who would like to boast "
@@ -3403,8 +3422,8 @@ S("Dragon Scales are a prized material for armors. "
   "Dragon Scales disappear after 500 turns.",
 
   "Drachenschuppen sind ein hochgeschätztes Material für Rüstungen. "
-  "Sie werden auch von Sammlern verehrt, die gerne damit prahlen, "
-  "dass sie einen Drachen getötet haben.\n\n"
+  "Sie werden auch von Sammlern begehrt, die gerne damit prahlen, "
+  "wie sie einen Drachen getötet haben.\n\n"
   "Drachenschuppen verschwinden nach 500 Zügen.")
 
 S("Dragons are powerful monsters. They are slow, but evil, "
@@ -3418,7 +3437,7 @@ S("Dragons are powerful monsters. They are slow, but evil, "
   "The head will regenerate on the "
   "turns the Dragon is not moving, so you will usually have to hit it with "
   "your last attack; otherwise, if the head is healthy, it may breathe "
-  "fire (at range 3), losing the hitpoint. Killing the Dragon gives you "
+  "fire (at range 3), losing the hitpoint. Killing the Dragon gives you "//FIXME: Was ist gemeint mit: losing the hitpoint?
   "treasure.",
 
   "Drachen sind mächtige Monster. Sie sind langsam, aber böse, "
@@ -3426,49 +3445,48 @@ S("Dragons are powerful monsters. They are slow, but evil, "
   "Sie müssen gestoppt werden!\n\n"
 
   "Ein Drachen bewegt sich alle zwei Züge. Er kann mit all seinen Segmenten "
-  "angreifen, oder seinen ganzen Körper vorwärst oder rückwärts bewegen, "
+  "angreifen, oder seinen ganzen Körper vorwärts oder rückwärts bewegen, "
   "oder vordere Segmente rückwärts bewegen. Um einen Drachen zu töten, "
   "musst du jedes seiner Segmente treffen. Der Kopf regeneriert sich während "
-  "der Züge, in denen der Drache sich nicht bewegt, daher solltest du ihn zuletzt "
-  "treffen; andererseits speit ein gesunder Kopf Feuer (im Radius 3) und du verlierst "//FIXME: Was ist gemeint mit: losing the hitpoint?
-  "den Hitpoint. Den Drachen zu töten wird dir Schätze bescheren.")
+  "der Züge, in denen der Drache sich nicht bewegt, daher solltest du diesen zuletzt "
+  "treffen; andernfalls kann der gesunde Kopf Feuer speien (im Radius 3). " //FIXME
+  "Den Drachen zu töten wird dir Schätze bescheren.")
 
 S("%The1 breathes fire at you!", "%Der1 %1 speit Feuer auf dich!")
 S("%The1 breathes fire!", "%Der1 %1 speit Feuer!")
 
 Orb("Domination", "der Dominanz")
 
-S(
-    "This Orb lets you ride Dragons and other worm-like creatures. "
-   "Simply move onto such a creature to ride them; while riding, you are protected from dangerous terrains "
-   "and partially from attacks (they cause you to lose half of your Domination power), "
-   "but you cannot collect items. When only one charge is left, "
-   "you have to dismount this turn -- be very careful to make this possible, "
-   "as your mount could attack you immediately!\n\n" "While riding, "
-   "click on a location to order your mount to move or attack there.",
+S("This Orb lets you ride Dragons and other worm-like creatures. "
+  "Simply move onto such a creature to ride them; while riding, you are protected from dangerous terrains "
+  "and partially from attacks (they cause you to lose half of your Domination power), "
+  "but you cannot collect items. When only one charge is left, "
+  "you have to dismount this turn -- be very careful to make this possible, "
+  "as your mount could attack you immediately!\n\n" "While riding, "
+  "click on a location to order your mount to move or attack there.",
 
-   "Diser Orb erlaubt es dir Drachen oder ondere wurmartige Wesen zu reiten. "
-   "Tritt einfach auf solch ein Wesen um es zu reiten; während des Ritts bist du vor gefährlichen Gebieten "
-   "und teilweise vor Angriffen (sie verursachen den Verlust der Hälfte deiner Kraft der Dominanz) geschützt. "
-   "Aber du kannst keine Gegenstände sammeln. Sobald nur noch eine Ladung übrig ist, musst du in diesem Zug absteigen -- "
-   "achte darauf dies zu tun, denn dein Reittier kann dich unmittelbar angreifen!\n\n"
-   "Während du reitest, klicke einfach auf eine Zelle um deinem Reittier zu befehlen dorthin zu "
-   "gehen oder dort anzugreifen."
-   )
+  "Diser Orb erlaubt es dir Drachen oder ondere wurmartige Wesen zu reiten. "
+  "Tritt einfach auf solch ein Wesen um es zu reiten; während des Ritts bist du vor gefährlichen Gebieten "
+  "und teilweise vor Angriffen (sie verursachen den Verlust der Hälfte deiner Kraft der Dominanz) geschützt. "
+  "Jedoch kannst du keine Gegenstände sammeln. Sobald nur noch eine Ladung übrig ist, musst du in diesem Zug absteigen -- "
+  "achte darauf dies zu ermöglichen, denn dein Reittier könnte dich unmittelbar angreifen!\n\n"
+  "Während du reitest, klicke auf eine Zelle um deinem Reittier zu befehlen dorthin zu "
+  "gehen oder dort anzugreifen.")
 
-S("You command %the1!", "Du befehligst %dem %1!")//FIXME: Grammatik
-S("You need to dismount %the1!", "Du musst von %dem %a1 absteigen!")//FIXME: Grammatik
-S("%The1 tries to dismount you!", "%Der %1 versucht dich abzuwerfen!")//FIXME: Grammatik
+S("You command %the1!", "Du befehligst %den1 %1!")
+S("You need to dismount %the1!", "Du musst von %dem1 %a1 absteigen!")//FIXME: Grammatik
+S("%The1 tries to dismount you!", "%Der1 %1 versucht dich abzuwerfen!")
 
-S("Enemies killed: %1 (%2 types)", "Getötete Feinde: %1 (%2 typów)")
+S("Enemies killed: %1 (%2 types)", "Getötete Feinde: %1 (%2 Arten)")
 S(" kills: %1/%2", " Tötungen: %1/%2")
 S("Different kills required: %1.\n", "Verschiedene Tötungen erforderlich: %1.\n")
 
+
 // Galapagos
 
-N("Galápagos", GEN_M, "Galápagos", "Galápagos", "in Galápagos")//FIXME: Grammatik
+N("Galápagos", GEN_M, "Galápagos", "Galápagos", "in Galápagos")
 
-N("Baby Tortoise", GEN_M, "Babyschildkröte", "Babyschildkröten", "Babyschildkröte")//FIXME: Grammatik
+N("Baby Tortoise", GEN_M, "Babyschildkröte", "Babyschildkröten", "Babyschildkröte")
 
 Orb("the Shell", "des Panzers")
 
@@ -3478,8 +3496,8 @@ S("This Orb protects you from physical attacks. "
   "It also does not protect you from fires, scents, and being eaten.",
 
   "Dieser Orb schützt dich vor physischen Angriffen. Es hält mehr Züge als "
-  "der Orb der Abschiermung , aber immer wenn du angegriffen wirst, verlierst du 10 Ladungen. "//FIXME: hier den Orb of shielding verwendet. Prüfen!
-  "Es schützt dich nicht vor Feuer und Düften oder davor gefressen zu werden.")
+  "der Orb der Abschirmung , aber immer wenn du angegriffen wirst, verlierst er 10 Ladungen. "
+  "Er schützt dich nicht vor Feuer und Düften oder davor gefressen zu werden.")
 
 S("Galápagos is the land of Tortoises. "
   "They are very slow, which allows the Dragons to pick on them by "
@@ -3494,27 +3512,28 @@ S("Galápagos is the land of Tortoises. "
   "the given location of Galápagos, the brighter it is shown on your screen.",
 
   "Galápagos ist das Land der Schildkröten -- Sie sind sehr langsam, was es "
-  "den Drachen ermöglicht sie zu schikanieren, indem diese die jungen Schilkröten "
+  "den Drachen ermöglicht sie zu schikanieren, indem sie die jungen Schilkröten "
   "stehlen oder fressen. Bring die Babyschildkröte zurück, aber es gibt einen Haken: "
-  "es gibt viele Schildkrötenarten, abhängig von der Region Galápagos in der sie leben -- "
-  "es gibt 21 binäre regionale Faktoren als 2097152 Arten. Du must eine Schildkröte finden, die exakt der Babyschildkröte entspricht!\n\n"//FIXME: Zeilenumbrauch einfügen
+  "es gibt viele Schildkrötenarten, abhängig von der Gegend Galápagos in der sie leben -- "
+  "es gibt 21 binäre regionale Faktoren und somit 2097152 verschiedene Arten. "
+  "Du musst eine Schildkröte finden, die exakt mit der Babyschildkröte übereinstimmt!\n\n"
   "Schildkröten bewegen sich alle 3 Züge und Angriffe betäuben sie nur.\n\n"
   "Eine Babyschildkröte zurückzubringen zählt 5 $$$. Je mehr Faktoren in der aktuellen "
   "Region Galápagos übereinstimmen, umso heller erscheint sie auf dem Bildschirm.")
 
-S("%The1 scares %the2 a bit!", "%Der %1 ängstigt %den %a2 ein wenig!")//FIXME: Grammatik
-S("%The1 attacks your shell!", "%Der %1 greift deinen Panzer an!")//FIXME: Grammatik
+S("%The1 scares %the2 a bit!", "%Der1 %1 ängstigt %den2 %a2 ein wenig!")
+S("%The1 attacks your shell!", "%Der1 %1 attackiert deinen Panzer!")
 
 S("Hyperstone Quest: collect at least 10 points in %the2",
-  "Hyperstone Quest: sammle mindestens 10 Punkte in %abl2")//FIXME: Grammatik & Hyperstone noch nicht übersetzt
+  "Hyperstone Quest: sammle mindestens 10 Punkte %abl2")
 
 S("animals killed: %1", "getötete Tiere: %1")
 S("\n\nTortoises are not monsters! They are just annoyed. They do not count for your total kills.",
-  "\n\nSchildkröten sind keine Monster! Sie sind nur verärgert. Sie zählen nicht für dein Gesamtzahl an Tötungen.")//FIXME: Grammatik
+  "\n\nSchildkröten sind keine Monster! Sie sind nur verärgert. Sie zählen nicht für deine Gesamtzahl an Tötungen.")
 
-S("Aww, poor %1... where is your family?", "Oh, du arme %1... wo it deine Familie?")//FIXME: Grammatik
+S("Aww, poor %1... where is your family?", "Oh, du arme %1... wo ist deine Familie?")
 S("You are now a tortoise hero!", "Du bist jetzt ein Held der Schildkröten!")
-S("Find a %1 in %the2.", "Finde eine %a1 in %abl2.")//FIXME: Grammatik
+S("Find a %1 in %the2.", "Finde eine %a1 %abl2.") // FIXME: Grammatik
 
 /*
 		"NEW_ACHIEVEMENT_6_27_NAME"	"Dragon Slayer"
@@ -3549,41 +3568,41 @@ S("You hear a distant roar!", "Du hörst ein entferntes Brüllen!")
 S("turn count = %1 last exploration = %2 ghost timer = %3",
   "Zähler = %1 letzte Erkundung = %2 Geister-Zähler = %3")
 
-S("You damage %the1 with a mental blast!", "Du verletzt %den %a1 mit deinem mentalen Angriff!")//FIXME: Grammatik & mental blast übersetzt
+S("You damage %the1 with a mental blast!", "Du schädigst %den1 %a1 mit einem mentalen Stoß!")
 
 S("You are now a tortoise heroine!", "Du bist jetzt ein Held der Schildkröten!")
 
 S("Note: currently scores are saved only in the normal mode on Android",
-  "Hinweis: aktuell werden bei Android Punktestände nur im Normalmodus gespeichert")//FIXME: bei Android??
+  "Hinweis: aktuell werden bei Android Punktestände nur im Normalmodus gespeichert")
 S("Note: you can play, but scores won't be saved on Android",
-  "Hinweis: du kannst spielen, aber bei Android werden keine Punktestände gespeichert")//FIXME: bei Android??
-S("settings set here won't be saved", "hier gemachte Einstellungen werden nicht gespeichert ")
+  "Hinweis: du kannst spielen, aber bei Android werden keine Punktestände gespeichert")
+S("settings set here won't be saved", "hier gemachte Einstellungen werden nicht gespeichert")
 S("-- use the Android menu instead", "-- verwende dafür das Android-Menü")
 
-S("summon Bonfire", "beschwöre das Leuchtfeuer")//FIXME: bonfire??
-S("Hyperstone Quest", "Hyperstone Quest")//FIXME: noch übersetzten
-S("summon dead orbs", "beschöre die toten Orbs")
-S("summon a Monster", "beschöre ein Monster")
-S("gain orb powers", "erhalte Orb der Kraft")//FIXME: orb of power
-S("summon a Golem", "beschöre einen Golem")
-S("summon Thumpers", "beschöre die ???")//FIXME: noch übersetzten thumper
-S("summon Ivy", "beschöre den Efeu")
+S("summon Bonfire", "rufe Leuchtfeuer herbei")
+S("Hyperstone Quest", "Hyperstone-Herausforderung")
+S("summon dead orbs", "rufe tote Orbs herbei")
+S("summon a Monster", "rufe ein Monster herbei")
+S("gain orb powers", "erhalte Orbkräfte")
+S("summon a Golem", "rufe einen Golem herbei")
+S("summon Thumpers", "rufe Stampfer herbei")
+S("summon Ivy", "rufe Efeu herbei")
 S("lose all treasure", "verliere alle Schätze")
 S("gain kills", "erhalte Tötungen")
 S("Select the land ---", "Wähle das Land ---")
-S("summon Mimics", "beschöre die ???")//FIXME: noch übersetzten mimic
-S("summon orbs", "beschöre Orbs")
+S("summon Mimics", "rufe Mimiken herbei")
+S("summon orbs", "rufe Orbs herbei")
 S("deplete orb powers", "verbrauche Orbkräfte")
 S("Safety (quick save)", "Sicherheit (schnell speichern)")
-S("summon treasure", "beschöre Schätze")
-S("summon lots of treasure", "beschöre viele Schätze")
+S("summon treasure", "rufe Schätze herbei")
+S("summon lots of treasure", "rufe viele Schätze herbei")
 S("--- and teleport there", "--- und teleportiere dorthin")
-S("summon Sand Worm", "beschöre den Sandwurm")
-S("summon Orb of Yendor", "beschöre den Orb von Yendor")
-S("rotate the character", "drehe die Spielfigur")//FIXME: wie übersetzten wir Charakter? Spielfigur?
+S("summon Sand Worm", "rufe Sandwurm herbei")
+S("summon Orb of Yendor", "rufe einen Orb von Yendor herbei")
+S("rotate the character", "drehe Spielfigur")
 
-S("gain Orb of Yendor", "erhalte den Orb von Yendor")//FIXME: Grammatik
-S("switch ghost timer", "betätige den Geister-Zähler")//FIXME: was ist gemeint
+S("gain Orb of Yendor", "erhalte Orb von Yendor")
+S("switch ghost timer", "Geister-Zähler umschalten")
 S("switch web display", "wechsle die Web-Anzeige")//FIXME: was ist gemeint
 
 

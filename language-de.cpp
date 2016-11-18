@@ -1297,7 +1297,7 @@ S("The temple of Cthulhu consists of many concentric circles of columns. "
   "Der Tempel des Cthulhu. Er besteht aus vielen konzentrischen Kreisen von Säulen. "
   "Du wirst hier sicherlich vielen Anhängern Cthulhus begegnen. Sie glauben, dass eine Pilgerreise in die "
   "inneren Kreise sie näher zu Cthulhu bringt und man mächtige Grimoires finden kann, die viele Geheimnisse in sich bergen.\n\n"
-  "Die Kreise hier sind eigentlich Horozyklen. Sie sind unendlich groß, und es gibt unendlich viele davon.") // FIXME: Grenzkreis?
+  "Die Kreise hier sind eigentlich Horozykeln. Sie sind unendlich groß, und es gibt unendlich viele davon.")
 
 S("The Grimoires contain many secrets of the Great Old Ones. "
   "Each new inner circle in the Temple of Cthulhu contains new Grimoires, with new secrets. "
@@ -2167,7 +2167,7 @@ S("This mode allows you to edit the map.\n\n"
   "Drücke F2 um die Map zu speichern (und F3 um sie zu laden). "
   "Nach einer langen HyperRogue Sitzung (ohne den Orb der Geborgenheit zu nutzen) "
   "kann die Datei sehr groß sein! Allerdings werden große Strukturen, "
-  "wie Große Mauern, große Kreise und sonstiges dadurch zerstört.\n\n"
+  "wie Große Mauern, große Kreise und Horozykeln dadurch zerstört.\n\n"
   "Drücke 'b' um Zellen als Grenzen zu markieren. Solche Zellen, sowie "
   "Zellen hinter diesen können nicht kopiert oder gespeichert werden.\n\n")
 
@@ -2977,7 +2977,7 @@ S("A dark forest filled with ghosts and graves. But there is also treasure hidde
 
   "Ein dunkler Wald voller Geister und Gräber. Doch in seinen Tiefen sind auch Schätze versteckt... "
   "Aber lass dich nicht durch Gier von deinem Weg abbringen, du könntest dich verlaufen!\n\n"
-  "Der verwunschene Wald ist begrenzt durch eine einzige äquidisdante Kurve. Diese ist kein Kreis oder Horozyklus.\n\n") //FIXME: Horozyklus; äquidistant to what?
+  "Der verwunschene Wald ist begrenzt durch eine einzige äquidisdante Kurve. Diese ist kein Kreis und kein Horozykel.\n\n")
 
 
 N("Black Lotus", GEN_M, "Schwarzer Lotus", "Schwarze Lotus", "Schwarzen Lotus")

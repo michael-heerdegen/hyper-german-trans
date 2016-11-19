@@ -3607,5 +3607,262 @@ S("switch ghost timer", "Geister-Zähler umschalten")
 S("switch web display", "wechsle die Web-Anzeige")//FIXME: was ist gemeint
 
 
+// just copy: "player 5 X"...
+S("configure player 5", "Spieler 5 konfigurieren")
+S("configure player 6", "Spieler 6 konfigurieren")
+S("configure player 7", "Spieler 7 konfigurieren")
+
+S("player 5 X", "Spieler 5 X")
+S("player 5 Y", "Spieler 5 Y")
+S("player 5 go", "Spieler 5 los")
+S("player 5 spin", "Spieler 5 drehen")
+S("player 6 X", "Spieler 6 X")
+S("player 6 Y", "Spieler 6 Y")
+S("player 6 go", "Spieler 6 los")
+S("player 6 spin", "Spieler 6 drehen")
+S("player 7 X", "Spieler 7 X")
+S("player 7 Y", "Spieler 7 Y")
+S("player 7 go", "Spieler 7 los")
+S("player 7 spin", "Spieler 7 drehen")
+
+
+// VERSION 9.0
+//=============
+
+// extra descriptions for Orbs and some other things
+
+S("\n\nThis Orb is triggered on your first attack or illegal move.",
+  "\n\nDieser Orb wird bei deiner ersten Attacke oder deinem ersten "
+  "unerlaubten Zug ausgelöst.")
+
+S("\nYou can never target cells which are adjacent to the player character, "
+  "or ones out of the sight range.",
+  "\nDu kannst niemals auf Zellen, die der Spielfigur benachbart oder die nicht in Sichtweite sind, "
+  "zielen.")
+
+S("\nThis is a ranged Orb. ", "\nDies ist ein Distanzorb.")
+
+S("\nRanged Orbs can be targeted by long touching the desired location.",
+  "\nMit Distanzorbs kann durch langes Berühren der gewünschten Position gezielt werden.")
+
+S("\nRanged Orbs can be targeted by touching the desired location.",
+  "\nMit Distanzorbs kann durch Berühren der gewünschten Position gezielt werden.")
+
+S("\nRanged Orbs can be targeted by shift-clicking the desired location. ",
+  "\nMit Distanzorbs kann per Shift-Klick auf die gewünschte Position gezielt werden. ")
+
+S("\nRanged Orbs can be targeted by clicking the desired location. ",
+  "\nMit Distanzorbs kann per Klick auf die gewünschte Position gezielt werden. ")
+
+S("\n\nOnce you collect 10 Bomberbird Eggs, "
+  "stepping on a cell with no adjacent mines also reveals the adjacent cells. "
+  "Collecting even more Eggs will increase the radius. Additionally, collecting "
+  "25 Bomberbird Eggs will reveal adjacent cells even in your future games.",
+
+  "\n\nSobald du 10 Bombenvogeleier gesammelt hast, werden "
+  "beim Betreten jeder Zelle, die nicht an eine Miene grenzt, auch alle Nachbarzellen aufgedeckt. "
+  "Sammeln von noch mehr Eiern vergrößert den Radius.  Das Sammeln von 25 Bombenvogeleiern "
+  "schaltet sogar das Aufdecken von Nachbarzellen in zukünftigen Spielen frei.")
+
+S("This might be very useful for devices with limited memory.",
+  "Das kann sehr nützlich für Geräte mit begrenztem Speicher sein.")
+
+S("(in the MENU). You can reduce the sight range, this should make the animations smoother.",
+  "(im MENÜ). Du kannst die Sichtweite reduzieren, das sollte die Animationen glatter machen.")
+
+S("Unavailable in the shmup mode.\n", "Nicht im shmup-Modus verfügbar.\n")
+S("Unavailable in the multiplayer mode.\n", "Nicht im Mehrspieler-Modus verfügbar.\n")
+S("Unavailable in the Chaos mode.\n", "Nicht im Chaos-Modus verfügbar.\n")
+S("Bonus land, available only in some special modes.\n",
+  "Bonusland, nur in einigen Spezialmodi verfügbar.\n")
+
+S("\n\nThis Orb protects you from attacks, scents, and insulates you "
+  "from electricity. It does not let you go through deadly terrain, but "
+  "if you are attacked with fire, it lets you stay in place in it.",
+
+  "\n\nDieser Orb schützt dich vor Angriffen, Düften, und isoliert dich gegenüber Elektrizität. "
+  "Er lässt dich nicht durch tödliches Terrain laufen, aber wenn du mit Feuer angegriffen wirst, "
+  "kannst du darin stehen bleiben.")
+
+S("Completing the quest in this land is not necessary for the Hyperstone Quest.",
+  "Das Bestehen der Herausforderung dieses Landes ist keine Voraussetzung "
+  "für die Hyperstein-Herausforderung.")
+
+// other options
+
+S("player", "Spieler")
+S("movement color", "Richtungsmarker-Farbe")
+S("model used (not conformal!)", "verwendetes Modell (nicht konform!)")
+S("azimuthal equidistant", "mittabstandstreu azimutal")
+S("azimuthal equi-area", "flächentreu azimutal")
+S("visit the website", "Webseite besuchen")
+S("leaderboards/achievements", "Bestenlisten/Errungenschaften")
+S("return to the game", "zum Spiel zurückkehren")
+
+// Android texts
+
+S("connected to Google Games", "verbunden mit Google Games")
+S("background music", "Hintergrundmusik")
+S("view your achievements", "deine Errungenschaften ansehen")
+S("next page", "nächste Seite")
+
+
+// kraken depths
+
+N("Kraken Depths", GEN_F, "Krakentiefen", "Krakentiefen", "in den Krakentiefen")
+
+S("A long time ago, this was a trade route. But then, Krakens have risen out of the "
+  "depths. Many trading ships sank here. Legend says that you can uncover the secret "
+  "of a magical weapon spell somewhere in the depths...\n\n"
+
+  "You can find Sunken Treasures here, but they won't appear until you have killed "
+  "a Kraken. You will also need Orb of the Fish to get the treasures, luckily you can "
+  "steal one from the Viking treasure hunters.",
+
+  "Vor langer Zeit war dies eine Handelsroute. Dann aber stiegen Kraken aus den Tiefen "
+  "empor. Viele Handelsschiffe versanken hier. Legenden behaupten, dass man das Geheimnis eines "
+  "Zaubers für eine magische Waffe irgendwo in den Tiefen enthüllen kann...\n\n"
+  "Hier kannst du versunkene Schätze finden, aber erst nachdem du "
+  "einen Kraken getötet hast. Du wirst auch den Orb des Fischs brauchen, um zu den Schätzen "
+  "zu gelangen.  Glücklicherweise kannst du einen von den Wikinger-Schatzjägern stehlen.")
+
+S("There are Krakens in your homeland too... huge sea monsters which "
+  "could easily destroy ships. The geometry of this strange world "
+  "prevents quick movement of huge objects, "
+  "so there are no large ships, only small boats, and "
+  "hyperbolic Krakens are relatively small too. Still, you suppose they might be "
+  "the widest creatures which could still move at considerable speed...\n\n"
+
+  "Kraken heads can move only on hexagons. You need to attack all the tentacles to "
+  "kill the Kraken. A tentacle cannot attack if it has been attacked on the "
+  "same turn. When a Kraken attacks you while you are in a boat, it "
+  "destroys the boat, but does not kill you.",
+
+  "In deiner Heimat gibt es auch Kraken - riesige Seeungeheuer, die leicht Schiffe "
+  "zerstören könnten. Die Geometrie dieser seltsamen Welt verhindert schnelle Bewegungen "
+  "von großen Objekten. Daher gibt es keine großen Schiffe, nur kleine Boote, und hyperbolische "
+  "Kraken sind auch relativ klein. Dennoch - du nimmst an, das sie die ausgedehntesten Kreaturen "
+  "sind, die sich noch mit größerer Geschwindigkeit bewegen können...\n\n"
+
+  "Köpfe von Kraken können sich nur auf Sechsecken bewegen. Du musst alle Tentakel angreifen, um einen "
+  "Kraken zu töten. Ein Tentakel kann nicht angreifen, wenn er im gleichen Zug attackiert wurde. "
+  "Wenn ein Krake dich angreift, während du in einem Boot bist, zerstört er das Boot, tötet dich "
+  "jedoch nicht.")
+
+Orb("the Sword", "des Schwertes")
+
+S("This Orb gives you a weapon made of pure magical energy. You do not hold "
+  "it, it simply floats in the air next to you. When you go, the energy sword moves "
+  "with you, pointing at the same relative angle it pointed before -- you cannot "
+  "move or rotate it otherwise. Most monsters can be killed by moving the sword into them, "
+  "and won't move into the spot with the sword.",
+
+  "Dieser Orb stellt dir eine Waffe aus purer magischer Energie zur Verfügung. Du hältst dieses "
+  "Schwert nicht; es schwebt einfach neben dir in der Luft. Wenn du dich bewegst, bewegt sich "
+  "das Energieschwert mit dir, wobei es in dieselbe relative Richtung zeigt wie zuvor; du kannst "
+  "es nicht in anderer Weise bewegen oder drehen. Die meisten Monster können getötet werden, indem "
+  "das Schwert in sie hineinbewegt wird, und begeben sich nicht auf das Feld mit dem Schwert.")
+
+N("Sunken Treasure", GEN_M, "Versunkener Schatz", "Versunkene Schätze", "Versunkenen Schatz")
+
+S("Cargo of a ship which was once destroyed by a Kraken.",
+  "Ladung eines Schiffes, das einst von einem Kraken zerstört wurde.")
+
+
+// burial grounds
+
+N("Burial Grounds", GEN_F, "Begräbnisstätten", "Begräbnisstätten", "in den Begräbnisstätten")
+
+S("Ancient Viking heroes were buried here. Their graves have barrows raised over "
+  "them, and are guarded by Draugar, animated corpses who are immune to mundane weapons. "
+  "You will need to use a magical weapon spell to defeat them, and to rob the "
+  "ancient jewelry buried in the graves.",
+
+  "Die Helden der alten Wikinger wurden hier begraben. Über ihren Gräbern erheben sich Hügel, "
+  "die von Draugar bewacht werden, Untote, die immun gegen irdische Waffen sind. "
+  "Du wirst einen Zauber für eine magische Waffe brauchen, um sie zu besiegen und die in den "
+  "Gräbern verborgenen antiken Juwelen zu rauben.")
+
+N("Draugr", GEN_M, "Draugr", "Draugar", "Draugr")
+
+S("Animated corpses of ancient Viking warriors. They are immune to mundane weapons, "
+  "but they can be destroyed by your Orb of the Sword.",
+  "Untote Helden der alten Wikinger. Sie sind immun gegenüber irdischen "
+  "Waffen, aber sie können durch deinen Orb des Schwertes zerstört werden.")
+
+Orb("the Sword II", "des Schwertes II")
+
+S("An alternative version of Orb of the Sword. If you have both of them, "
+  "you have two energy swords, facing in opposite directions.",
+  "Eine alternative Variante des Orbs des Schwertes. Wenn du beide Orbs besitzt, hast du zwei "
+  "Energieschwerter, die in entgegengesetzte Richtungen zeigen.")
+
+N("Ancient Jewelry", GEN_F, "Antike Juwelen", "Antike Juwelen", "Antiken Juwelen")
+
+S("Precious belongings of ancient Viking heroes. Your Orb of the Sword can be "
+  "used to dig these treasures out of the barrows.",
+  "Kostbares Eigentum der Helden der alten Wikinger. Dein Orb des Schwertes kann verwendet werden, "
+  "um diese Schätze aus den Hügelgräbern herauszuholen.")
+
+S("%The1 destroys your boat!", "%Der1 %1 zerstört dein Boot!")
+S("Your mundane weapon cannot hurt %the1!", "Deine irdische Waffe kann %den1 %a1 nicht verletzen!")
+S("This move appears dangerous -- are you sure?", "Dieser Zug scheint gefährlich zu sein - bist du sicher?")
+S("You slash %the1.", "Du schlägst %den1 %a1.")
+S("You chop down %the1.", "Du hackst %den1 %a1 ab.")
+S("Cannot slash another player!", "Kann keinen anderen Spieler schlagen!")
+S("%The1 suffocates!", "%Der1 %1 erstickt!")
+
+N("barrow wall", GEN_F, "Hügelwand", "Hügelwände", "Hügelwand")
+
+S("This wall is quite strong. You will need another way in.",
+  "Diese Wand ist sehr stabil - du brauchst einen anderen Weg hinein.")
+
+N("barrow", GEN_O, "Hügelgrab", "Hügelgräber", "Hügelgrab")
+
+S("Your Orb of the Sword can be used to dig here.",
+  "Dein Orb des Schwertes kann verwendet werden, um hier zu graben.")
+
+// Trollheim
+
+N("Trollheim", GEN_O, "Trollheim", "Trollheim", "Trollheim")
+
+S("Many clans of Trolls spend their lives in this kingdom. You can find many "
+  "statues of Trolls here. You suppose that they are not actually statues, but simply "
+  "elderly Trolls, who have petrified upon death. Or maybe you have killed "
+  "these Trolls yourself?",
+
+  "Viele Troll-Clans verbringen ihr Leben in diesem Königreich. Du kannst hier viele "
+  "Troll-Statuen finden. Du vermutest, dass es nicht wirklich Statuen sind, sondern einfach "
+  "ältere Trolle, die bei ihrem Tode versteinert sind. Oder hast du diese Trolle selbst getötet?")
+
+
+N("Golden Egg", GEN_N, "Goldenes Ei", "Goldene Eier", "Goldene Ei")
+
+S("Trolls of Trollheim are descendants of a bridge Troll, who collected "
+  "payments from people crossing the bridge. One of them paid with "
+  "golden eggs. The bridge Troll found the eggs beautiful, but he quickly lost them. "
+  "Golden eggs are still revered by Trolls, and you can find them in their "
+  "caves.",
+
+  "Die Trolle von Trollheim sind Nachfahren eines Brückentrolls, der Wegzölle von allen "
+  "gesammelt hat, die die Brücke überquerten. Einer von ihnen bezahlte mit goldenen Eiern."
+  "Der Brückentroll fand die Eier sehr schön, aber verlor sie bald darauf. Die Eier "
+  "werden von den Trollen noch immer verehrt, und du kannst sie in ihren Höhlen finden.")
+
+Orb("the Stone", "des Steines")
+
+S("Trolls turn into stone walls when they die. When you have this Orb, "
+  "this happens to every monster you defeat. Statues created from this Orb "
+  "have slightly different properties than Trolls who petrify naturally.",
+
+  "Trolle werden zu Steinwänden, wenn sie sterben. Besitzt du diesen Orb, "
+  "passiert das jedem Monster, das du besiegst. Statuen, die von diesem Orb erschaffen "
+  "werden, haben etwas andere Eigenschaften als Trolle, die natürlich versteinern.")
+
+N("stone statue", GEN_F, "Steinstatue", "Steinstatuen", "Steinstatue")
+
+S("A petrified creature.", "Eine versteinerte Kreatur.")
+
+
 #undef Orb
 

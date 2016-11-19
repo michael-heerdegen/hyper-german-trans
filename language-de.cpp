@@ -49,7 +49,7 @@ N("Goblin", GEN_M, "Goblin", "Goblins", "Goblin")
 N("Sand Worm", GEN_M, "Sandwurm ", "Sandwürmer", "Sandwurm")
 N("Sand Worm Tail", GEN_M, "Sandwurm Schweif", "Sandwurm Schweife", "Sandwurm Schweif")
 N("Sand Worm W", GEN_M, "Sandwurm W", "Sandwürmer W", "Sandwurm W")
-N("Desert Man", GEN_M, "Wüstenläufer", "Wüstenläufer", "Wüstenläufer")
+N("Desert Man", GEN_M, "Wüstenmann", "Wüstenmänner", "Wüstenmann")
 N("Ivy Root", GEN_F, "Efeu Wurzel", "Efeu Wurzeln", "Efeu Wurzel")
 N("Active Ivy", GEN_M, "Lebender Efeu", "Lebende Efeue", "Lebenden Efeu")
 N("Ivy Branch", GEN_M, "Efeuzweig", "Efeuzweige", "Efeuzweig")
@@ -191,7 +191,7 @@ S("%The1 moves his finger downwards.", "%Der1 %1 bewegt seinen Finger nach unten
 S("Your brain is steaming.", "Dein Hirn dampft!")
 S("%The1 destroys %the2!", "%Der1 %1 zerstört %den2 %a2!")
 S("You join %the1.", "Du führst die %P1 zusammen.")
-S("Two of your images crash and disappear!", "Zwei %P1 stürzen gegeneinander!")
+S("Two of your images crash and disappear!", "Zwei deiner Abbilder stoßen zusammen und verschwinden!")
 S("%The1 breaks the mirror!", "%Der1 %1 zerstört den Spiegel!")
 S("%The1 disperses the cloud!", "%Der1 %1 löst die Wolke auf!")
 S("You activate the Flash spell!", "Du aktivierst den Blitz Zauber!") // FIXME: Getrennt-Zusammenschr.
@@ -266,7 +266,7 @@ S("Game loaded.", "Spiel geladen.")
 S("You summon some Mimics!", "Du beschwörst ein paar Mimics!")
 S("You summon a golem!", "Du beschwörst einen Golem!")
 S("You will now start your games in %1", "Du startest deine Spiele von nun an in %a1")
-S("Activated the Hyperstone Quest!", "Hyperstein Quest aktiviert!")
+S("Activated the Hyperstone Quest!", "Hyperstein-Herausforderung aktiviert!")
 S("Orb power depleted!", "Du hast die Kraft des Orbs aufgebraucht!")
 S("Orbs summoned!", "Orbs beschworen!")
 S("Orb power gained!", "Orb Kraft erhalten!")
@@ -315,7 +315,7 @@ S("no axes", "keine Achsen")
 S("auto", "auto")
 S("light", "einfach")
 S("heavy", "schwierig")
-S("The axes help with keyboard movement", "Die Achsen helfen mit der Tastatursteuerung")
+S("The axes help with keyboard movement", "Die Achsen helfen bei der Tastatursteuerung")
 S("Config file: %1", "Confiq Datei: %1")
 S("joystick mode: automatic (release the joystick to move)", "Joystick: Automatisch (loslassen zum bewegen)")
 S("joystick mode: manual (press a button to move)", "Joystick: Manuell (Knopf drücken zum bewegen)")
@@ -337,8 +337,8 @@ S("Orbs of Yendor found: %1", "Orbs von Yendor gefunden: %1")
 S("Collect 30 $$$ to access more worlds", "Sammle 30 $$$ um mehr Länder betreten zu können")
 S("Collect at least 10 treasures in each of 9 types to access Hell", "Sammle 9 verschiedene Schätze mindestens 10x um Zugang zur Hölle zu erhalten")
 S("Collect at least 10 Demon Daisies to find the Orbs of Yendor", "Sammle mindestens 10 Dämonenblümchen um die Orbs von Yendor zu finden")
-S("Hyperstone Quest: collect at least 10 %1 in %the2", "Hyperstein Quest: Sammle 10 %P1 %a2")
-S("Hyperstone Quest completed!", "Hyperstein Quest abgeschlossen!")
+S("Hyperstone Quest: collect at least 10 %1 in %the2", "Hyperstein-Herausforderung: Sammle 10 %P1 %a2")
+S("Hyperstone Quest completed!", "Hyperstein-Herausforderung abgeschlossen!")
 S("Look for the Orbs of Yendor in Hell or in the Crossroads!", "Such die Orbs von Yendor in der Hölle oder auf den Kreuzungen!")
 S("Unlock the Orb of Yendor!", "Öffne den Orb von Yendor!")
 S("Defeat 100 enemies to access the Graveyard", "Töte 100 Gegner um Zugang zum Friedhof zu erhalten")
@@ -395,7 +395,7 @@ S("cross display mode", "Anzeigemodus (Kreuz)")
 S("background music volume", "Hintergrundmusik")
 S("OFF", "AUS")
 S("ON", "EIN")
-S("distance between eyes", "Augen Abstand")
+S("distance between eyes", "Augenabstand")
 S("framerate limit", "Framerate Limit")
 S("joystick mode", "Joystick")
 S("automatic", "automatisch")
@@ -1432,7 +1432,7 @@ N("Caribbean", GEN_F, "Karibik", "Karibiken", "in der Karibik")
 
 N("Pirate", GEN_M, "Pirat", "Piraten", "Pirat")
 N("Shark", GEN_M, "Hai", "Haie", "Hai")
-N("Parrot", GEN_F, "Papagei", "Papageien", "Papagei")
+N("Parrot", GEN_M, "Papagei", "Papageien", "Papagei")
 N("Pirate Treasure", GEN_M, "Piratenschatz", "Piratenschätze", "Piratenschatz")
 N("Compass", GEN_M, "Kompass", "Kompasse", "Kompass")
 
@@ -1502,7 +1502,7 @@ S("Normally, the power of most Orbs slowly fades away, even when "
   "Der Orb der Zeit verhindert dies.\n\n"
 
   "Besitzt du einen, verlieren inaktive Orbs keine Kraft. "
-  "Orbs zählen als aktiv, wenn sie eine andauernde Kraft haben, die letzten Zug "
+  "Orbs zählen als aktiv, wenn sie eine andauernde Kraft besitzen, die im letzten Zug "
   "etwas beeinflusst hat.\n\n"
 
   "Orbs der Abschirmung bleiben nach Aktivierung aktiv "
@@ -2233,7 +2233,7 @@ S("\"That should teach you to take me seriously!\"",
   "\"Das sollte dir beweisen mich Ernst zu nehmen!\"")
 
 S("%The1 kisses you, and begs you to bring %him1 away from here.",
-  "%Der1 %1 küsst dich und bittet dich %den1 von hier weg zu bringen.") // FIXME
+  "%Der1 %1 küsst dich und bittet dich %den1 von hier weg zu bringen.") // FIXME: sie/ihn
 
 S("\"I want my revenge. Stun a guard and leave him for me!\"",
   "Ich will Rache. Betäube eine Wache und überlasse sie mir!\"")
@@ -2281,6 +2281,7 @@ S("Failed to save map to %1", "Karte konnte nicht nach %1 gespeichert werden")
 S("Failed to load map from %1", "Karte konnte nicht von %1 geladen werden")
 S("save whom", "wen retten?")
 S("other", "Andere") // other keys in the main menu
+
 
 // VERSION 7.4
 
@@ -3437,7 +3438,7 @@ S("Dragons are powerful monsters. They are slow, but evil, "
   "The head will regenerate on the "
   "turns the Dragon is not moving, so you will usually have to hit it with "
   "your last attack; otherwise, if the head is healthy, it may breathe "
-  "fire (at range 3), losing the hitpoint. Killing the Dragon gives you "//FIXME: Was ist gemeint mit: losing the hitpoint?
+  "fire (at range 3), losing the hitpoint. Killing the Dragon gives you "
   "treasure.",
 
   "Drachen sind mächtige Monster. Sie sind langsam, aber böse, "
@@ -3449,7 +3450,7 @@ S("Dragons are powerful monsters. They are slow, but evil, "
   "oder vordere Segmente rückwärts bewegen. Um einen Drachen zu töten, "
   "musst du jedes seiner Segmente treffen. Der Kopf regeneriert sich während "
   "der Züge, in denen der Drache sich nicht bewegt, daher solltest du diesen zuletzt "
-  "treffen; andernfalls kann der gesunde Kopf Feuer speien (im Radius 3). " //FIXME
+  "treffen; andernfalls kann ein gesunder Kopf Feuer speien (im Radius 3) und dabei seinen Hitpoint verlieren. "
   "Den Drachen zu töten wird dir Schätze bescheren.")
 
 S("%The1 breathes fire at you!", "%Der1 %1 speit Feuer auf dich!")
@@ -3525,11 +3526,11 @@ S("%The1 scares %the2 a bit!", "%Der1 %1 ängstigt %den2 %a2 ein wenig!")
 S("%The1 attacks your shell!", "%Der1 %1 attackiert deinen Panzer!")
 
 S("Hyperstone Quest: collect at least 10 points in %the2",
-  "Hyperstone Quest: sammle mindestens 10 Punkte %abl2")
+  "Hyperstein-Herausforderung: sammle mindestens 10 Punkte %abl2")
 
 S("animals killed: %1", "getötete Tiere: %1")
 S("\n\nTortoises are not monsters! They are just annoyed. They do not count for your total kills.",
-  "\n\nSchildkröten sind keine Monster! Sie sind nur verärgert. Sie zählen nicht für deine Gesamtzahl an Tötungen.")
+  "\n\nSchildkröten sind keine Monster! Sie sind nur verärgert. Sie werden nicht der Gesamtzahl von Tötungen angerechnet.")
 
 S("Aww, poor %1... where is your family?", "Oh, du arme %1... wo ist deine Familie?")
 S("You are now a tortoise hero!", "Du bist jetzt ein Held der Schildkröten!")

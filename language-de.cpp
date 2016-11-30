@@ -396,7 +396,7 @@ S("background music volume", "Hintergrundmusik")
 S("OFF", "AUS")
 S("ON", "EIN")
 S("distance between eyes", "Augenabstand")
-S("framerate limit", "Framerate Limit")
+S("framerate limit", "Framerate-Limit")
 S("joystick mode", "Joystick")
 S("automatic", "automatisch")
 S("manual", "manuell")
@@ -426,7 +426,7 @@ S("You activate your demonic powers!", "Du aktivierst deine dämonischen Kräfte
 // Steam achievement messages
 
 S("New Achievement:", "Neues Achievement:")
-S("Your total treasure has been recorded in the Steam Leaderboards.", "Deine Gesamtschätze wurden in die Steam Highscoreliste aufgenommen.")
+S("Your total treasure has been recorded in the Steam Leaderboards.", "Deine Gesamtschätze wurden in die Steam-Bestenlisten aufgenommen.")
 S("Congratulations!", "Glückwunsch!")
 S("You have improved your total high score and %1 specific high scores!", "Du hast deinen Gesamthighscore und %1 spezifische Highscores verbessert!")
 S("You have improved your total and '%1' high score!", "Du hast deinen Gesamthighscore und '%1' Highscore verbessert!")
@@ -435,7 +435,7 @@ S("You have improved %1 of your specific high scores!", "Du hast %1 deiner spezi
 S("You have improved your '%1' high score on Steam!", "Du hast deinen Highscore bei '%1' auf Steam verbessert!")
 S("You have collected 10 treasures of each type.", "Du hast 10 Schätze jedes Typs gesammelt.")
 S("This is your first victory!", "Dies ist dein erster Sieg!")
-S("This has been recorded in the Steam Leaderboards.", "Dies wurde in den Steam Leaderboards vermerkt.")
+S("This has been recorded in the Steam Leaderboards.", "Dies wurde in den Steam-Bestenlisten vermerkt.")
 S("The faster you get here, the better you are!", "Je schneller du es hierher schaffst, desto besser bist du!")
 S("You have improved both your real time and turn count. Congratulations!", "Du hast sowohl weniger Echtzeit als auch Züge als je zuvor benötigt. Glückwunsch!")
 S("You have used less real time than ever before. Congratulations!", "Du hast weniger Echtzeit als je zuvor benötigt. Glückwunsch!")
@@ -901,7 +901,7 @@ S("Euclidean mode", "Euklidischer Modus")
 S("Return to the hyperbolic world", "Zur hyperbolischen Welt zurückkehren")
 S("Choose from the lands visited this game.", "Wähle aus den Ländern, die diese Sitzung besucht wurden.")
 S("Scores and achievements are not", "Im euklidischem Modus werden");
-S("saved in the Euclidean mode!", "Punkte und Achievements nicht gespeichert!");
+S("saved in the Euclidean mode!", "Punkte und Errungenschaften nicht gespeichert!");
 
 // Android buttons (some are not translated because there are no good short words in Polish)
 S("MOVE", "VOR")
@@ -1956,7 +1956,7 @@ N("Garnet", GEN_M, "Granat", "Granate", "Granat")
 S("Vikings believe that garnets improve their strength.",
   "Wikinger glauben das Granat sie stärker macht.")
 
-Orb("the Fish", "des Fisches")
+Orb("the Fish", "des Fischs")
 S("This Orb lets you dive into the water. While diving, you are able to see and collect underwater treasures, "
   "while being invisible to monsters yourself. You are afraid of jumping into the water straight from a boat, so usually you won't do it.",
   "Dieser Orb erlaubt es dir zu tauchen. Während du tauchst kannst du versunkene Schätze sammeln, dabei bist du für Monster unsichtbar. "
@@ -2275,12 +2275,12 @@ S("Hardness frozen at %1.", "Festgefroren: %1.");
 S("Congratulations! Your score is %1.", "Glückwunsch! Deine Punktzahl beträgt %1.")
 
 S("u = undo",     "u = rückgängig")
-S("f = flip %1",     "f = kippen %1")
+S("f = flip %1",  "f = kippen %1")
 
 S("Failed to save map to %1", "Karte konnte nicht nach %1 gespeichert werden")
 S("Failed to load map from %1", "Karte konnte nicht von %1 geladen werden")
 S("save whom", "wen retten?")
-S("other", "Andere") // other keys in the main menu
+S("other", "andere") // other keys in the main menu
 
 
 // VERSION 7.4
@@ -2630,7 +2630,7 @@ S("There are several species of trolls living in the hyperbolic world. "
 // paper model creator
 //---------------------
 
-S("paper model creator", "Papiermodell Schöpfer")
+S("paper model creator", "Papiermodell-Schöpfer")
 S("synchronize net and map", "Synchronisier Netz und Karte")
 S("display the scope", "Bereich anzeigen")
 S("create the model", "Erzeuge das Modell")
@@ -2869,9 +2869,9 @@ S("The Overgrown Woods are filled with mutant ivies! These plants "
   "of hunger in your world? Kill the Mutant Ivies to collect Mutant Saplings.",
 
   "Der verwilderte Wald ist voll mit mutiertem Efeu! Diese Pflanzen "
-  "wachsen sehr schnell. Jedes Blatt, nachdem es gewachsen ist kann im "
-  "nächsten Zug selbst wachsen. Allerdings kann jeder Teil nur 1x alle 16 "
-  "Züge wachsen. Außerhalb des verwilderten Walds wächst mutierter Efeu "
+  "wachsen sehr schnell. Jedes Blatt kann, nachdem es gewachsen ist, im "
+  "nächsten Zug selbst wachsen. Allerdings kann jeder Teil nur einmal alle 16 "
+  "Züge austreiben. Außerhalb des verwilderten Walds wächst mutierter Efeu "
   "nur auf hexagonalen Zellen.\n\n"
   "Vielleicht können die schnell wachsenden Pflanzen das Hungerproblem in "
   "deiner Welt lösen? Töte mutierten Efeu um mutierte Sätzlinge zu erhalten.")
@@ -2953,7 +2953,7 @@ S("This orb is activated if you are unable to escape (radius 4) "
   "this orb is oversensitive...\n\n"
   "When activated, it creates a Flash effect of radius 5.",
 
-  "Dieser Orb wird aktiviert, wenn du nicht entkommen kannst (Radius 4), "
+  "Dieser Orb wird aktiviert, wenn du nicht mehr entkommen kannst (Radius 4), "
   "ohne unerlaubte Züge zu machen oder "
   "Zellen zu überqueren, die sich neben einem feindlichen Monster befinden. "
   "Die meisten game-over-Situationen erfüllen diese Bedingung, aber im Allgemeinen ist dieser Orb überempfindlich...\n\n"
@@ -3385,7 +3385,7 @@ N("Sparrowhawk", GEN_M, "Sperber", "Sperber", "Sperber")
 S("A bird who hunts in the treetops of the Yendorian Forest.",
   "Ein Vogel welcher in den Baumwipfeln des Yendorianischen Waldes jagt.")
 
-N("Apple", GEN_N, "Apfel", "Äpfel", "Apfel")
+N("Apple", GEN_M, "Apfel", "Äpfel", "Apfel")
 
 S("A fruit from the Yendorian Forest.", "Eine Frucht des Yendorianischen Waldes.")
 

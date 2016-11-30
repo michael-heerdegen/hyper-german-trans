@@ -237,7 +237,7 @@ S("The Necromancer's Totem contains hellish incantations...", "Das Totenbeschwö
 S("The inscriptions on the Statue of Cthulhu point you toward your destiny...", "Die Inschrift auf Cthulhus Statue zeigt dir den Weg zu deinem Schicksal...")
 S("Still, even greater treasures lie ahead...", "Dich erwarten größere Schätze auf deinem Weg")
 S("You collect %the1.", "Du sammelst %den1 %a1.")
-S("CONGRATULATIONS!", "GRATULATION!")
+S("CONGRATULATIONS!", "GLÜCKWUNSCH!")
 S("Collect treasure to access more different lands...", "Sammle Schätze um andere Länder zu erreichen...")
 S("You feel that you have enough treasure to access new lands!", "Du spürst, dass du genug Schätze gesammelt hast um neue Länder zu erreichen!")
 S("Collect more treasures, there are still more lands waiting...", "Sammle mehr Schätze, es warten weitere Länder auf dich...")
@@ -427,19 +427,19 @@ S("You activate your demonic powers!", "Du aktivierst deine dämonischen Kräfte
 
 S("New Achievement:", "Neues Achievement:")
 S("Your total treasure has been recorded in the Steam Leaderboards.", "Deine Gesamtschätze wurden in die Steam Highscoreliste aufgenommen.")
-S("Congratulations!", "Gratulation!")
+S("Congratulations!", "Glückwunsch!")
 S("You have improved your total high score and %1 specific high scores!", "Du hast deinen Gesamthighscore und %1 spezifische Highscores verbessert!")
 S("You have improved your total and '%1' high score!", "Du hast deinen Gesamthighscore und '%1' Highscore verbessert!")
-S("You have improved your total high score on Steam. Congratulations!", "Du hast deinen Gesamthighscore auf Steam verbessert! Gratulation!")
+S("You have improved your total high score on Steam. Congratulations!", "Du hast deinen Gesamthighscore auf Steam verbessert! Glückwunsch!")
 S("You have improved %1 of your specific high scores!", "Du hast %1 deiner spezifischen Highscores verbessert!")
 S("You have improved your '%1' high score on Steam!", "Du hast deinen Highscore bei '%1' auf Steam verbessert!")
 S("You have collected 10 treasures of each type.", "Du hast 10 Schätze jedes Typs gesammelt.")
 S("This is your first victory!", "Dies ist dein erster Sieg!")
 S("This has been recorded in the Steam Leaderboards.", "Dies wurde in den Steam Leaderboards vermerkt.")
 S("The faster you get here, the better you are!", "Je schneller du es hierher schaffst, desto besser bist du!")
-S("You have improved both your real time and turn count. Congratulations!", "Du hast sowohl weniger Echtzeit als auch Züge als je zuvor benötigt. Gratulation!")
-S("You have used less real time than ever before. Congratulations!", "Du hast weniger Echtzeit als je zuvor benötigt. Gratulation!")
-S("You have used less turns than ever before. Congratulations!", "Du hast sowohl weniger Züge als je zuvor benötigt. Gratulation!")
+S("You have improved both your real time and turn count. Congratulations!", "Du hast sowohl weniger Echtzeit als auch Züge als je zuvor benötigt. Glückwunsch!")
+S("You have used less real time than ever before. Congratulations!", "Du hast weniger Echtzeit als je zuvor benötigt. Glückwunsch!")
+S("You have used less turns than ever before. Congratulations!", "Du hast sowohl weniger Züge als je zuvor benötigt. Glückwunsch!")
 
 // help texts. These are separated into multiple lines just for convenience,
 // you don't have to follow.
@@ -924,7 +924,7 @@ S("Retrieving scores from Google Leaderboards...", "Empfange Rekorde aus Google 
 S("Scores retrieved.", "Rekorde empfangen.")
 
 S("Your total treasure has been recorded in the Google Leaderboards.", "Deine Gesamtschätze wurden in die Google Leaderboards aufgenommen.")
-S("You have improved your total high score on Google. Congratulations!", "Du hast deinen Gesamtrekord auf Google verbessert! Gratulation!")
+S("You have improved your total high score on Google. Congratulations!", "Du hast deinen Gesamtrekord auf Google verbessert! Glückwunsch!")
 S("You have improved your '%1' high score on Google!", "Du hast deinen '%P1'-Rekord auf Google verbessert!")
 S("This has been recorded in the Google Leaderboards.", "Dies wurde in die Google Leaderboards aufgenommen.")
 
@@ -1271,7 +1271,7 @@ S("Come on, this is too easy... find a bigger castle!",
 S("The Knights wish you luck!", "Die Ritter wünschen dir Glück!")
 
 S("Congratulations! You have found the Holy Grail!",
-  "Gratulation! Du hast den Heiligen Gral gefunden!")
+  "Glückwunsch! Du hast den Heiligen Gral gefunden!")
 
 S("\"I would like to congratulate you again!\"", "\"Ich möchte dir erneut gratulieren!\"")
 S("\"Find the Holy Grail to become one of us!\"", "\"Finde den Heiligen Gral um einer von uns zu werden!\"")
@@ -1657,10 +1657,10 @@ S("play the game!", "Spielen!")
 // fixed descriptions for Shmup achievements
 
 S("You have used less knives than ever before. Congratulations!",
-  "Du hast weniger Messer als zuvor benutzt. Gratulation!")
+  "Du hast weniger Messer als zuvor benutzt. Glückwunsch!")
 
 S("You have improved both your real time and knife count. Congratulations!",
-  "Du hast sowohl weniger Zeit sowie Messer als zuvor benutzt. Gratulation!")
+  "Du hast sowohl weniger Zeit sowie Messer als zuvor benutzt. Glückwunsch!")
 
 S("%1 knives (%2)", "%1 Messer (%2)")
 
@@ -2272,7 +2272,7 @@ S("Welcome to %the1 Challenge!", "Willkommen zu der %a1-Herausforderung!")
 S("The more Hypersian Rugs you collect, the harder it is.", "Je mehr Hypersische Teppiche du sammelst desto schwieriger wird es.")
 S("Follow the Mouse and escape with %the1!", "Folge der Maus und entkomme mit %dem1!")
 S("Hardness frozen at %1.", "Festgefroren: %1.");
-S("Congratulations! Your score is %1.", "Gratulation! Deine Punktzahl beträgt %1.")
+S("Congratulations! Your score is %1.", "Glückwunsch! Deine Punktzahl beträgt %1.")
 
 S("u = undo",     "u = rückgängig")
 S("f = flip %1",     "f = kippen %1")

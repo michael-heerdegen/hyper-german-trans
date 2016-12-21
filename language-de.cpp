@@ -3706,6 +3706,80 @@ S("background music", "Hintergrundmusik")
 S("view your achievements", "deine Errungenschaften ansehen")
 S("next page", "nächste Seite")
 
+// new multiplayer
+
+S("shoot'em up and multiplayer", "shmup und Mehrspieler")
+
+S("Two players cannot move/attack the same location!", "Zwei Spieler können nicht dieselbe Stelle anvisieren!")
+S("Cannot move into the current location of another player!", "Kann nicht auf die momentane Position eines anderen Spielers gehen!")
+S("Players cannot get that far away!", "Spieler dürfen sich nicht so weit voneinander entfernen!")
+S("Cannot push into another player!", "Kann nicht auf einen anderen Spieler ziehen!")
+S("Cannot push into the same location!", "Kann nicht auf dasselbe Feld ziehen!")
+
+S("%The1 throws fire at %the2!",   "%Der1 %1 wirft Feuer auf %den2 %a2!")
+S("%The1 breathes fire at %the2!", "%Der1 %1 spuckt Feuer auf %den2 %a2!")
+
+S("configure keys", "Tasten konfigurieren")
+S("use default keys", "Standard-Tastenbelegung nutzen")
+
+S("Left the game.", "Spiel verlassen.")
+S("shoot'em up mode", "Ballermodus")
+S("turn-based mode", "zugbasierter Modus")
+S("continue playing", "Spiel fortsetzen")
+S("start a new game", "neues Spiel starten")
+
+S("five players",  "fünf Spieler")
+S("six players",   "sechs Spieler")
+S("seven players", "sieben Spieler")
+
+S("You collect %the1. (%2)", "Du sammelst %den1 %a1. (%2)")
+
+
+S("Shmup (shoot'em up) mode: You can play a hyperbolic shoot'em up game. The game is based "
+  "on the usual turn-based grid-based HyperRogue, but there are some changes. You fight by "
+  "throwing knives, and you have three extra lives. There are no allies, so all Orbs "
+  "related to allies give you extra lives instead (up to 5). Some other rules have been "
+  "adapted too.\n\n",
+
+  "Shmup-Modus (Ballermodus): Du kannst ein hyperbolisches Ballerspiel spielen. Das Spiel basiert "
+  "auf dem gewohnten zug- und zellenbasierten HyperRogue, aber mit einigen Änderungen. "
+  "Du kämpfst indem du Messer wirfst, und hast drei Extraleben. Es gibt keine Freunde, daher "
+  "geben dir alle Orbs, die Freunde betreffen, stattdessen Extraleben (bis zu fünf). "
+  "Einige andere Regeln wurden ebenfalls angepasst.\n\n")
+
+S("Multiplayer: Play cooperatively (locally); treasures, kills, and deaths are calculated "
+  "for each player too, for more competitive play. Orbs and treasures are shared, orbs drain "
+  "faster, knives recharge slower, and player characters are not allowed to separate.\n\n",
+
+  "Mehrspieler: Spiele gemeinsam (lokal); Schätze, Tötungen und Tode werden "
+  "für ein mehr wettstreitorientiertes Spiel zusätzlich für jeden Spieler einzeln berechnet."
+  "Orbs und Schätze werden miteinander geteilt; Orbs werden schneller verbraucht, Messer werden "
+  "langsamer wiederaufgeladen, und die Spielfiguren dürfen sich nicht weit voneinander entfernen.\n\n")
+
+S("Turn-based multiplayer: Turns are executed in parallel. A player can leave the game "
+  "by pressing a designated key (useful when about to get killed or lost). The following "
+  "Orbs work to bring such players back: ",
+  "Mehrspieler zugbasiert: Züge werden simultan ausgeführt. Ein Spieler kann das Spiel durch "
+  "Drücken einer bestimmten Taste verlassen (nützlich wenn Gefahr droht getötet zu werden oder "
+  "verlorenzugehen). Die folgenden Orbs können dazu verwendet werden solche Spieler zurückzubringen: ")
+
+S("This menu can be also used to configure keys.\n\n",
+  "Dieses Menü kann auch verwendet werden, um Tasten zu konfigurieren.")
+
+// other stuff
+
+S("Warnings are issued when you try to do something that appears dangerous, "
+  "like stepping on a known mine, or getting your boat destroyed by "
+  "a Kraken without having Orb of the Fish. In some cases the action "
+  "might actually be safe -- so you can ignore the warning and do it anyway, "
+  "simply by repeating the action.",
+
+  "Es werden Warnungen ausgegeben wenn du versuchst etwas zu tun das gefährlich scheint wie"
+  "auf eine bekannte Mine treten oder wenn ein Krake dein Boot zerstören würde während du "
+  "keinen Orb des Fischs besitzt. In einigen Fällen mag deine Aktion tatsächlich ungefährlich "
+  "sein. Dann kannst du die Warnung ignorieren und es trotzdem tun, indem du die Aktion einfach "
+  "wiederholst.")
+
 
 // kraken depths
 
